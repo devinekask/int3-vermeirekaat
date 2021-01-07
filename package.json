@@ -1,0 +1,17 @@
+{
+  "name": "int3",
+  "version": "1.0.0",
+  "description": "integration 3 project - Maker Faire",
+  "main": "index.js",
+  "repository": "https://github.com/devinekask/int3-vermeirekaat.git",
+  "author": "Kaat Vermeire <kaat.vermeire@student.howest.be>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts": {
+    "prod": "webpack --mode production", 
+    "dev": "webpack --mode development"
+  }
+}
