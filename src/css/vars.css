@@ -1,5 +1,27 @@
 :root {
+  /* Colors */
+  --colorTitle: #750000;
+  --colorPaper: #d0b27c;
+  --colorGray: #cccccc;
+  --colorBlack: black;
+  --colorPink: #fc5195;
+  --colorYellow: #ffcb0a;
+  --colorCyan: #39dcdc;
+  --colorPurple: #73006c;
+  --colorRed: #ff360a;
+  --colorBlue: #0a637e;
 
+  /* Margins */
+  --marginSmall: 1.25rem; /* 20px */
+  --marginRegular: 2.2rem; /* 35px */
+  --marginLarge: 3.1rem; /* 50px */
+
+  /* Fonts */
+  --sizeBody: 2.3rem;
+  --sizeSubtitle: 4rem;
+  --sizeTitle: 13rem;
 }
 
+@custom-media --only-small-screen (width >= 360px);
+/* @custom-media --only-medium-screen (width >= 900px);*/
 @custom-media --only-big-screen (width >= 750px);
