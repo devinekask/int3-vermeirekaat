@@ -1,0 +1,19 @@
+.home {
+  display: grid;
+  grid-template-columns: 1;
+  margin: 0 auto;
+}
+
+.content {
+  margin: var(--marginRegular);
+}
+
+.content__alinea {
+  margin: calc(var(--marginRegular) * 1.5);
+}
+
+.cta__container {
+  margin: var(--marginLarge);
+  margin-bottom: calc(var(--marginLarge) * 1.3);
+  margin-top: calc(var(--marginLarg) * 1.3);
+}

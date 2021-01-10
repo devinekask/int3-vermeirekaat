@@ -1,11 +1,16 @@
 .header__title {
   color: var(--colorTitle);
-  font-size: var(--sizeTitle);
+  font-size: calc(var(--sizeTitle) * .8);
+  text-align: center;
+  line-height: calc(var(--sizeTitle) * .8);
+  margin-bottom: var(--marginSmall);
 }
 
 .header__subtitle {
   color: var(--colorPaper);
   font-size: calc(var(--sizeSubtitle) * 1.5);
+  text-align: center;
+  margin-top: var(--marginRegular);
 }
 
 .content__title {

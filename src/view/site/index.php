@@ -1,3 +1,5 @@
+<div class="home">
+
 <section class="header">
   <h1 class="header__title">Maker Faire Gent presents</h1>
   <p class="header__subtitle">High Wheeling</p>
@@ -19,7 +21,10 @@
     <h2 class="content__title">Get Started</h3>
     <p class="content__alinea">Steek zelf je handen uit de mouwen en bouw je <span>eigen High Wheel</span>. <br> Ontpop jezelf tot de nieuwe 'Bob(ette) de Bouwer' en doorkruis het hele land als een Victoriaanse koning(in).</p>
 
+    <div class="cta__container">
     <a class="cta cta--yellow" href="index.php?page=">Ready - Set - Go</a>
+    </div>
+
 
 
     <p class="content__alinea alinea__promo">Bezoek het festival op <span>30 april</span> / <span>1 mei</span> / <span>2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land.</p>
@@ -30,10 +35,15 @@
     <h2 class="content__title">Build with Creativity</h3>
     <p class="content__alinea">Om de High Wheel zelf te bouwen, heb je bepaalde materialen nodig. <br> In de webshop kan je <span>basispakketten</span> bestellen zodat je al de nodige spullen in huis hebt om eraan te beginnen.</p>
 
-    <a class="cta cta--cyan" href="index.php?page=">Bestel jouw bouwpakket</a>
+    <div class="cta__container">
+      <a class="cta cta--cyan" href="index.php?page=">Bestel jouw bouwpakket</a>
+    </div>
+
+
     <div class="content__bg-image__bottom scroll--overlay"></div>
   </article>
 
 </section>
 
+</div>
 

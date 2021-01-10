@@ -1,6 +1,7 @@
 @import './css/normalise.css';
 @import './css/vars.css';
 @import './css/elements.css';
+@import './css/layout.css';
 
 html {
   box-sizing: border-box;
