@@ -1,0 +1,5 @@
+:root {
+
+}
+
+@custom-media --only-big-screen (width >= 750px);

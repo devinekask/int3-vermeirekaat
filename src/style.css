@@ -1,1 +1,31 @@
 @import './css/normalise.css'; 
+@import './css/vars.css';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  "*",
+  "*:before",
+  "*:after" {
+    box-sizing: inherit;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media (--only-big-screen) {
+  
+    body {
+      width: 96rem;
+      margin: 0 auto;
+    }
+  }
+  
