@@ -13,9 +13,9 @@
   --marginLarge: 3.1rem; /* 50px */
 
   /* Fonts */
-  --sizeBody: 2.3rem;
+  --sizeBody: 2.5rem; /*25 pt*/
   --sizeSubtitle: 4rem;
-  --sizeTitle: 13rem;
+  --sizeTitle: 15rem;
   --fontBig: 'HavreBlack';
   --fontTitle: 'HavreBold';
   --fontBody: 'SofiaLight';

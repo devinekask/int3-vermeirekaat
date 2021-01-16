@@ -1,15 +1,18 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-/* stylelint-disable */
-*,
-*::before,
-*::after {
+"*",
+"*:before",
+"*:after" {
   box-sizing: inherit;
 }
 
-body {
-  width: 100%;
+.hidden {
+  display: none;
 }
-/* stylelint-enable */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
