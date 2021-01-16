@@ -25,7 +25,7 @@
           ./assets/collages/collage_header@0.5x.png 350w"
       type="image/png" />
 
-      <img class="header__img img--perspective" height="842" width="1076" alt="collage-header" src="./assets/collages/collage_header.png">
+      <img class="header__img img--perspective" height="846" width="839" alt="collage-header" src="./assets/collages/collage_header.png">
     </picture>
 </section>
 
@@ -39,17 +39,17 @@
     <picture class="what__picture">
       <source sizes="(min-width: 450px) 30vw,
       (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_what.webp 572w,
-          ./assets/collages/collage_what@0.5x.webp 350w"
+      srcset="./assets/collages/collage_high-what.webp 572w,
+          ./assets/collages/collage_high-what@0.5x.webp 350w"
       type="image/webp" />
 
       <source sizes="(min-width: 450px) 30vw,
       (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_what.png 527w,
-          ./assets/collages/collage_what@0.5x.png 350w"
+      srcset="./assets/collages/collage_high-what.png 527w,
+          ./assets/collages/collage_high-what@0.5x.png 350w"
       type="image/png" />
 
-      <img class="what__img img--perspective" height="647" width="839" alt="collage-what" src="./assets/collages/collage_what.png">
+      <img class="what__img img--perspective" height="842" width="1076" alt="collage-what" src="./assets/collages/collage_highwhat.png">
     </picture>
   </article>
 

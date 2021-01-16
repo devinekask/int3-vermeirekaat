@@ -3,30 +3,5 @@
 @import './css/elements.css';
 @import './css/layout.css';
 @import './css/perspective.css';
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-"*",
-"*:before",
-"*:after" {
-  box-sizing: inherit;
-}
-
-body {
-  background-color: var(--colorGray);
-}
-
-.hidden {
-  display: none;
-}
-
-/* @media (--only-big-screen) {
-
-  body {
-    width: 96rem;
-    margin: 0 auto;
-  }
-}*/
+@import './css/font.css';
+@import './css/base.css';
