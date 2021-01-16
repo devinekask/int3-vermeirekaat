@@ -1,15 +1,11 @@
 :root {
   /* Colors */
-  --colorTitle: #750000;
-  --colorPaper: #d0b27c;
-  --colorGray: lightgray;
+  --colorGray: #e5e6e3;
   --colorBlack: black;
-  --colorPink: #fc5195;
   --colorYellow: #ffcb0a;
-  --colorCyan: #39dcdc;
   --colorPurple: #73006c;
   --colorRed: #ff360a;
-  --colorBlue: #0a637e;
+  --colorDark: #242759;
 
   /* Margins */
   --marginSmall: 1.25rem; /* 20px */

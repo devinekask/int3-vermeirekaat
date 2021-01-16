@@ -1,50 +1,111 @@
+<header class="nav">
+  <img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent">
+  <ul class="nav__buttons">
+    <li class="nav__item"><a class="nav__item--link link cta" href="index.php?page=">Bouwpakket</a></li>
+    <li class="nav__item"><a class="nav__item--link link cta" href="index.php?page=">Aan de slag</a></li>
+  </ul>
+</header>
+
 <div class="home">
 
 <section class="header">
   <h1 class="header__title">Maker Faire Gent presents</h1>
   <p class="header__subtitle">High Wheeling</p>
-  <img class="img--perspective" width="960" src="./assets/collages/collage-header.png" alt="header-collage">
+  <img class="header__img img--perspective" width="960" src="./assets/collages/collage_header.png" alt="collage-header">
 </section>
 
 <section class="content">
 <h1 class="hidden">High Wheeling</h1>
   <article class="content__item content__part-one">
-    <div class="content__bg-image__top scroll--overlay"></div>
     <h2 class="content__title">High What?</h3>
-      <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
-      <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit toestel terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
+      <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
+      <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
 
       <div class="img__container">
-        <img class="img--perspective" width="960" src="./assets/collages/collage-skyline.png" alt="collage-skyline">
+        <img class="img__what img--perspective" width="960" src="./assets/collages/collage-what.png" alt="collage-high-wheel">
       </div>
-
   </article>
 
-  <article class="content__item content__part--two">
-    <h2 class="content__title">Get Started</h3>
-    <p class="content__alinea">Steek zelf je handen uit de mouwen en bouw je <span>eigen High Wheel</span>. <br> Ontpop jezelf tot de nieuwe 'Bob(ette) de Bouwer' en doorkruis het hele land als een Victoriaanse koning(in).</p>
+  <div class="promo">
+    <p class="promo__content">Bezoek de Maker Faire in de <span>Chinastraat</span> te <span>Gent</span> en ontdek er tal van innovatieve projecten uit eigen bodem!</p>
+  </div>
 
-    <div class="cta__container">
-    <a class="cta cta--yellow" href="index.php?page=">Ready - Set - Go</a>
+  <article class="content--horizontal">
+    <h2 class="content__title--extra">Get Started</h3>
+    <p class="content__title">What do you need?</p>
+
+    <div class="horizontal__part part--one">
+      <h3 class="horizontal__title">Some Tools</h3>
+      <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
+      <a class="cta" href="index.php?page=">Bestel een bouwpakket</a>
     </div>
 
-    <p class="content__alinea alinea__promo">Bezoek het festival op <span>30 april</span> / <span>1 mei</span> / <span>2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land.</p>
+    <div class="horizontal__part part--two">
+      <h3 class="horizontal__title">Lots of Excitement</h3>
+      <p class="horizontal__alinea">We raden je ssterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
+    </div>
+
+    <div class="horizontal__part part--three">
+      <h3 class="horizontal__title">Two Left Hands</h3>
+      <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
+      <a class="cta" href="index.php?page=">Bestel een bouwpakket</a>
+    </div>
   </article>
+
+  <div class="promo">
+    <p class="promo__content">Bezoek het festival op <span>30 april / 1 mei / 2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land!</p>
+  </div>
 
   <article class="content__item content__part-three">
-    <img class="img--perspective" width="960" src="./assets/collages/collage-diy.png" alt="collage-diy">
+    <img class="img--perspective img__build" width="960" src="./assets/collages/collage-build.png" alt="collage-build">
     <h2 class="content__title">Build with Creativity</h3>
-    <p class="content__alinea">Om de High Wheel zelf te bouwen, heb je bepaalde materialen nodig. <br> In de webshop kan je <span>basispakketten</span> bestellen zodat je al de nodige spullen in huis hebt om eraan te beginnen.</p>
+    <p class="content__alinea">We bezitten allemaal de gave om <span>creatief</span> te zijn. <br> Deze creativiteit kan je gebruiken om <span>innovatieve ideeën</span> te ontwikkelen.</p>
+    <p class="content__alinea">Bouw mee met duizenden anderen aan een <span>toekomstwereld</span> waar de creaties oneindig zijn.</p>
 
     <div class="cta__container">
-      <a class="cta cta--cyan" href="index.php?page=">Bestel jouw bouwpakket</a>
+      <a class="cta" href="index.php?page=">Begin met bouwen</a>
     </div>
-
-
-    <div class="content__bg-image__bottom scroll--overlay"></div>
   </article>
 
 </section>
+
+<footer class="footer">
+  <div class="footer__line">
+    <p class="line__info info--caps">Chinastraat - 9000 Gent</p>
+    <p class="line__info">30 April - 1 Mei - 2 Mei  || 2021</p>
+  </div>
+
+  <div class="info">
+    <div class="info__maker">
+      <p class="maker__title">Maker Faire Gent</p>
+      <p class="maker__content">Het festival voor creatievelingen, uitvinders en speelvogels</p>
+    </div>
+    <div class="info__abbo">
+      <p class="footer__subtitle">Blijf op de hoogte</p>
+        <div class="abbo__input">
+          <p class="abbo__email">maker.faire@mail.com</p>
+          <p class="abbo__cta">Schrijf me in</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="social">
+    <p class="footer__subtitle">Volg ons op</p>
+      <img class="social__icon" src="./assets/social/social-facebook.png" alt="logo-facebook">
+      <img class="social__icon" src="./assets/social/social-instagram.png" alt="logo-instagram">
+      <img class="social__icon" src="./assets/social/social-twitter.png" alt="logo-twitter">
+  </div>
+
+  <div class="sponsors">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_make-magazine.png" alt="logo-maker-magazine">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_flanders.png" alt="logo-flanders">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_gent.png" alt="logo-gent">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_ugent.png" alt="logo-ugent">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_velleman.png" alt="logo-velleman">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_accent.png" alt="logo-accent">
+    <img class="sponsors__img" width="100" src="./assets/sponsors/sponsor_tentzetter.png" alt="logo-tentzetter">
+  </div>
+</footer>
 
 </div>
 
