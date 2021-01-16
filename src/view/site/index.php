@@ -10,8 +10,23 @@
 
 <section class="header">
   <h1 class="header__title">Maker Faire Gent presents</h1>
-  <p class="header__subtitle">High Wheeling</p>
-  <img class="header__img img--perspective" width="960" src="./assets/collages/collage_header.png" alt="collage-header">
+    <p class="header__subtitle">High Wheeling</p>
+
+  <picture class="header__picture">
+    <source sizes="(min-width: 450px) 30vw,
+      (min-width: 700px) 44vw, 1vw"
+      srcset="./assets/collages/collage_header.webp 572w,
+          ./assets/collages/collage_header@0.5x.webp 350w"
+      type="image/webp" />
+
+      <source sizes="(min-width: 450px) 30vw,
+      (min-width: 700px) 44vw, 1vw"
+      srcset="./assets/collages/collage_header.png 527w,
+          ./assets/collages/collage_header@0.5x.png 350w"
+      type="image/png" />
+
+      <img class="header__img img--perspective" height="842" width="1076" alt="collage-header" src="./assets/collages/collage_header.png">
+    </picture>
 </section>
 
 <section class="content">
@@ -21,9 +36,21 @@
       <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
       <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
 
-      <div class="img__container">
-        <img class="img__what img--perspective" width="960" src="./assets/collages/collage-what.png" alt="collage-high-wheel">
-      </div>
+    <picture class="what__picture">
+      <source sizes="(min-width: 450px) 30vw,
+      (min-width: 700px) 44vw, 1vw"
+      srcset="./assets/collages/collage_what.webp 572w,
+          ./assets/collages/collage_what@0.5x.webp 350w"
+      type="image/webp" />
+
+      <source sizes="(min-width: 450px) 30vw,
+      (min-width: 700px) 44vw, 1vw"
+      srcset="./assets/collages/collage_what.png 527w,
+          ./assets/collages/collage_what@0.5x.png 350w"
+      type="image/png" />
+
+      <img class="what__img img--perspective" height="647" width="839" alt="collage-what" src="./assets/collages/collage_what.png">
+    </picture>
   </article>
 
   <div class="promo">
@@ -57,7 +84,23 @@
   </div>
 
   <article class="content__item content__part-three">
-    <img class="img--perspective img__build" width="960" src="./assets/collages/collage-build.png" alt="collage-build">
+
+      <picture class="build__picture">
+      <source sizes="(min-width: 450px) 30vw,
+      (min-width: 700px) 44vw, 1vw"
+      srcset="./assets/collages/collage_build.webp 572w,
+          ./assets/collages/collage_build@0.5x.webp 350w"
+      type="image/webp" />
+
+      <source sizes="(min-width: 450px) 30vw,
+      (min-width: 700px) 44vw, 1vw"
+      srcset="./assets/collages/collage_build.png 527w,
+          ./assets/collages/collage_build@0.5x.png 350w"
+      type="image/png" />
+
+      <img class="build__img img--perspective" height="838" width="804" alt="collage-build" src="./assets/collages/collage_build.png">
+    </picture>
+
     <h2 class="content__title">Build with Creativity</h3>
     <p class="content__alinea">We bezitten allemaal de gave om <span>creatief</span> te zijn. <br> Deze creativiteit kan je gebruiken om <span>innovatieve ideeën</span> te ontwikkelen.</p>
     <p class="content__alinea">Bouw mee met duizenden anderen aan een <span>toekomstwereld</span> waar de creaties oneindig zijn.</p>
