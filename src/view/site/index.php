@@ -158,10 +158,10 @@
         <p class="maker__content">Het festival voor creatievelingen, uitvinders en speelvogels</p>
       </div>
       <div class="info__abbo">
-        <p class="footer__subtitle">Blijf op de hoogte</p>
+        <p class="footer__subtitle subtitle--abbo">Blijf op de hoogte</p>
           <div class="abbo__input">
             <p class="abbo__email">maker.faire@mail.com</p>
-            <p class="abbo__cta">Schrijf me in</p>
+            <p class="abbo__cta cta cta--regular">Schrijf me in</p>
           </div>
       </div>
     </div>
@@ -170,7 +170,7 @@
       <p class="footer__subtitle">Volg ons op</p>
       <div class="social__wrapper">
         <div class="social__icon">
-        <img class="social__img" width="25" src="./assets/social/social-facebook.png" alt="logo-facebook">
+        <img class="social__img social--fb" width="25" src="./assets/social/social-facebook.png" alt="logo-facebook">
         </div>
 
         <div class="social__icon">

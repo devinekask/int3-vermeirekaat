@@ -134,8 +134,32 @@
 
 /* FOOTER*/
 
+.info {
+  @media (--only-big-screen) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .info__abbo {
   display: none;
+
+  @media (--only-big-screen) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 7rem;
+  }
+}
+
+.abbo__input {
+  @media (--only-big-screen) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .social__wrapper {
