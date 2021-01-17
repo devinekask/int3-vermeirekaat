@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="initial-scale=1.0, width=device-width">-->
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <title>High Wheeler - <?php echo $title; ?></title>
   <?php echo $css; ?>
   </head>
