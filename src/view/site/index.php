@@ -5,8 +5,8 @@
     <img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent">
     <div class="buttons__wrapper">
       <ul class="nav__buttons">
-        <li class="nav__item"><a class="nav__item--link link cta--secondary" href="index.php?page=">Bouwpakket</a></li>
-        <li class="nav__item"><a class="nav__item--link link cta--primary" href="index.php?page=">Aan de slag</a></li>
+        <li class="nav__item"><a class=" cta cta--secondary" href="index.php?page=">Bouwpakket</a></li>
+        <li class="nav__item"><a class="cta cta--primary" href="index.php?page=">Aan de slag</a></li>
       </ul>
     </div>
 
@@ -79,26 +79,30 @@
 
     <div class="horizontal__wrapper">
 
-      <div class="horizontal__part part--one">
+    <ul class="horizontal full">
+      <li class="horizontal__part part--one">
         <h3 class="horizontal__title">Some Tools</h3>
-        <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
-        <div class="cta__container">
-          <a class="cta" href="index.php?page=">Bestel een bouwpakket</a>
-        </div>
-      </div>
+          <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
+          <div class="cta__container">
+            <a class="cta cta--regular" href="index.php?page=">Bestel een bouwpakket</a>
+          </div>
+      </li>
 
-      <div class="horizontal__part part--two">
+      <li class="horizontal__part part--two">
         <h3 class="horizontal__title">Lots of Excitement</h3>
-        <p class="horizontal__alinea">We raden je ssterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
-      </div>
+          <p class="horizontal__alinea">We raden je sterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
+      </li>
 
-      <div class="horizontal__part part--three">
+      <li class="horizontal__part part--three">
         <h3 class="horizontal__title">Two Left Hands</h3>
-        <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
-        <div class="cta__container">
-          <a class="cta" href="index.php?page=">Ga aan de slag</a>
-      </div>
+          <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
+          <div class="cta__container">
+            <a class="cta cta--regular" href="index.php?page=">Ga aan de slag</a>
+          </div>
+      </li>
+    </ul>
     </div>
+
   </article>
 
   <div class="promo">
@@ -130,7 +134,7 @@
     <p class="content__alinea">Bouw mee met duizenden anderen aan een <span>toekomstwereld</span> waar de creaties oneindig zijn.</p>
 
     <div class="cta__container">
-      <a class="cta" href="index.php?page=">Begin met bouwen</a>
+      <a class="cta cta--regular" href="index.php?page=">Begin met bouwen</a>
     </div>
   </article>
 

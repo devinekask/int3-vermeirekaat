@@ -1,9 +1,3 @@
-/*.horizontal__wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-
-  .horizontal__part {
-    flex: 0 0 auto;
-  }
-}*/
+.horizontal__wrapper {
+  display: grid;
+}

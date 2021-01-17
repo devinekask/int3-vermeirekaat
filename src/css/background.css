@@ -16,6 +16,24 @@
   z-index: -1;
 }
 
+.content--horizontal {
+  display: block;
+  position: relative;
+}
+
+.content--horizontal::after {
+  content: '';
+  background-image: url(../assets/img/text-wood.png);
+  background-repeat: repeat-y;
+  opacity: .12;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .promo {
   display: block;
   position: relative;
