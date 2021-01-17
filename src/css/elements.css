@@ -11,7 +11,7 @@ li {
 .cta {
   text-decoration: none;
   /*font-family: var(--fontHighlight);*/
-  font-size: calc(var(--sizeBody) * 1.3);
+  font-size: calc(var(--sizeBody) * 1.5);
   border-radius: 2.3rem;
   padding: var(--marginRegular);
   color: white;
@@ -83,8 +83,8 @@ li {
 }
 
 .horizontal__alinea {
-  font-size: var(--sizeBody);
-  line-height: calc(var(--sizeBody) * 1.2);
+  font-size: calc(var(--sizeBody) * 1.5);
+  line-height: calc(var(--sizeBody) * 1.7);
 }
 
 /* PROMO */
@@ -144,7 +144,13 @@ li {
 }
 
 .social__icon {
+  width: 4rem;
+  height: 4rem;
   padding: var(--marginLarge);
   border: var(--colorRed) solid .5rem;
   border-radius: 100%;
+}
+
+.social__img {
+  height: auto;
 }

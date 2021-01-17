@@ -15,7 +15,7 @@
 </header>
 
 <section class="header">
-  <h1 class="header__title">Maker Faire Gent presents</h1>
+  <h1 class="header__title">Maker Faire Gent <br> presents</h1>
 
   <div class="header__wrapper">
     <p class="header__subtitle">High Wheeling</p>
@@ -77,30 +77,32 @@
     <h2 class="content__title--extra">Get Started</h3>
     <p class="header__subtitle subtitle--extra">What do you need?</p>
 
-    <div class="horizontal__wrapper">
+    <div class="horizontal__route">
+          <hr class="route__dashed-line">
+          <img class="route__ellipse" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+    </div>
 
-    <ul class="horizontal full">
-      <li class="horizontal__part part--one">
+    <div class="horizontal__wrapper">
+      <div class="horizontal__part part--one">
         <h3 class="horizontal__title">Some Tools</h3>
           <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
           <div class="cta__container">
             <a class="cta cta--regular" href="index.php?page=">Bestel een bouwpakket</a>
           </div>
-      </li>
+      </div>
 
-      <li class="horizontal__part part--two">
+      <div class="horizontal__part part--two">
         <h3 class="horizontal__title">Lots of Excitement</h3>
           <p class="horizontal__alinea">We raden je sterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
-      </li>
+      </div>
 
-      <li class="horizontal__part part--three">
+      <div class="horizontal__part part--three">
         <h3 class="horizontal__title">Two Left Hands</h3>
           <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
           <div class="cta__container">
             <a class="cta cta--regular" href="index.php?page=">Ga aan de slag</a>
           </div>
-      </li>
-    </ul>
+      </div>
     </div>
 
   </article>
@@ -164,9 +166,17 @@
     <div class="social">
       <p class="footer__subtitle">Volg ons op</p>
       <div class="social__wrapper">
-        <img class="social__icon" width="40" height="40" src="./assets/social/social-facebook.png" alt="logo-facebook">
-        <img class="social__icon" width="40" src="./assets/social/social-instagram.png" alt="logo-instagram">
-        <img class="social__icon" width="40" src="./assets/social/social-twitter.png" alt="logo-twitter">
+        <div class="social__icon">
+        <img class="social__img" width="25" src="./assets/social/social-facebook.png" alt="logo-facebook">
+        </div>
+
+        <div class="social__icon">
+          <img class="social__img" width="40" src="./assets/social/social-instagram.png" alt="logo-instagram">
+        </div>
+        <div class="social__icon">
+          <img class="social__img" width="40" src="./assets/social/social-twitter.png" alt="logo-twitter">
+        </div>
+
       </div>
     </div>
 

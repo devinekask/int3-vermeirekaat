@@ -1,3 +1,30 @@
 .horizontal__wrapper {
-  display: grid;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-left: var(--marginLarge);
+}
+
+.horizontal__part {
+  flex: 0 0 auto;
+  width: fit-content;
+  margin-left: var(--marginLarge);
+}
+
+.horizontal__route {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.route__dashed-line {
+  border-top: 1rem dashed var(--colorBlack);
+  width: 100%;
+}
+
+.route__ellipse {
+  width: 30rem;
+  height: auto;
+  margin-left: 50vw;
 }
