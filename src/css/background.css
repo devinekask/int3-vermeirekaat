@@ -1,59 +1,33 @@
-.nav {
+.background__img {
   display: block;
   position: relative;
+}
+
+.background__img::after {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .nav::after {
-  content: '';
   background-image: url(../assets/img/text-marmer.png);
   background-repeat: no-repeat;
   opacity: .3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.content--horizontal {
-  display: block;
-  position: relative;
 }
 
 .content--horizontal::after {
-  content: '';
   background-image: url(../assets/img/text-wood.png);
   background-repeat: repeat-y;
   opacity: .12;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.promo {
-  display: block;
-  position: relative;
 }
 
 .promo::after {
-  content: '';
   background-image: url(../assets/img/text-bricks.png);
   opacity: .3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.footer {
-  display: block;
-  position: relative;
 }
 
 .footer::after {
@@ -61,10 +35,4 @@
   background-image: url(../assets/img/text-marmer.png);
   background-repeat: repeat-y;
   opacity: .3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }

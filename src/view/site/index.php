@@ -1,6 +1,6 @@
 <div class="home">
 
-<header class="nav">
+<header class="nav background__img">
   <div class="nav__wrapper">
     <img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent">
     <div class="buttons__wrapper">
@@ -66,14 +66,14 @@
     </picture>
   </article>
 
-  <div class="promo">
+  <div class="promo background__img">
     <div class="promo__wrapper">
     <p class="promo__content">Bezoek de Maker Faire in de <span>Chinastraat</span> te <span>Gent</span> en ontdek er tal van innovatieve projecten uit eigen bodem!</p>
     </div>
 
   </div>
 
-  <article class="content--horizontal">
+  <article class="content--horizontal background__img">
     <h2 class="content__title--extra">Get Started</h3>
     <p class="header__subtitle subtitle--extra">What do you need?</p>
 
@@ -105,7 +105,7 @@
 
   </article>
 
-  <div class="promo">
+  <div class="promo background__img">
     <div class="promo__wrapper">
       <p class="promo__content">Bezoek het festival op <span>30 april / 1 mei / 2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land!</p>
     </div>
@@ -140,7 +140,7 @@
 
 </section>
 
-<footer class="footer">
+<footer class="footer background__img">
   <div class="footer__line">
     <p class="line__info info--caps">Chinastraat - 9000 Gent</p>
     <p class="line__info">30 April - 1 Mei - 2 Mei  || 2021</p>
