@@ -30,6 +30,16 @@ module.exports = (env, { mode }) => {
           }
         },
         {
+          test: /\.(woff|woff2)$/,
+          use: {
+            loader: 'file-loader',
+            options: {
+              name: 'assets/fonts/[name].[ext]',
+              esModule: false,
+            }
+          }
+        },
+        {
           test: /\.css$/,
           use: [
             mode === 'production'

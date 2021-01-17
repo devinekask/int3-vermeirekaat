@@ -1,8 +1,8 @@
-/* @font-face {
+@font-face {
   font-family: HavreBlack;
   src:
-    url(../assets/fonts/le-havre/le-havre-black.woff2) format('woff2'),
-    url(../assets/fonts/le-havre/le-havre-black.woff) format('woff');
+    url(../assets/fonts/HavreBlack.woff2) format('woff2'),
+    url(../assets/fonts/HavreBlack.woff) format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
   font-family: HavreBold;
   src:
-    url(../assets/fonts/le-havre/le-havre-bold.woff2) format('woff2'),
-    url(../assets/fonts/le-havre/le-havre-bold.woff) format('woff');
+    url(../assets/fonts/HavreBold.woff2) format('woff2'),
+    url(../assets/fonts/HavreBold.woff) format('woff');
   font-weight: 200;
   font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
   font-family: SofiaLight;
   src:
-    url(../assets/fonts/sofia-pro/sofia-pro-light.woff2) format('woff2'),
-    url(../assets/fonts/sofia-pro/sofia-pro-light.woff) format('woff');
+    url(../assets/fonts/SofiaLight.woff2) format('woff2'),
+    url(../assets/fonts/SofiaLight.woff) format('woff');
   font-weight: 150;
   font-style: normal;
 }
@@ -28,8 +28,8 @@
 @font-face {
   font-family: SofiaUltra;
   src:
-    url(../assets/fonts/sofia-pro/sofia-pro-ultralight.woff2) format('woff2'),
-    url(../assets/fonts/sofia-pro/sofia-pro-ultralight.woff) format('woff');
+    url(../assets/fonts/SofiaUltra.woff2) format('woff2'),
+    url(../assets/fonts/SofiaUltra.woff) format('woff');
   font-weight: 100;
   font-style: normal;
-} */
+}

@@ -15,14 +15,21 @@
 
 .nav::after {
   background-image: url(../assets/img/text-marmer.png);
-  background-repeat: no-repeat;
   opacity: .3;
+
+  @media (--only-large-screen) {
+    background-repeat: repeat-x;
+  }
 }
 
 .content--horizontal::after {
   background-image: url(../assets/img/text-wood.png);
   background-repeat: repeat-y;
   opacity: .12;
+
+  @media (--only-large-screen) {
+    background-repeat: repeat-x;
+  }
 }
 
 .promo::after {
@@ -44,4 +51,8 @@
   background-image: url(../assets/img/text-marmer.png);
   background-repeat: repeat-y;
   opacity: .3;
+
+  @media (--only-large-screen) {
+    background-repeat: repeat-x;
+  }
 }

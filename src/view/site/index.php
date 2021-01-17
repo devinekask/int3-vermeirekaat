@@ -118,29 +118,33 @@
 
   <article class="content__item content__part-three">
 
+  <div class="content--picture">
     <picture class="build__picture">
-      <source sizes="(max-width: 4500px) 45vw,
-      (max-width: 600px) 60vw"
-        srcset="./assets/collages/collage-build_431.webp 431w,
-        ./assets/collages/collage-build_838.webp 838w"
-      type="image/webp" />
+        <source sizes="(max-width: 4500px) 45vw,
+        (max-width: 600px) 60vw"
+          srcset="./assets/collages/collage-build_431.webp 431w,
+          ./assets/collages/collage-build_838.webp 838w"
+        type="image/webp" />
 
-      <source sizes="(max-width: 450px) 45vw,
-      (max-width: 600px) 60vw"
-        srcset="./assets/collages/collage-build_431.png 431w,
-        ./assets/collages/collage-build_838.png 838w"
-      type="image/png"/>
+        <source sizes="(max-width: 450px) 45vw,
+        (max-width: 600px) 60vw"
+          srcset="./assets/collages/collage-build_431.png 431w,
+          ./assets/collages/collage-build_838.png 838w"
+        type="image/png"/>
 
-      <img class="build__img img--perspective" width="838" height="804" alt="collage-build" src="./assets/collages/collage-build_838.png">
-    </picture>
+        <img class="build__img img--perspective" width="838" height="804" alt="collage-build" src="./assets/collages/collage-build_838.png">
+      </picture>
+  </div>
 
+  <div class="content--text">
     <h2 class="content__title">Build with Creativity</h3>
-    <p class="content__alinea">We bezitten allemaal de gave om <span>creatief</span> te zijn. <br> Deze creativiteit kan je gebruiken om <span>innovatieve ideeën</span> te ontwikkelen.</p>
-    <p class="content__alinea">Bouw mee met duizenden anderen aan een <span>toekomstwereld</span> waar de creaties oneindig zijn.</p>
+        <p class="content__alinea">We bezitten allemaal de gave om <span>creatief</span> te zijn. <br> Deze creativiteit kan je gebruiken om <span>innovatieve ideeën</span> te ontwikkelen.</p>
+        <p class="content__alinea">Bouw mee met duizenden anderen aan een <span>toekomstwereld</span> waar de creaties oneindig zijn.</p>
 
-    <div class="cta__container">
-      <a class="cta cta--regular" href="index.php?page=">Begin met bouwen</a>
-    </div>
+        <div class="cta__container">
+          <a class="cta cta--regular" href="index.php?page=">Begin met bouwen</a>
+        </div>
+  </div>
   </article>
 
 </section>
