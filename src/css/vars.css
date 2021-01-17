@@ -22,6 +22,5 @@
   --fontHighlight: 'SofiaUltra';
 }
 
-/*@custom-media --only-small-screen (width >= 360px);
-@custom-media --only-medium-screen (width >= 900px);
-@custom-media --only-big-screen (width >= 750px);*/
+@custom-media --only-small-screen (width >= 450px);
+@custom-media --only-medium-screen (width >= 600px);

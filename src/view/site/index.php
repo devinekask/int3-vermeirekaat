@@ -21,14 +21,14 @@
     <p class="header__subtitle">High Wheeling</p>
 
     <picture class="header__picture">
-      <source sizes="(min-width: 300px) 30vw,
-        (min-width: 450px) 45vw"
-        srcset=" ./assets/collages/collage-header_324.webp 324w,
+      <source sizes="(max-width: 450px) 45vw,
+        (max-width: 600px) 60vw"
+        srcset="./assets/collages/collage-header_324.webp 324w,
         ./assets/collages/collage-header_647.webp 647w"
       type="image/webp"/>
 
-      <source sizes="(min-width: 300px) 30vw,
-        (min-width: 450px) 45vw"
+      <source sizes="(max-width: 450px) 45vw,
+        (max-width: 600px) 60vw"
         srcset="./assets/collages/collage-header_324.png 324w,
         ./assets/collages/collage-header_647.png 647w,"
       type="image/png"/>
@@ -42,7 +42,7 @@
 <section class="content">
 <h1 class="hidden">High Wheeling</h1>
   <article class="content__item content__part-one">
-    <div class="content__text">
+    <div class="content__text text__part-one">
     <h2 class="content__title">High What?</h3>
       <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
       <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
@@ -50,14 +50,14 @@
 
 
     <picture class="what__picture">
-      <source sizes="(min-width: 300px) 30vw,
-      (min-width: 450px) 45vw"
+      <source sizes="(max-width: 450px) 15vw,
+      (max-width: 600px) 40vw"
         srcset="./assets/collages/collage-what_421.webp 421w,
         ./assets/collages/collage-what_842.webp 842w"
       type="image/webp"/>
 
-      <source sizes="(min-width: 300px) 30vw,
-      (min-width: 450px) 45vw"
+      <source sizes="(max-width: 450px) 15vw,
+      (max-width: 600px) 45w"
         srcset="./assets/collages/collage-what_421.png 421w,
         ./assets/collages/collage-what_842.png 842w"
       type="image/png"/>
@@ -116,14 +116,14 @@
   <article class="content__item content__part-three">
 
     <picture class="build__picture">
-      <source sizes="(min-width: 300px) 30vw,
-      (min-width: 450px) 45vw"
+      <source sizes="(max-width: 4500px) 45vw,
+      (max-width: 600px) 60vw"
         srcset="./assets/collages/collage-build_431.webp 431w,
         ./assets/collages/collage-build_838.webp 838w"
       type="image/webp" />
 
-      <source sizes="(min-width: 300px) 30vw,
-      (min-width: 450px) 45vw"
+      <source sizes="(max-width: 450px) 45vw,
+      (max-width: 600px) 60vw"
         srcset="./assets/collages/collage-build_431.png 431w,
         ./assets/collages/collage-build_838.png 838w"
       type="image/png"/>
