@@ -41,37 +41,40 @@
 
 <section class="content">
 <h1 class="hidden">High Wheeling</h1>
+<div class="content--reverse">
   <article class="content__item content__part-one">
-    <div class="content__text text__part-one">
-    <h2 class="content__title">High What?</h3>
-      <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
-      <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
-    </div>
+      <div class="content__text text__part-one">
+      <h2 class="content__title">High What?</h3>
+        <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
+        <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
+      </div>
 
 
-    <picture class="what__picture">
-      <source sizes="(max-width: 450px) 15vw,
-      (max-width: 600px) 40vw"
-        srcset="./assets/collages/collage-what_421.webp 421w,
-        ./assets/collages/collage-what_842.webp 842w"
-      type="image/webp"/>
+      <picture class="what__picture">
+        <source sizes="(max-width: 450px) 15vw,
+        (max-width: 600px) 40vw"
+          srcset="./assets/collages/collage-what_421.webp 421w,
+          ./assets/collages/collage-what_842.webp 842w"
+        type="image/webp"/>
 
-      <source sizes="(max-width: 450px) 15vw,
-      (max-width: 600px) 45w"
-        srcset="./assets/collages/collage-what_421.png 421w,
-        ./assets/collages/collage-what_842.png 842w"
-      type="image/png"/>
+        <source sizes="(max-width: 450px) 15vw,
+        (max-width: 600px) 45w"
+          srcset="./assets/collages/collage-what_421.png 421w,
+          ./assets/collages/collage-what_842.png 842w"
+        type="image/png"/>
 
-      <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
-    </picture>
-  </article>
+        <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
+      </picture>
+    </article>
 
-  <div class="promo background__img">
-    <div class="promo__wrapper">
-    <p class="promo__content">Bezoek de Maker Faire in de <span>Chinastraat</span> te <span>Gent</span> en ontdek er tal van innovatieve projecten uit eigen bodem!</p>
-    </div>
+    <article class="promo promo--first background__img">
+      <h4 class="hidden">Promo Maker Faire</h4>
+      <div class="promo__wrapper">
+      <p class="promo__content">Bezoek de Maker Faire in de <span>Chinastraat</span> te <span>Gent</span> en ontdek er tal van innovatieve projecten uit eigen bodem!</p>
+      </div>
+    </article>
+</div>
 
-  </div>
 
   <article class="content--horizontal background__img">
     <h2 class="content__title--extra">Get Started</h3>
@@ -104,14 +107,14 @@
           </div>
       </div>
     </div>
-
   </article>
 
-  <div class="promo background__img">
+  <article class="promo background__img">
+    <h4 class="hidden">Promo Maker Faire</h4>
     <div class="promo__wrapper">
       <p class="promo__content">Bezoek het festival op <span>30 april / 1 mei / 2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land!</p>
     </div>
-  </div>
+  </article>
 
   <article class="content__item content__part-three">
 
