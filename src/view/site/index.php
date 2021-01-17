@@ -21,19 +21,19 @@
     <p class="header__subtitle">High Wheeling</p>
 
     <picture class="header__picture">
-      <source sizes="(min-width: 450px) 30vw,
-        (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_header.webp 572w,
-        ./assets/collages/collage_header@0.5x.webp 350w"
-      type="image/webp" />
+      <source sizes="(min-width: 300px) 30vw,
+        (min-width: 450px) 45vw"
+        srcset=" ./assets/collages/collage-header_324.webp 324w,
+        ./assets/collages/collage-header_647.webp 647w"
+      type="image/webp"/>
 
-      <source sizes="(min-width: 450px) 30vw,
-        (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_header.png 527w,
-        ./assets/collages/collage_header@0.5x.png 350w"
-      type="image/png" />
+      <source sizes="(min-width: 300px) 30vw,
+        (min-width: 450px) 45vw"
+        srcset="./assets/collages/collage-header_324.png 324w,
+        ./assets/collages/collage-header_647.png 647w,"
+      type="image/png"/>
 
-      <img class="header__img img--perspective" height="846" width="839" alt="collage-header" src="./assets/collages/collage_header.png">
+      <img class="header__img img--perspective" width="647" height="839" alt="collage-header" src="./assets/collages/collage-header_647.png">
   </picture>
   </div>
 
@@ -50,19 +50,19 @@
 
 
     <picture class="what__picture">
-      <source sizes="(min-width: 450px) 30vw,
-      (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_high-what.webp 572w,
-          ./assets/collages/collage_high-what@0.5x.webp 350w"
-      type="image/webp" />
+      <source sizes="(min-width: 300px) 30vw,
+      (min-width: 450px) 45vw"
+        srcset="./assets/collages/collage-what_421.webp 421w,
+        ./assets/collages/collage-what_842.webp 842w"
+      type="image/webp"/>
 
-      <source sizes="(min-width: 450px) 30vw,
-      (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_high-what.png 527w,
-          ./assets/collages/collage_high-what@0.5x.png 350w"
-      type="image/png" />
+      <source sizes="(min-width: 300px) 30vw,
+      (min-width: 450px) 45vw"
+        srcset="./assets/collages/collage-what_421.png 421w,
+        ./assets/collages/collage-what_842.png 842w"
+      type="image/png"/>
 
-      <img class="what__img img--perspective" height="842" width="1076" alt="collage-what" src="./assets/collages/collage_highwhat.png">
+      <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
     </picture>
   </article>
 
@@ -115,20 +115,20 @@
 
   <article class="content__item content__part-three">
 
-      <picture class="build__picture">
-      <source sizes="(min-width: 450px) 30vw,
-      (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_build.webp 572w,
-          ./assets/collages/collage_build@0.5x.webp 350w"
+    <picture class="build__picture">
+      <source sizes="(min-width: 300px) 30vw,
+      (min-width: 450px) 45vw"
+        srcset="./assets/collages/collage-build_431.webp 431w,
+        ./assets/collages/collage-build_838.webp 838w"
       type="image/webp" />
 
-      <source sizes="(min-width: 450px) 30vw,
-      (min-width: 700px) 44vw, 1vw"
-      srcset="./assets/collages/collage_build.png 527w,
-          ./assets/collages/collage_build@0.5x.png 350w"
-      type="image/png" />
+      <source sizes="(min-width: 300px) 30vw,
+      (min-width: 450px) 45vw"
+        srcset="./assets/collages/collage-build_431.png 431w,
+        ./assets/collages/collage-build_838.png 838w"
+      type="image/png"/>
 
-      <img class="build__img img--perspective" height="838" width="804" alt="collage-build" src="./assets/collages/collage_build.png">
+      <img class="build__img img--perspective" width="838" height="804" alt="collage-build" src="./assets/collages/collage-build_838.png">
     </picture>
 
     <h2 class="content__title">Build with Creativity</h3>
