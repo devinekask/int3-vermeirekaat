@@ -16,10 +16,15 @@ li {
 .cta {
   text-decoration: none;
   /*font-family: var(--fontHighlight);*/
-  font-size: calc(var(--sizeBody) * 1.5);
+  font-size: calc(var(--sizeBody) * 1.3);
+  font-weight: bold;
   border-radius: 2.3rem;
   padding: var(--marginRegular);
   color: white;
+
+  @media (--only-big-screen) {
+    font-size: var(--sizeBody);
+  }
 }
 
 .cta--secondary {
@@ -105,6 +110,10 @@ li {
 .promo {
   border-top: .5rem solid var(--colorRed);
   border-bottom: .5rem solid var(--colorRed);
+
+  @media (--only-big-screen) {
+    border: none;
+  }
 }
 
 .promo__content {
@@ -115,9 +124,20 @@ li {
   padding-left: var(--marginRegular);
   padding-right: var(--marginRegular);
 
-  @media --only-medium-screen {
+  @media (--only-medium-screen) {
     font-size: calc(var(--sizeBody) * 1.5);
     line-height: calc(var(--sizeBody) * 2.7);
+  }
+
+  @media (--only-big-screen) {
+    font-size: var(--sizeBody);
+    line-height: calc(var(--sizeBody) * 1.8);
+    display: block;
+    width: 30vw;
+    height: auto;
+    border-radius: 100%;
+    border: .5rem solid var(--colorRed);
+    padding: calc(var(--marginLarge) * 2);
   }
 }
 

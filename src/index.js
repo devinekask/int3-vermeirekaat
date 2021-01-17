@@ -1,7 +1,3 @@
-require('./style.css'); 
+require('./style.css');
 
-const init = () => {
-
-}
-
-init(); 
+import './js/script.js';

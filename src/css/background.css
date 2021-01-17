@@ -30,6 +30,15 @@
   opacity: .3;
 }
 
+.promo__content::after {
+  @media (--only-big-screen) {
+    background-image: url(../assets/img/text-bricks.png);
+    opacity: .3;
+    border-radius: 100%;
+    padding: calc(var(--marginLarge) * 2);
+  }
+}
+
 .footer::after {
   content: '';
   background-image: url(../assets/img/text-marmer.png);
