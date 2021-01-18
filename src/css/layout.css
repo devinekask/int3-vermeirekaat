@@ -63,7 +63,7 @@
   margin: calc(var(--marginLarge) * 5);
 
   @media (--only-small-screen) {
-    margin: calc(var(--marginLarge) * 3);
+    margin: var(--marginLarge);
   }
 }
 
@@ -164,7 +164,7 @@
   @media (--only-big-screen) {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     margin: unset;
     padding: unset;
   }

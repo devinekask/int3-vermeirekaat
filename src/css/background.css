@@ -34,7 +34,7 @@
 
 .promo::after {
   background-image: url(../assets/img/text-bricks.png);
-  opacity: .3;
+  opacity: .12;
 }
 
 .promo__content::after {
