@@ -195,7 +195,6 @@ li {
   font-family: var(--fontBlack);
   font-size: calc(var(--sizeTitle) * .7);
   color: var(--colorPurple);
-  margin-top: calc(var(--marginLarge) * 2);
   margin-bottom: calc(var(--marginSmall) * .5);
 
   @media (--only-big-screen) {
