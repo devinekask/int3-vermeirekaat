@@ -1,5 +1,6 @@
 body {
   background-color: var(--colorGray);
+  font-family: var(--fontBody);
 }
 
 li {
@@ -49,6 +50,10 @@ li {
   line-height: calc(var(--sizeTitle) * .8);
   margin-bottom: var(--marginSmall);
   margin-left: calc(var(--marginLarge) * 1.5);
+}
+
+.header__picture {
+  overflow: hidden;
 }
 
 .header__subtitle {
@@ -101,8 +106,8 @@ li {
 }
 
 .horizontal__alinea {
-  font-size: calc(var(--sizeBody) * 1.5);
-  line-height: calc(var(--sizeBody) * 2.7);
+  font-size: var(--sizeBody);
+  line-height: calc(var(--sizeBody) * 1.2);
 }
 
 /* PROMO */
@@ -214,10 +219,6 @@ li {
 
 .footer__wrapper {
   margin: var(--marginLarge);
-
-  @media (--only-big-screen) {
-    margin: var(--marginRegular);
-  }
 }
 
 .footer__subtitle {

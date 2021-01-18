@@ -18,7 +18,7 @@
   opacity: .3;
 
   @media (--only-large-screen) {
-    background-repeat: repeat-x;
+    background-repeat: repeat;
   }
 }
 
@@ -28,7 +28,7 @@
   opacity: .12;
 
   @media (--only-large-screen) {
-    background-repeat: repeat-x;
+    background-repeat: repeat;
   }
 }
 
@@ -53,6 +53,6 @@
   opacity: .3;
 
   @media (--only-large-screen) {
-    background-repeat: repeat-x;
+    background-repeat: repeat;
   }
 }

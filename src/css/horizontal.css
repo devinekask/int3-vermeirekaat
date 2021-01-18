@@ -10,6 +10,7 @@
   flex: 0 0 auto;
   width: fit-content;
   margin-left: var(--marginLarge);
+  overflow: hidden;
 }
 
 .horizontal__route {
