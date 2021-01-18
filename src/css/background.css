@@ -1,5 +1,4 @@
 .background__img {
-  display: block;
   position: relative;
 }
 
@@ -37,10 +36,10 @@
   opacity: .12;
 }
 
-.promo__content::after {
+.promo__content--big::after {
   @media (--only-big-screen) {
     background-image: url(../assets/img/text-bricks.png);
-    opacity: .3;
+    opacity: .2;
     border-radius: 100%;
     padding: calc(var(--marginLarge) * 2);
   }

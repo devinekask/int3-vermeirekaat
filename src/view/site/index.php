@@ -41,7 +41,13 @@
 
 <section class="content">
 <h1 class="hidden">High Wheeling</h1>
-<div class="content--reverse">
+
+    <article class="promo--big">
+      <div class="promo__wrapper">
+      <p class="promo__content--big background__img">Bezoek de Maker Faire in de <span>Chinastraat</span> te <span>Gent</span> en ontdek er tal van innovatieve projecten uit eigen bodem!</p>
+      </div>
+    </article>
+
   <article class="content__item content__part-one">
       <div class="content__text text__part-one">
       <h2 class="content__title">High What?</h3>
@@ -65,7 +71,7 @@
 
         <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
       </picture>
-    </article>
+  </article>
 
     <article class="promo promo--first background__img">
       <h4 class="hidden">Promo Maker Faire</h4>
@@ -73,7 +79,6 @@
       <p class="promo__content">Bezoek de Maker Faire in de <span>Chinastraat</span> te <span>Gent</span> en ontdek er tal van innovatieve projecten uit eigen bodem!</p>
       </div>
     </article>
-</div>
 
 
   <article class="content--horizontal background__img">
@@ -109,14 +114,20 @@
     </div>
   </article>
 
-  <article class="promo background__img">
+  <article class="promo--second">
+      <div class="promo__wrapper">
+      <p class="promo__content--big background__img">Kom langs op het festival op <span>30 april / 1 mei / 2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land!</p>
+      </div>
+    </article>
+
+  <article class="promo promo--first background__img">
     <h4 class="hidden">Promo Maker Faire</h4>
     <div class="promo__wrapper">
-      <p class="promo__content">Bezoek het festival op <span>30 april / 1 mei / 2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land!</p>
+      <p class="promo__content">Kom langs op het festival op <span>30 april / 1 mei / 2 mei</span> en aanschouw tal van creatieve innovaties uit eigen land!</p>
     </div>
   </article>
 
-  <article class="content__item content__part-three">
+<article class="content__item content__part-three">
 
   <div class="content--picture">
     <picture class="build__picture">
@@ -145,8 +156,7 @@
           <a class="cta cta--regular" href="index.php?page=">Begin met bouwen</a>
         </div>
   </div>
-  </article>
-
+</article>
 </section>
 
 <footer class="footer background__img">
