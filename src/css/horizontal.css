@@ -75,27 +75,34 @@
 
 .horizontal__wrapper {
   @media (--only-big-screen) {
-    width: 400rem;
+    width: 100rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+    padding-left: 50vw;
   }
 }
 
 .opacity {
-  opacity: 0;
+  @media (--only-big-screen) {
+    opacity: 0;
+  }
 }
 
 .horizontal__part {
   margin: var(--marginLarge);
   padding-left: var(--marginLarge);
   padding-bottom: calc(var(--marginLarge) * 2);
+  height: 100%;
 
   @media (--only-big-screen) {
-    place-self: center;
-    width: 80rem;
+    padding-left: calc(var(--marginLarge) * 2.5);
     transition: opacity .5s ease-out;
   }
+}
+
+.horizontal__alinea {
+  width: 40vw;
 }
 
 .part-one {
@@ -115,10 +122,12 @@
 }
 
 .part-three {
-  grid-column: 1;
-  grid-row: 1;
-  /* position: relative;
-  top: -34rem;*/
+  @media (--only-big-screen) {
+    grid-column: 1;
+    grid-row: 1;
+    /* position: relative;
+    top: -34rem;*/
+  }
 }
 
 .route__dashed-line {

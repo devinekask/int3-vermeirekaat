@@ -1,9 +1,9 @@
+let amount = 1;
 const partOne = document.querySelector(`.part-one`);
 const partTwo = document.querySelector(`part-two`);
 const partThree = document.querySelector(`.part-three`);
 
 const pressingKey = e => {
-  let amount = 1;
   if (partOne && partTwo && partThree) {
     console.log(e.keyCode);
 
@@ -45,7 +45,11 @@ const checkAmount = amount => {
 
 const init = () => {
 
-  document.addEventListener(`keydown`, pressingKey);
+  const keyDownEvent = document.addEventListener(`keydown`, pressingKey);
+
+  if (keyDownEvent) {
+    console.log(`js active`);
+  }
 
 };
 
