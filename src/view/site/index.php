@@ -13,7 +13,7 @@
 </header>
 
 <section class="header">
-  <h1 class="header__title">Maker Faire Gent <br> presents</h1>
+  <h1 class="header__title title">Maker Faire Gent <br> presents</h1>
 
   <div class="header__wrapper">
     <p class="header__subtitle">High Wheeling</p>

@@ -22,8 +22,8 @@ li {
 
 .cta {
   text-decoration: none;
-  font-family: var(--fontHighlight);
-  font-size: calc(var(--sizeBody) * 1.5);
+  font-family: var(--fontCta);
+  font-size: var(--sizeCta);
   font-weight: bold;
   border-radius: 2.3rem;
   padding: var(--marginRegular);
@@ -48,14 +48,12 @@ li {
 
 /* HEADER */
 
-.header__title {
+.title {
   color: var(--colorBlack);
   font-family: var(--fontBlack);
-  font-size: calc(var(--sizeTitle) * .6);
+  font-size: var(--sizeTitle);
   text-align: left;
   line-height: calc(var(--sizeTitle) * .8);
-  margin-bottom: var(--marginSmall);
-  margin-left: calc(var(--marginLarge) * 1.5);
 }
 
 .header__picture {
