@@ -50,9 +50,12 @@
 
   <article class="content__item content__part-one">
       <div class="content__text text__part-one">
-      <h2 class="content__title">High What?</h3>
-        <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
-        <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
+        <h2 class="content__title">High What?</h3>
+          <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
+          <p class="content__alinea">De <span>Maker Faire</span> daagt jou uit om dit voertuig terug tot leven te brengen. <br> Het festival voor innovators en creatievelingen wil je zo motiveren om actief bezig te zijn.</p>
+          <div class="cta__container">
+            <a class="cta cta--regular" href="index.php?page=">Start met bouwen</a>
+          </div>
       </div>
 
 
@@ -82,36 +85,50 @@
 
 
   <article class="content--horizontal background__img">
-    <h2 class="content__title--extra">Get Started</h3>
-    <p class="header__subtitle subtitle--extra">What do you need?</p>
-
-    <div class="horizontal__route">
-          <hr class="route__dashed-line">
-          <img class="route__ellipse" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+    <div class="horizontal__header">
+      <h2 class="content__title--extra">Get Started</h3>
+      <p class="header__subtitle subtitle--extra">What do you need?</p>
     </div>
 
-    <div class="horizontal__wrapper">
-      <div class="horizontal__part part--one">
-        <h3 class="horizontal__title">Some Tools</h3>
-          <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
-          <div class="cta__container">
-            <a class="cta cta--regular" href="index.php?page=">Bestel een bouwpakket</a>
+    <div class="horizontal__grid">
+          <div class="route__part route__part-one">
+            <img class="route__ellipse ellipse-one" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+            <hr class="route__dashed-line route-one">
           </div>
-      </div>
-
-      <div class="horizontal__part part--two">
-        <h3 class="horizontal__title">Lots of Excitement</h3>
-          <p class="horizontal__alinea">We raden je sterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
-      </div>
-
-      <div class="horizontal__part part--three">
-        <h3 class="horizontal__title">Two Left Hands</h3>
-          <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
-          <div class="cta__container">
-            <a class="cta cta--regular" href="index.php?page=">Ga aan de slag</a>
+          <div class="route__part route__part-two">
+            <img class="route__ellipse ellipse-two" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+              <hr class="route__dashed-line route-two">
           </div>
+          <div class="route__part route__part-three">
+            <img class="route__ellipse ellipse-three" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+            <hr class="route__dashed-line route-three">
+          </div>
+
+      <div class="horizontal__wrapper">
+
+        <div class="horizontal__part part--one">
+          <h3 class="horizontal__title">Some Tools</h3>
+            <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
+            <div class="cta__container">
+              <a class="cta cta--regular" href="index.php?page=">Bestel een bouwpakket</a>
+            </div>
+        </div>
+
+        <div class="horizontal__part part--two">
+          <h3 class="horizontal__title">Lots of Excitement</h3>
+            <p class="horizontal__alinea">We raden je sterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
+        </div>
+
+        <div class="horizontal__part part--three">
+          <h3 class="horizontal__title">Two Left Hands</h3>
+            <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
+            <div class="cta__container">
+              <a class="cta cta--regular" href="index.php?page=">Ga aan de slag</a>
+            </div>
+        </div>
       </div>
     </div>
+
   </article>
 
   <article class="promo--second">
@@ -131,7 +148,7 @@
 
   <div class="content--picture">
     <picture class="build__picture">
-        <source sizes="(max-width: 4500px) 45vw,
+        <source sizes="(max-width: 450px) 45vw,
         (max-width: 600px) 60vw"
           srcset="./assets/collages/collage-build_431.webp 431w,
           ./assets/collages/collage-build_838.webp 838w"

@@ -3,7 +3,11 @@ body {
   font-family: var(--fontBody);
   font-size: var(--sizeBody);
   line-height: calc(var(--sizeBody) * 1.2);
-  width: 100%;
+  /* width: 100%; */
+
+  @media (--only-large-screen) {
+    margin: 0 auto;
+  }
 }
 
 li {
@@ -64,7 +68,6 @@ li {
   font-family: var(--fontBlack);
   font-size: calc(var(--sizeSubtitle) * 2);
   line-height: calc(var(--sizeSubtitle) * 2.2);
-  text-align: left;
   margin-top: var(--marginRegular);
   margin-left: calc(var(--marginLarge) * 1.5);
 }
@@ -82,20 +85,20 @@ li {
 .content__title--extra {
   color: var(--colorRed);
   font-size: var(--sizeTitle);
-  text-align: center;
 
   @media --only-medium-screen {
     font-size: calc(var(--sizeTitle) * .5);
   }
 }
 
-.subtitle--extra {
+.horizontal__header {
   text-align: center;
 }
 
 .horizontal__title {
   color: var(--colorRed);
   font-size: calc(var(--sizeTitle) * .5);
+  line-height: calc(var(--sizeTitle) * .7);
 
   @media --only-medium-screen {
     font-size: var(--sizeTitle);
