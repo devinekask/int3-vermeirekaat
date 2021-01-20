@@ -3,7 +3,6 @@ body {
   font-family: var(--fontBody);
   font-size: var(--sizeBody);
   line-height: calc(var(--sizeBody) * 1.2);
-  /* width: 100%; */
 
   @media (--only-large-screen) {
     margin: 0 auto;
@@ -226,6 +225,7 @@ li {
 
 .footer__wrapper {
   margin: var(--marginLarge);
+  margin-bottom: 0;
 }
 
 .footer__subtitle {

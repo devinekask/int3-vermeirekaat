@@ -1,12 +1,12 @@
 html {
-  box-sizing: border-box;
+  box-sizing: inherit;
   font-size: 62.5%;
 }
 
 "*",
 "*:before",
 "*:after" {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 .hidden {

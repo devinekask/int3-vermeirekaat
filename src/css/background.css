@@ -23,12 +23,8 @@
 
 .content--horizontal::after {
   background-image: url(../assets/img/text-wood.png);
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   opacity: .12;
-
-  @media (--only-large-screen) {
-    background-repeat: repeat;
-  }
 }
 
 .promo::after {
@@ -48,10 +44,6 @@
 .footer::after {
   content: '';
   background-image: url(../assets/img/text-marmer.png);
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   opacity: .3;
-
-  @media (--only-large-screen) {
-    background-repeat: repeat;
-  }
 }

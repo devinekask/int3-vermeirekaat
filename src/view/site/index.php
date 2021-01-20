@@ -1,5 +1,3 @@
-<div class="home">
-
 <header class="nav background__img">
   <div class="nav__wrapper">
     <img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent">
@@ -227,6 +225,4 @@
 
   </div>
 </footer>
-
-</div>
 

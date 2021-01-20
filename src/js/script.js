@@ -45,12 +45,10 @@ const checkAmount = amount => {
 
 const init = () => {
 
-  const keyDownEvent = document.addEventListener(`keydown`, pressingKey);
+  const horizontal = document.querySelector(`.horizontal__grid`);
+  horizontal.addEventListener(`keydown`, pressingKey);
 
-  if (keyDownEvent) {
-    console.log(`js active`);
-  }
-
+  console.log(`javascript check`);
 };
 
 init();
