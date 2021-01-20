@@ -23,12 +23,20 @@
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: repeat(3, 1fr);
+
+  @media (--only-big-screen) {
+    display: block;
+  }
 }
 
 .route__part {
   text-align: center;
   position: relative;
   top: 10rem;
+
+  @media (--only-big-screen) {
+    display: none;
+  }
 }
 
 .ellipse-one {
@@ -55,15 +63,59 @@
   grid-row: 3 / span 4;
 }
 
-.horizontal__wrapper {
+.horizontal__overflow {
   grid-column: 2;
   grid-row: 1/ span 3;
+
+  @media (--only-big-screen) {
+    width: 100vw;
+    overflow: hidden;
+  }
+}
+
+.horizontal__wrapper {
+  @media (--only-big-screen) {
+    width: 400rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.opacity {
+  opacity: 0;
 }
 
 .horizontal__part {
   margin: var(--marginLarge);
   padding-left: var(--marginLarge);
   padding-bottom: calc(var(--marginLarge) * 2);
+
+  @media (--only-big-screen) {
+    place-self: center;
+    width: 80rem;
+    transition: opacity .5s ease-out;
+  }
+}
+
+.part-one {
+  @media (--only-big-screen) {
+    grid-column: 1;
+  }
+}
+
+.part-two {
+  @media (--only-big-screen) {
+    grid-column: 2;
+    position: relative;
+    top: -17rem;
+  }
+}
+
+.part-three {
+  grid-column: 3;
+  position: relative;
+  top: -34rem;
 }
 
 .route__dashed-line {

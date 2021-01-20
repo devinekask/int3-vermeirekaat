@@ -104,9 +104,9 @@
             <hr class="route__dashed-line route-three">
           </div>
 
-      <div class="horizontal__wrapper">
-
-        <div class="horizontal__part part--one">
+      <div class="horizontal__overflow">
+        <div class="horizontal__wrapper">
+        <div class="horizontal__part part-one">
           <h3 class="horizontal__title">Some Tools</h3>
             <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een bouwpakket samenstellen en bestellen om thuis mee aan de slag te gaan.</p>
             <div class="cta__container">
@@ -114,12 +114,12 @@
             </div>
         </div>
 
-        <div class="horizontal__part part--two">
+        <div class="horizontal__part part-two">
           <h3 class="horizontal__title">Lots of Excitement</h3>
             <p class="horizontal__alinea">We raden je sterk aan om met vol enthousiasme aan dit project te starten. <br>Haal de speelvogel in jezelf naar boven en beleef een moment vol nieuwsgierigheid en plezier!</p>
         </div>
 
-        <div class="horizontal__part part--three">
+        <div class="horizontal__part part-three">
           <h3 class="horizontal__title">Two Left Hands</h3>
             <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
             <div class="cta__container">
@@ -127,6 +127,7 @@
             </div>
         </div>
       </div>
+    </div>
     </div>
 
   </article>
