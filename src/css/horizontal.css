@@ -101,21 +101,24 @@
 .part-one {
   @media (--only-big-screen) {
     grid-column: 1;
+    grid-row: 1;
   }
 }
 
 .part-two {
   @media (--only-big-screen) {
-    grid-column: 2;
-    position: relative;
-    top: -17rem;
+    grid-column: 1;
+    grid-row: 1;
+    /* position: relative;
+    top: -53rem; */
   }
 }
 
 .part-three {
-  grid-column: 3;
-  position: relative;
-  top: -34rem;
+  grid-column: 1;
+  grid-row: 1;
+  /* position: relative;
+  top: -34rem;*/
 }
 
 .route__dashed-line {
