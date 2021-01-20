@@ -16,7 +16,7 @@
   <h1 class="header__title title">Maker Faire Gent <br> presents</h1>
 
   <div class="header__wrapper">
-    <p class="header__subtitle">High Wheeling</p>
+    <p class="header__subtitle subtitle">High Wheeling</p>
 
     <picture class="header__picture">
       <source sizes="(max-width: 450px) 45vw,
@@ -84,8 +84,8 @@
 
   <article class="content--horizontal background__img">
     <div class="horizontal__header">
-      <h2 class="content__title--extra">Get Started</h3>
-      <p class="header__subtitle subtitle--extra">What do you need?</p>
+      <h2 class="title title--extra">Get Started</h3>
+      <p class="header__subtitle subtitle">What do you need?</p>
     </div>
 
     <div class="horizontal--grid">

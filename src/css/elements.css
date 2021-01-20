@@ -1,45 +1,26 @@
-body {
-  background-color: var(--colorGray);
-  font-family: var(--fontBody);
-  font-size: var(--sizeBody);
-  line-height: calc(var(--sizeBody) * 1.2);
-  width: 100vw;
-
-  @media (--only-large-screen) {
-    margin: 0 auto;
-  }
-}
-
-li {
-  list-style-type: none;
-}
-
 /* CTA */
 
 .cta__container {
-  margin-bottom: calc(var(--marginLarge) * 1.5);
-  margin-top: calc(var(--marginLarge) * 1.5);
+  margin-bottom: var(--marginLarge);
+  margin-top: var(--marginLarge);
 }
 
 .cta {
   text-decoration: none;
   font-family: var(--fontCta);
-  font-size: var(--sizeCta);
-  font-weight: bold;
-  border-radius: 2.3rem;
+  font-size: var(--sizeBody);
+  border-radius: 5rem;
   padding: var(--marginRegular);
   color: white;
-
-  @media (--only-big-screen) {
-    font-size: var(--sizeBody);
-  }
 }
 
 .cta--secondary {
+  font-size: var(--sizeCta);
   background-color: var(--colorPurple);
 }
 
 .cta--primary {
+  font-size: var(--sizeCta);
   background-color: var(--colorYellow);
 }
 
@@ -57,17 +38,11 @@ li {
   line-height: calc(var(--sizeTitle) * .8);
 }
 
-.header__picture {
-  overflow: hidden;
-}
-
-.header__subtitle {
+.subtitle {
   color: var(--colorDark);
   font-family: var(--fontBlack);
   font-size: calc(var(--sizeSubtitle) * 2);
-  line-height: calc(var(--sizeSubtitle) * 2.2);
-  margin-top: var(--marginRegular);
-  margin-left: calc(var(--marginLarge) * 1.5);
+  line-height: calc(var(--sizeSubtitle) * 3.2);
 }
 
 /* CONTENT */
@@ -80,17 +55,15 @@ li {
 
 /* HORIZONTAL */
 
-.content__title--extra {
-  color: var(--colorRed);
+.title--extra {
+  color: transparent;
+  -webkit-text-stroke: .3rem var(--colorRed);
   font-size: var(--sizeTitle);
+  text-align: center;
 
   @media --only-medium-screen {
     font-size: calc(var(--sizeTitle) * .5);
   }
-}
-
-.horizontal__header {
-  text-align: center;
 }
 
 .horizontal__title {
@@ -105,15 +78,14 @@ li {
 
 /* PROMO */
 
-.promo {
+.promo--rect {
   border-top: .5rem solid var(--colorRed);
   border-bottom: .5rem solid var(--colorRed);
 }
 
 .promo__content {
-  font-family: var(--fontBody);
-  font-size: calc(var(--sizeBody) * 2.5);
-  line-height: calc(var(--sizeBody) * 3.7);
+  font-size: var(--sizePromo);
+  line-height: calc(var(--sizePromo) * 1.2);
   color: var(--colorBlack);
   text-align: center;
   padding-left: var(--marginRegular);
@@ -126,15 +98,15 @@ li {
 }
 
 .promo__content--big {
-  font-size: calc(var(--sizeBody) * 1.5);
-  line-height: calc(var(--sizeBody) * 1.7);
+  font-size: var(--sizePromo);
+  line-height: calc(var(--sizePromo) * 1.2);
   text-align: center;
   display: block;
-  width: 20rem;
+  width: 25rem;
   height: auto;
   border-radius: 100%;
   border: .5rem solid var(--colorRed);
-  padding: calc(var(--marginLarge) * 2);
+  padding: calc(var(--marginLarge) * 1.4);
 }
 
 .promo--first {
@@ -161,7 +133,7 @@ li {
   padding-bottom: calc(var(--marginSmall) / 5);
   margin-bottom: var(--marginLarge);
   font-family: var(--fontHighlight);
-  font-size: calc(var(--sizeSubtitle) * 1.5);
+  font-size: var(--sizeBody);
   text-align: center;
 
   @media (--only-small-screen) {
@@ -171,7 +143,7 @@ li {
   }
 
   @media (--only-big-screen) {
-    font-size: calc(var(--sizeSubtitle) * .5);
+    font-size: var(--sizePromo);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -196,23 +168,23 @@ li {
   font-family: var(--fontBlack);
   font-size: calc(var(--sizeTitle) * .7);
   color: var(--colorPurple);
-  margin-bottom: calc(var(--marginSmall) * .5);
+  margin-bottom: var(--marginSmall);
 
   @media (--only-big-screen) {
     font-size: calc(var(--sizeSubtitle) * 1.5);
-    margin-bottom: calc(var(--marginSmall) / 3);
+    margin-bottom: var(--marginSmall);
   }
 }
 
 .maker__content {
   font-family: var(--fontHighlight);
-  font-size: calc(var(--sizeBody) * 1.5);
+  font-size: var(--sizePromo);
   line-height: calc(var(--sizeBody) * 2.7);
   margin-bottom: calc(var(--marginLarge) * 2.5);
 
   @media (--only-big-screen) {
-    font-size: var(--sizeBody);
-    line-height: calc(var(--sizeBody) * 1.2);
+    font-size: var(--sizePromo);
+    line-height: calc(var(--sizePromo) * 1.2);
     margin-bottom: unset;
     margin-top: unset;
   }
