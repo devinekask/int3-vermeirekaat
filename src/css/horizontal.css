@@ -19,7 +19,7 @@
   align-items: center;
 } */
 
-.horizontal__grid {
+.horizontal--grid {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: repeat(3, 1fr);

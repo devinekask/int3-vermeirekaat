@@ -3,6 +3,7 @@ body {
   font-family: var(--fontBody);
   font-size: var(--sizeBody);
   line-height: calc(var(--sizeBody) * 1.2);
+  width: 100vw;
 
   @media (--only-large-screen) {
     margin: 0 auto;

@@ -34,6 +34,10 @@
 
 /* HEADER */
 
+.header__title {
+  margin-left: var(--marginLarge);
+}
+
 .header__wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -233,6 +237,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--marginSmall);
+  margin-bottom: var(--marginRegular);
 
   @media (--only-large-screen) {
     display: flex;

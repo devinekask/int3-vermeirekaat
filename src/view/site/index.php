@@ -88,7 +88,7 @@
       <p class="header__subtitle subtitle--extra">What do you need?</p>
     </div>
 
-    <div class="horizontal__grid">
+    <div class="horizontal--grid">
           <div class="route__part route__part-one">
             <img class="route__ellipse ellipse-one" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
             <hr class="route__dashed-line route-one">
