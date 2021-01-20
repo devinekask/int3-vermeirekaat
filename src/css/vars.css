@@ -9,17 +9,22 @@
 
   /* Margins */
   --marginSmall: 1.25rem; /* 20px */
-  --marginRegular: 2.2rem; /* 35px */
-  --marginLarge: 3.1rem; /* 50px */
+  --marginMobile: 2.2rem; /* 35px */
+  --marginRegular: 3.1rem; /* 50pt */
+  --marginLarge: 5.8rem; /* 70pt */
 
   /* Fonts */
-  --sizeBody: 1.5rem; /*25 pt*/
-  --sizeSubtitle: 4rem;
-  --sizeTitle: 15rem;
+  --sizeBody: 1.5rem; /* 25 pt */
+  --sizePromo: 2.5rem; /* 30pt */
+  --sizeCta: 2.9rem; /* 35pt */
+  --sizeMobile: 3.3rem; /* 40pt */
+  --sizeSubtitle: 4.1rem; /* 50pt */
+  --sizeTitle: 12.5rem; /* 150pt */
   --fontBlack: 'HavreBlack';
   --fontBold: 'HavreBold';
   --fontBody: 'SofiaLight';
   --fontHighlight: 'SofiaUltra';
+  --fontCta: 'SofiaMedium';
 }
 
 @custom-media --only-small-screen (width >= 450px);

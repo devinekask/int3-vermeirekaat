@@ -1,4 +1,0 @@
-.img--perspective:hover {
-  transform: perspective(600px) rotateY(-5deg);
-  transition: transform .3s;
-}
