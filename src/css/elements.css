@@ -37,3 +37,51 @@
 .cta--regular {
   background-color: var(--colorDark);
 }
+
+/* HEADER */
+
+.title {
+  font-family: var(--fontHavre);
+  font-size: var(--sizeMobile);
+  font-weight: var(--weightBlack);
+  line-height: calc(var(--sizeMobile) * 1.2);
+
+  @media (--only-small-screen) {
+    font-size: calc(var(--sizeSubtitle) * 1.5);
+    line-height: calc(var(--sizeSubtitle) * 1.7);
+  }
+
+  @media (--only-medium-screen) {
+    font-size: calc(var(--sizeSubtitle) * 2);
+    line-height: calc(var(--sizeSubtitle) * 2.2);
+  }
+
+  @media (--only-large-screen) {
+    font-size: var(--sizeTitle);
+    line-height: calc(var(--sizeTitle) * 1.2);
+  }
+}
+
+.subtitle {
+  color: var(--colorDark);
+  font-family: var(--fontHavre);
+  font-weight: var(--weightBold);
+  font-size: var(--sizeMobile);
+  line-height: calc(var(--sizeMobile) * 1.2);
+  text-align: right;
+
+  @media (--only-small-screen) {
+    font-size: var(--sizeSubtitle);
+    line-height: calc(var(--sizeSubtitle) * 1.2);
+  }
+
+  @media (--only-medium-screen) {
+    font-size: calc(var(--sizeSubtitle) * 1.5);
+    line-height: calc(var(--sizeSubtitle) * 1.7);
+  }
+
+  @media (--only-large-screen) {
+    font-size: calc(var(--sizeSubtitle) * 2);
+    line-height: calc(var(--sizeSubtitle) * 2.2);
+  }
+}

@@ -16,9 +16,10 @@ body {
   font-size: var(--sizeBody);
   line-height: calc(var(--sizeBody) * 1.2);
 
-  @media (--only-large-screen) {
+  /* @media (--only-giga-screen) {
+    width: 130rem;
     margin: 0 auto;
-  }
+  } */
 }
 
 li {
@@ -27,4 +28,11 @@ li {
 
 .hidden {
   display: none;
+}
+
+.giga {
+  @media (--only-giga-screen) {
+    width: 130rem;
+    margin: 0 auto;
+  }
 }

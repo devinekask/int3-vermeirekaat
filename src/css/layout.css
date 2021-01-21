@@ -40,3 +40,45 @@
     visibility: visible;
   }
 }
+
+/* HEADER */
+
+.header {
+  margin-left: var(--marginSmall);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (--only-large-screen) {
+    margin-left: var(--marginLarge);
+  }
+}
+
+.header__title {
+  grid-column: 1 / span 2;
+  margin-top: var(--marginLarge);
+  margin-bottom: var(--marginSmall);
+}
+
+.header__subtitle {
+  grid-column: 1;
+  place-self: center;
+  padding-right: var(--marginRegular);
+
+  @media (--only-large-screen) {
+    padding-right: var(--marginLarge);
+  }
+}
+
+.header__picture {
+  grid-column: 2;
+  overflow: hidden;
+}
+
+.header__picture img {
+  width: 120%;
+  height: auto;
+
+  @media (--only-large-screen) {
+    width: 90%;
+  }
+}

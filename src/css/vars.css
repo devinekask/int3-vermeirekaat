@@ -37,3 +37,4 @@
 @custom-media --only-medium-screen (width >= 600px);
 @custom-media --only-big-screen (width >= 750px);
 @custom-media --only-large-screen (width >= 960px);
+@custom-media --only-giga-screen (width >= 1300px);
