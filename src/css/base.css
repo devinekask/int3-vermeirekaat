@@ -28,10 +28,3 @@ li {
 .hidden {
   display: none;
 }
-
-.horizontal__grid {
-  @media (--only-large-screen) {
-    display: grid;
-    grid-template-columns: 100vw;
-  }
-}
