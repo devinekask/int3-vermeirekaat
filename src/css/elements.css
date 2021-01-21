@@ -40,6 +40,17 @@
 
 /* HEADER */
 
+.circ__wrapper {
+  border: .2rem solid var(--colorRed);
+  border-radius: 100%;
+  width: max-content;
+}
+
+.circ {
+  text-align: center;
+  -ms-transform-origin-x: 30deg;
+}
+
 .title {
   font-family: var(--fontHavre);
   font-size: var(--sizeMobile);

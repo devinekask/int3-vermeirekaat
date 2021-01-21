@@ -43,6 +43,10 @@
 
 /* HEADER */
 
+.circ__wrapper {
+  display: none;
+}
+
 .header {
   margin-left: var(--marginSmall);
   display: grid;
@@ -53,7 +57,7 @@
   }
 }
 
-.header__title {
+.header__wrapper {
   grid-column: 1 / span 2;
   margin-top: var(--marginLarge);
   margin-bottom: var(--marginSmall);

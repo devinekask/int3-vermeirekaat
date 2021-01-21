@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/sro1dzb.css">
   <link rel="stylesheet" href="https://use.typekit.net/sro1dzb.css">
   <link rel="stylesheet" href="https://use.typekit.net/sro1dzb.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <title>High Wheeler - <?php echo $title; ?></title>
   <?php echo $css; ?>
 </head>
