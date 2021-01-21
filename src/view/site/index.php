@@ -159,7 +159,7 @@
           ./assets/collages/collage-build_838.png 838w"
         type="image/png"/>
 
-        <img class="build__img img--perspective" width="838" height="804" alt="collage-build" src="./assets/collages/collage-build_838.png">
+        <img class="build__img" width="838" height="804" alt="collage-build" src="./assets/collages/collage-build_838.png">
       </picture>
   </div>
 

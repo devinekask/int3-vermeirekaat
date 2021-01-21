@@ -1,4 +1,4 @@
-let amount = 1;
+/* let amount = 1;
 const partOne = document.querySelector(`.part-one`);
 const partTwo = document.querySelector(`part-two`);
 const partThree = document.querySelector(`.part-three`);
@@ -51,4 +51,4 @@ const init = () => {
   console.log(`javascript check`);
 };
 
-init();
+init(); */

@@ -135,7 +135,7 @@
 
 .content--picture img {
   @media (--only-big-screen) {
-    width: 120%;
+    width: 100%;
     height: auto;
     position: relative;
     top: -20rem;
@@ -214,13 +214,7 @@
   @media (--only-big-screen) {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
-
-  @media (--only-large-screen) {
-    display: flex;
-    flex-direction: row;
-    justify-content: unset;
+    align-items: center;
   }
 }
 
@@ -251,12 +245,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--marginSmall);
   padding-bottom: var(--marginRegular);
-
-  @media (--only-large-screen) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
 }
 
 .sponsors__img {
