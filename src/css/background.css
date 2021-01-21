@@ -20,3 +20,30 @@
     background-repeat: repeat;
   }
 }
+
+.content--horizontal::after {
+  background-image: url(../assets/img/text-wood.png);
+  background-repeat: repeat;
+  opacity: .12;
+}
+
+.promo--rect::after {
+  background-image: url(../assets/img/text-bricks.png);
+  opacity: .12;
+}
+
+.content--circ::after {
+  @media (--only-big-screen) {
+    background-image: url(../assets/img/text-bricks.png);
+    opacity: .2;
+    border-radius: 100%;
+    padding: calc(var(--marginLarge) * 2);
+  }
+}
+
+.footer::after {
+  content: '';
+  background-image: url(../assets/img/text-marmer.png);
+  background-repeat: repeat;
+  opacity: .3;
+}

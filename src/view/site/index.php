@@ -151,7 +151,7 @@
     </div>
   </article>
 
-<!-- <article class="content__item content__part-three">
+<article class="content__item content__part-three giga">
 
   <div class="content--picture">
     <picture class="build__picture">
@@ -180,5 +180,5 @@
           <a class="cta cta--regular" href="index.php?page=">Begin met bouwen</a>
         </div>
   </div>
-</article> -->
+</article>
 </section>
