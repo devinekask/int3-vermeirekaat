@@ -128,10 +128,12 @@
         <div class="horizontal__part part-three opacity">
           <h3 class="horizontal__title horizontal--left">Two <span>Left</span> Hands</h3>
           <p class="horizontal__title horizontal--right"> <span>Two</span>  Right</p>
-            <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
+          <div class="horizontal--pos">
+          <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
             <div class="cta__container">
               <a class="cta cta--regular" href="index.php?page=">Ga aan de slag</a>
             </div>
+          </div>
         </div>
 
   </article>

@@ -139,6 +139,10 @@
     margin: 0 var(--marginLarge);
     margin-bottom: calc(var(--marginLarge) * 2);
   }
+
+  @media (--only-giga-screen) {
+    margin-bottom: calc(var(--marginLarge) * 3);
+  }
 }
 
 .content__part-one {
@@ -147,6 +151,10 @@
 
   @media (--only-medium-screen) {
     grid-template-columns: 40% 60%;
+  }
+
+  @media (--only-giga-screen) {
+    padding-bottom: calc(var(--marginLarge) * 2);
   }
 }
 
