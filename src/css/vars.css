@@ -13,18 +13,24 @@
   --marginRegular: 3.1rem; /* 50pt */
   --marginLarge: 5.8rem; /* 70pt */
 
-  /* Fonts */
+  /* Sizes */
   --sizeBody: 1.5rem; /* 25 pt */
   --sizePromo: 2.5rem; /* 30pt */
   --sizeCta: 2.9rem; /* 35pt */
   --sizeMobile: 3.3rem; /* 40pt */
   --sizeSubtitle: 4.1rem; /* 50pt */
   --sizeTitle: 12.5rem; /* 150pt */
-  --fontBlack: 'HavreBlack';
-  --fontBold: 'HavreBold';
-  --fontBody: 'SofiaLight';
-  --fontHighlight: 'SofiaUltra';
-  --fontCta: 'SofiaMedium';
+
+  /* Fonts */
+  --fontSofia: sofia-pro, sans-serif;
+  --fontHavre: le-havre, sans-serif;
+  --fontShaded: rig-shaded-bold-extrude, sans-serif;
+  --weightHighlight: 100;
+  --weightBody: 300;
+  --weightCta: 500;
+  --weightBold: 700;
+  --weightBlack: 900;
+  --styleNormal: normal;
 }
 
 @custom-media --only-small-screen (width >= 450px);

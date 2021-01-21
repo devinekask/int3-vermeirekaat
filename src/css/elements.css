@@ -7,7 +7,7 @@
 
 .cta {
   text-decoration: none;
-  font-family: var(--fontCta);
+  font-weight: var(--weightCta);
   font-size: var(--sizeBody);
   border-radius: 5rem;
   padding: var(--marginMobile);
