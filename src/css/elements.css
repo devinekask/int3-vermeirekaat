@@ -96,3 +96,43 @@
     line-height: calc(var(--sizeSubtitle) * 2.2);
   }
 }
+
+/* PROMO */
+
+.content--circ {
+  font-size: var(--sizePromo);
+  line-height: calc(var(--sizePromo) * 1.2);
+  text-align: center;
+  display: block;
+  width: 25rem;
+  height: auto;
+  border-radius: 100%;
+  border: .5rem solid var(--colorRed);
+  padding: var(--marginLarge);
+}
+
+.promo--rect {
+  border-top: .5rem solid var(--colorRed);
+  border-bottom: .5rem solid var(--colorRed);
+  display: block;
+
+  @media (--only-big-screen) {
+    display: none;
+  }
+}
+
+.content--rect {
+  font-size: var(--sizePromo);
+  line-height: calc(var(--sizePromo) * 1.2);
+  text-align: center;
+  padding: 0 var(--marginRegular);
+
+  @media (--only-medium-screen) {
+    font-size: var(--sizeMobile);
+    line-height: calc(var(--sizeMobile) * 1.2);
+  }
+}
+
+.promo__content span {
+  color: var(--colorRed);
+}

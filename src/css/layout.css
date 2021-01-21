@@ -86,3 +86,37 @@
     width: 90%;
   }
 }
+
+/* PROMO */
+
+.promo--rect {
+  margin-bottom: var(--marginLarge);
+  margin-top: var(--marginLarge);
+  padding: var(--marginRegular);
+
+  @media (--only-small-screen) {
+    padding: var(--marginLarge);
+  }
+}
+
+.promo--circ {
+  display: none;
+
+  @media (--only-big-screen) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: var(--marginLarge);
+  }
+}
+
+.promo--second {
+  display: none;
+
+  @media (--only-big-screen) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: var(--marginLarge);
+  }
+}
