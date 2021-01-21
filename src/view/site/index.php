@@ -182,3 +182,54 @@
   </div>
 </article>
 </section>
+
+<footer class="footer background__img">
+  <div class="footer__line">
+    <p class="line__info info--caps">Chinastraat - 9000 Gent</p>
+    <p class="line__info">30 April - 1 Mei - 2 Mei  || 2021</p>
+  </div>
+
+  <div class="footer__wrapper giga content__item">
+    <div class="info">
+      <div class="info__maker">
+        <p class="maker__title">Maker Faire Gent</p>
+        <p class="maker__content">Het festival voor creatievelingen, uitvinders en speelvogels</p>
+      </div>
+      <div class="info__abbo">
+        <p class="content__title subtitle--abbo">Blijf op de hoogte</p>
+          <div class="abbo__input">
+            <p class="abbo__email">maker.faire@mail.com</p>
+            <p class="abbo__cta cta cta--regular">Schrijf me in</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="social">
+      <p class="footer__subtitle content__title">Volg ons op</p>
+      <div class="social__wrapper">
+        <div class="social__icon">
+        <img class="social__img social--fb" width="25" src="./assets/social/social-facebook.png" alt="logo-facebook">
+        </div>
+
+        <div class="social__icon">
+          <img class="social__img" width="40" src="./assets/social/social-instagram.png" alt="logo-instagram">
+        </div>
+        <div class="social__icon">
+          <img class="social__img social--pos" width="40" src="./assets/social/social-twitter.png" alt="logo-twitter">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sponsors">
+      <img class="sponsors__img" width="150" src="./assets/sponsors/sponsor_make-magazine.png" alt="logo-maker-magazine">
+      <img class="sponsors__img" width="150" src="./assets/sponsors/sponsor_flanders.png" alt="logo-flanders">
+      <img class="sponsors__img" width="150" src="./assets/sponsors/sponsor_gent.png" alt="logo-gent">
+      <img class="sponsors__img" width="150" src="./assets/sponsors/sponsor_ugent.png" alt="logo-ugent">
+      <img class="sponsors__img" width="150" src="./assets/sponsors/sponsor_velleman.png" alt="logo-velleman">
+      <img class="sponsors__img" width="150" src="./assets/sponsors/sponsor_accent.png" alt="logo-accent">
+      <img class="sponsors__img sponsors--last" width="150" src="./assets/sponsors/sponsor_tentzetter.png" alt="logo-tentzetter">
+    </div>
+
+  </div>
+</footer>
