@@ -132,10 +132,12 @@
 
   @media (--only-big-screen) {
     margin: 0 var(--marginRegular);
+    margin-bottom: calc(var(--marginLarge) * 1.5);
   }
 
   @media (--only-large-screen) {
     margin: 0 var(--marginLarge);
+    margin-bottom: calc(var(--marginLarge) * 2);
   }
 }
 

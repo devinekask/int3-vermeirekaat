@@ -21,7 +21,7 @@
   }
 }
 
-.content--horizontal::after {
+.content__horizontal::after {
   background-image: url(../assets/img/text-wood.png);
   background-repeat: repeat;
   opacity: .12;
