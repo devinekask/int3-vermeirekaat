@@ -136,3 +136,18 @@
 .promo__content span {
   color: var(--colorRed);
 }
+
+/* CONTENT */
+
+.content__title {
+  color: var(--colorPurple);
+  font-family: var(--fontHavre);
+  font-weight: var(--weightBold);
+  font-size: var(--sizeMobile);
+  line-height: calc(var(--sizeMobile) * 1.2);
+
+  @media (--only-large-screen) {
+    font-size: var(--sizeSubtitle);
+    line-height: calc(var(--sizeSubtitle) * 1.2);
+  }
+}

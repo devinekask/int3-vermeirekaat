@@ -53,7 +53,7 @@
       </div>
     </article>
 
-  <!-- <article class="content__item content__part-one">
+  <article class="content__item content__part-one giga">
       <div class="content__text text__part-one">
         <h2 class="content__title">High What?</h3>
           <p class="content__alinea">High Wheeling was de aanleiding tot fietsen als sport. <br>Het vervoersmiddel werd uitgevonden het <span>Victoriaanse tijdperk</span> en was erg populair voor een korte periode.</p>
@@ -63,23 +63,24 @@
           </div>
       </div>
 
-
-      <picture class="what__picture">
-        <source sizes="(max-width: 450px) 15vw,
-        (max-width: 600px) 40vw"
+      <div class="what__picture">
+        <picture class="picture-what">
+          <source sizes="(max-width: 450px) 15vw,
+          (max-width: 600px) 40vw"
           srcset="./assets/collages/collage-what_421.webp 421w,
           ./assets/collages/collage-what_842.webp 842w"
-        type="image/webp"/>
+          type="image/webp"/>
 
-        <source sizes="(max-width: 450px) 15vw,
-        (max-width: 600px) 45w"
+          <source sizes="(max-width: 450px) 15vw,
+          (max-width: 600px) 45w"
           srcset="./assets/collages/collage-what_421.png 421w,
           ./assets/collages/collage-what_842.png 842w"
-        type="image/png"/>
+          type="image/png"/>
 
-        <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
-      </picture>
-  </article> -->
+          <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
+        </picture>
+      </div>
+  </article>
 
     <article class="promo--rect promo--first background__img">
       <h4 class="hidden">Promo Maker Faire</h4>
