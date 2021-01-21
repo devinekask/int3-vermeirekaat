@@ -1,0 +1,11 @@
+.slide--right {
+  transform: translateX(50vw);
+  transition-delay: 250ms;
+  transition-duration: 1s;
+}
+
+.slide--left {
+  transform: translateX(-50vw);
+  transition-delay: 250ms;
+  transition-duration: 1s;
+}

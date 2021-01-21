@@ -12,7 +12,7 @@
   @media (--only-large-screen) {
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
-    height: 100rem;
+    height: 130rem;
     overflow-y: hidden;
   }
 }
@@ -36,9 +36,15 @@
   }
 }
 
-.ellipse-one {
-  position: relative;
-  left: 50vw;
+.route__img {
+  position: absolute;
+  top: 25rem;
+  left: 0;
+}
+
+.ellipse__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .route-one {
@@ -95,5 +101,7 @@
 
   @media (--only-large-screen) {
     transition: opacity .5s ease-out;
+    transition-delay: 1s;
+    transition-duration: 1.5s;
   }
 }

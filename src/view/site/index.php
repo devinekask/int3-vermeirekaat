@@ -97,9 +97,18 @@
     </div>
 
     <div class="horizontal__route">
+            <div class="route__picture">
+              <img id="bike" class="route__img" width="209" src="./assets/img/high-course_209.png" alt="man-riding-high-wheel">
+            </div>
           <div class="route__part route__part-one">
-            <img class="route__ellipse ellipse-one" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+            <div class="ellipse__wrapper">
+              <img class="route__ellipse ellipse-one" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+              <img class="route__ellipse ellipse-two" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+              <img class="route__ellipse ellipse-three" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
+
+            </div>
             <hr class="route__dashed-line route-one">
+
           </div>
           <!-- <div class="route__part route__part-two">
             <img class="route__ellipse ellipse-two" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
