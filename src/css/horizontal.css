@@ -19,6 +19,10 @@
 
 .horizontal__header {
   grid-column: 1 / span 2;
+
+  @media (--only-large-screen) {
+    padding-bottom: calc(var(--marginLarge) * 4);
+  }
 }
 
 .horizontal__route {
@@ -38,8 +42,9 @@
 
 .route__img {
   position: absolute;
-  top: 25rem;
+  top: 48rem;
   left: 0;
+  transform: rotate(-7deg);
 }
 
 .ellipse__wrapper {
@@ -101,7 +106,6 @@
 
   @media (--only-large-screen) {
     transition: opacity .5s ease-out;
-    transition-delay: 1s;
-    transition-duration: 1.5s;
+    transition-duration: 1s;
   }
 }

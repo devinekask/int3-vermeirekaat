@@ -6,17 +6,14 @@ const partThree = document.querySelector(`.part-three`);
 const pressingKey = e => {
 
   if (partOne && partTwo && partThree) {
-    // console.log(e.keyCode);
 
     if (e.keyCode === 39) {
-      // console.log(`Next`);
       amount += 1;
       if (amount >= 4) {
         amount = 1;
       }
     }
     if (e.keyCode === 37) {
-      // console.log(`Previous`);
       amount -= 1;
       if (amount <= 0) {
         amount = 3;
@@ -27,36 +24,52 @@ const pressingKey = e => {
 };
 
 const checkAmount = amount => {
-  // console.log(amount);
 
   const positions = getPosition();
-
-  const bike = document.querySelector(`.route__img`);
-  // console.log(positions);
 
   if (amount === 1) {
     partOne.classList.remove(`opacity`);
     partTwo.classList.add(`opacity`);
     partThree.classList.add(`opacity`);
     const posX = positions[0];
-    console.log(posX);
-    bike.style.left = posX;
+    // eslint-disable-next-line no-undef
+    anime ({
+      targets: `.route__img`,
+      translateX: posX,
+      rotate: - 7,
+      duration: 1000,
+      easing: 'easeInOutExpo'
+    });
   }
   if (amount === 2) {
     partOne.classList.add(`opacity`);
     partTwo.classList.remove(`opacity`);
     partThree.classList.add(`opacity`);
     const posX = positions[1];
-    console.log(posX);
-    bike.style.left = posX;
+    const posMin = posX - 200;
+    // eslint-disable-next-line no-undef
+    anime ({
+      targets: `.route__img`,
+      translateX: posMin,
+      rotate: - 7,
+      duration: 1000,
+      easing: 'easeInOutExpo'
+    });
   }
   if (amount === 3) {
     partOne.classList.add(`opacity`);
     partTwo.classList.add(`opacity`);
     partThree.classList.remove(`opacity`);
     const posX = positions[2];
-    console.log(posX);
-    bike.style.left = posX;
+    const posMin = posX - 200;
+    // eslint-disable-next-line no-undef
+    anime ({
+      targets: `.route__img`,
+      translateX: posMin,
+      rotate: - 7,
+      duration: 1000,
+      easing: 'easeInOutExpo'
+    });
   }
 };
 
@@ -69,7 +82,6 @@ const getElements = () => {
   const ellipseEnd = document.querySelector(`.ellipse-three`);
   elements.push(ellipseEnd);
 
-  // console.log(elements);
   return elements;
 };
 
@@ -80,12 +92,9 @@ const getPosition = () => {
 
   elementsArray.forEach(element => {
     const pos = element.getBoundingClientRect();
-    // console.log(pos);
 
     const posX = pos['x'];
     positions.push(posX);
-
-    // console.log(positions);
   });
   return positions;
 };
@@ -93,13 +102,13 @@ const getPosition = () => {
 const init = () => {
 
   const horizontal = document.querySelector(`.horizontal__wrapper`);
-  // horizontal.addEventListener(`keydown`, pressingKey);
 
   if (horizontal) {
     window.addEventListener(`keydown`, pressingKey);
 
     getPosition();
   }
+
 };
 
 init();
