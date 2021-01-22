@@ -1,8 +1,8 @@
-<header class="nav background__img">
+<header class="nav banner background__img">
     <img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent">
       <ul class="nav__buttons">
-        <li class="nav__item"><a class=" cta cta--secondary" href="index.php?page=">Bouwpakket</a></li>
-        <li class="nav__item"><a class="cta cta--primary" href="index.php?page=">Aan de slag</a></li>
+        <li class="nav__item"><a class=" cta cta--hidden cta--secondary" href="index.php?page=">Bouwpakket</a></li>
+        <li class="nav__item"><a class="cta cta--primary" href="index.php?page=tutorial">Aan de slag</a></li>
       </ul>
 </header>
 
@@ -195,7 +195,7 @@
 
 <footer class="footer background__img">
   <div class="footer__line">
-    <p class="line__info info--caps">Chinastraat - 9000 Gent</p>
+    <p class="line__info caps">Chinastraat - 9000 Gent</p>
     <p class="line__info">30 April - 1 Mei - 2 Mei  || 2021</p>
   </div>
 

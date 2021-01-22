@@ -1,13 +1,16 @@
 /* NAV */
 
-.nav {
-  display: grid;
-  grid-template-columns: 10rem auto;
+.banner {
   padding-top: 5rem;
 
   @media (--only-small-screen) {
     padding-top: 3rem;
   }
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 10rem auto;
 
   @media (--only-large-screen) {
     padding-right: var(--marginRegular);
@@ -32,7 +35,7 @@
   }
 }
 
-.cta--secondary {
+.cta--hidden {
   visibility: hidden;
   margin-right: var(--marginRegular);
 

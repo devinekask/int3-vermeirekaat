@@ -243,7 +243,7 @@
   }
 }
 
-.info--caps {
+.caps {
   text-transform: uppercase;
 }
 
@@ -338,6 +338,37 @@
 
   @media (--only-big-screen) {
     width: 1.5rem;
+    height: auto;
+  }
+}
+
+/* TUTORIAL */
+
+.back__button {
+  text-decoration: none;
+  color: var(--colorBlack);
+  font-size: calc(var(--sizeMobile) / 3);
+  /* position: fixed; */
+}
+
+.back__button span {
+  color: var(--colorRed);
+  font-size: var(--sizeMobile);
+  position: relative;
+  top: .7rem;
+  padding-right: calc(var(--marginSmall) / 2.5);
+}
+
+.cta--build {
+  font-size: var(--sizeBody);
+}
+
+.img__slider img {
+  width: 100%;
+  height: auto;
+
+  @media (--only-big-screen) {
+    width: 120%;
     height: auto;
   }
 }

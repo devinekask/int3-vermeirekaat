@@ -12,6 +12,14 @@
   z-index: -1;
 }
 
+.slider::before {
+  background-image: url(../assets/tutorial/bike-modern.png);
+}
+
+.slider::after {
+  background-image: url(../assets/tutorial/bike-penny.png);
+}
+
 .nav::after {
   background-image: url(../assets/img/text-marmer.png);
   opacity: .3;
