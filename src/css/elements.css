@@ -71,6 +71,7 @@
   @media (--only-large-screen) {
     font-size: var(--sizeTitle);
     line-height: calc(var(--sizeTitle) * 1.2);
+    margin-top: 0;
   }
 }
 

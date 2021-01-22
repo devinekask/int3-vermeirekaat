@@ -59,7 +59,6 @@
 
 .header__wrapper {
   grid-column: 1 / span 2;
-  margin-top: var(--marginLarge);
   margin-bottom: var(--marginSmall);
 }
 

@@ -99,6 +99,24 @@ const getPosition = () => {
   return positions;
 };
 
+const randomFloating = () => {
+  // eslint-disable-next-line no-undef
+  anime({
+    targets: '.promo--circ',
+    translateX: function() {
+      // eslint-disable-next-line no-undef
+      return anime.random(- 5, 10);
+    },
+    translateY: function() {
+      // eslint-disable-next-line no-undef
+      return anime.random(- 10, 5);
+    },
+    easing: 'easeInOutQuad',
+    duration: 1000,
+    complete: randomFloating
+  });
+};
+
 const init = () => {
 
   const horizontal = document.querySelector(`.horizontal__wrapper`);
@@ -109,6 +127,10 @@ const init = () => {
     getPosition();
   }
 
+  const promo = document.querySelector(`.promo--circ`);
+  if (promo) {
+    randomFloating();
+  }
 };
 
 init();

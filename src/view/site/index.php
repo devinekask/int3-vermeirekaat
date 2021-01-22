@@ -9,7 +9,8 @@
 <section class="header giga">
 
   <div class="header__wrapper">
-    <div class="circ__wrapper circ__top">
+
+    <!-- <div class="circ__wrapper circ__top">
       <div class="animate__animated animate__rotateOut animate__infinite">
       <p class="circ animate__animated animate__rotateIn animate__infinite">Het festival voor innovators</p>
      </div>
@@ -19,7 +20,7 @@
       <div class="animte__animated animate__rotatIn animate__infinite">-
         <p class="circ animate__animated animate__rotateOut animate__infinite">30 April - 1 Mei - 2 Mei || 2021</p>
       </div>
-    </div>
+    </div> -->
 
     <h1 class="header__title title">Maker Faire Gent <br> presents</h1>
   </div>
