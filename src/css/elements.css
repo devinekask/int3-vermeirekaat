@@ -376,6 +376,20 @@
 .step__img img {
   width: 100%;
   height: auto;
+
+  @media (--only-medium-screen) {
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    overflow: hidden;
+  }
+
+  @media (--only-large-screen) {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
 }
 
 .purple {
