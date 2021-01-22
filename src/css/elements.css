@@ -397,11 +397,6 @@
     left: 10rem;
     overflow: hidden;
   }
-
-  @media (--only-large-screen) {
-    width: 100%;
-    overflow: visible;
-  }
 }
 
 .purple {
