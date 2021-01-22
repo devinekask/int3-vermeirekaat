@@ -11,7 +11,7 @@
     </div>
   </article>
 
-  <article class="tut__info">
+  <article class="tut__info content__item">
     <div class="info__build content__item">
       <h2 class="content__title">Let's Build</h2>
       <p class="content__alinea">Je enthousiasem is er al, nu nog het materiaal. Voor dit project heb je bepaalde mterialen nodig.</p>
@@ -57,7 +57,7 @@
 
   </article>
 
-  <article id="step01" class="steps">
+  <article id="step01" class="steps content__item">
 
       <div class="steps__name">
         <h3 class="steps__title title caps">Het stuur</h3>
@@ -65,9 +65,9 @@
       </div>
 
       <div class="steps__icons">
-        <img class="tut__icon" width="50" src="./assets/svg/wiel.png" alt="icon-wiel">
-        <img class="tut__icon" width="50" src="./assets/svg/stuur.png" alt="icon-stuur">
-        <img class="tut__icon" width="50" src="./assets/svg/moer.png" alt="icon-moer">
+        <img class="tut__icon" width="100" height="100" src="./assets/svg/wiel@2x.png" alt="icon-wiel">
+        <img class="tut__icon" width="100" height="146" src="./assets/svg/stuur@2x.png" alt="icon-stuur">
+        <img class="tut__icon" width="100" height="108" src="./assets/svg/moer@2x.png" alt="icon-moer">
       </div>
 
       <div class="steps__img">
@@ -94,11 +94,11 @@
       <p class="instruction purple">Het stuur monteer je zo laag mogelijk.</p>
     </div>
 
-    <div class="steps__question content__item">
+    <div class="steps__question">
       <p class="question">Kan je het stuur draaien zodat het wiel mee beweegt?</p>
       <div class="question__answers">
         <button class="answer answer__pos">Neen</button>
-        <button class="answer answer__neg">ja</button>
+        <button class="answer answer__neg">Ja</button>
       </div>
     </div>
   </article>
