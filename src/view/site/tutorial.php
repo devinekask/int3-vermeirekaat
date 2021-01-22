@@ -18,7 +18,7 @@
       <p class="content__alinea">Heb je deze niet in huis liggen? <br>Geen nood, bestel jouw eigen <span>Building Box</span> samen en deze staat over twee dagen voor je deur.</p>
       <ul class="build__cta">
         <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=">Bestel het materiaal</a></li>
-        <li class="list__item"><a class="cta cta--build cta--primary" href="index.php?page=tutorial/#stap01">Start met bouwen</a></li>
+        <li class="list__item"><a class="cta cta--build cta--primary" href="index.php?page=tutorial/step01">Start met bouwen</a></li>
       </ul>
   </div>
   <div class="slider background__slider">
@@ -56,4 +56,52 @@
   </div>
 
   </article>
+
+  <article id="step01" class="steps">
+
+      <div class="steps__name">
+        <h3 class="steps__title title caps">Het stuur</h3>
+        <p class="number title--extra">01</p>
+      </div>
+
+      <div class="steps__icons">
+        <img class="tut__icon" width="50" src="./assets/svg/wiel.png" alt="icon-wiel">
+        <img class="tut__icon" width="50" src="./assets/svg/stuur.png" alt="icon-stuur">
+        <img class="tut__icon" width="50" src="./assets/svg/moer.png" alt="icon-moer">
+      </div>
+
+      <div class="steps__img">
+        <picture class="step__img picture__step-one">
+          <source sizes="(max-width: 450px) 45vw,
+          (max-width: 600px) 60vw"
+          srcset="./assets/tutorial/stap-1_159.webp 159w,
+          ./assets/tutorial/stap-1_318.webp 318w"
+          type="image/webp"/>
+
+          <source sizes="(max-width: 450px) 45vw,
+          (max-width: 600px) 60vw"
+          srcset="./assets/tutorial/stap-1_159.png 159w,
+          ./assets/tutorial/stap-1_318.png 318w,"
+          type="image/png"/>
+
+        <img class="img__step-one" width="636" height="980" alt="tutorial-step-one" src="./assets/tutorial/stap-&.png">
+        </picture>
+      </div>
+
+    <div class="steps__instructions content__item">
+      <p class="instruction purple"> Bevestig het stuur aan het middenstuk van het wiel. Je kan dit vast draaien door een <span>moer</span> te gebruiken</p>
+      <p class="instruction purple">Bovenstaande stap doe je aan beide kanten van het wiel zodat het stuur stevig vast zit.</p>
+      <p class="instruction purple">Het stuur monteer je zo laag mogelijk.</p>
+    </div>
+
+    <div class="steps__question content__item">
+      <p class="question">Kan je het stuur draaien zodat het wiel mee beweegt?</p>
+      <div class="question__answers">
+        <button class="answer answer__pos">Neen</button>
+        <button class="answer answer__neg">ja</button>
+      </div>
+    </div>
+  </article>
+
+
 </section>

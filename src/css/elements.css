@@ -372,3 +372,38 @@
     height: auto;
   }
 }
+
+.step__img img {
+  width: 100%;
+  height: auto;
+}
+
+.purple {
+  padding: var(--marginRegular) 0;
+  margin: 0 var(--marginRegular);
+  border-bottom: .5rem solid var(--colorPurple);
+}
+
+.question {
+  font-weight: var(--weightCta);
+  font-size: var(--sizePromo);
+  line-height: calc(var(--sizePromo) * 1.2);
+}
+
+.answer {
+  font-weight: var(--weightBold);
+  padding: var(--marginSmall) var(--marginMobile);
+  width: 40vw;
+  border-radius: 12rem;
+  border: .2rem solid white;
+  box-shadow: 0 8px 6px -6px black;
+  color: white;
+}
+
+.answer__pos {
+  background-color: var(--colorPurple);
+}
+
+.answer__neg {
+  background-color: var(--colorYellow);
+}
