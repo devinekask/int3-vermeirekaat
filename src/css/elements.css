@@ -396,7 +396,7 @@
   height: auto;
 
   @media (--only-small-screen) {
-    width: 45%;
+    width: 40%;
   }
 }
 
