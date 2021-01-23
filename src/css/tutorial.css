@@ -32,34 +32,24 @@
 
 .tut__info {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
 
   @media (--only-big-screen) {
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 50rem 1fr;
   }
+}
 
-  @media (--only-large-screen) {
-    grid-template-columns: auto;
-    grid-template-rows: 1fr;
-  }
+.slider--big {
+  grid-row: 1;
+  justify-self: center;
 }
 
 .info__build {
   margin-top: var(--marginSmall);
+  grid-row: 2;
   grid-column: 1;
 
   @media (--only-big-screen) {
     width: 40vw;
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  @media (--only-large-screen) {
-    grid-row: 1;
-    place-self: center;
-    width: 30vw;
   }
 }
 
@@ -85,26 +75,6 @@
 
   @media (--only-medium-screen) {
     margin-right: var(--marginRegular);
-  }
-}
-
-.slider__wrapper {
-  width: 40%;
-  height: auto;
-}
-
-.slider__container {
-  @media (--only-big-screen) {
-    grid-column: 2;
-    grid-row: 1;
-    position: relative;
-    top: 10rem;
-  }
-
-  @media (--only-large-screen) {
-    position: relative;
-    top: unset;
-    place-self: center;
   }
 }
 

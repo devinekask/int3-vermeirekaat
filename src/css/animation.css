@@ -2,12 +2,8 @@
   position: relative;
 }
 
-.slider--small {
-  width: 17rem;
-}
-
 .slider--big {
-  display: hidden;
+  display: none;
 
   @media (--only-big-screen) {
     display: flex;

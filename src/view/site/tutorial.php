@@ -20,25 +20,14 @@
         <li class="list__item"><a class="cta cta--build cta--primary" href="index.php?page=tutorial/step01">Start met bouwen</a></li>
       </ul>
     </div>
-    <div class="slider__wrapper">
-    <div class="slider__container slider--small">
-        <div class="slider__img top__img">
-          <img width="170" src="./assets/img/penny-bike_25.png" alt="penny-bike">
-        </div>
-        <div class="slider__img overlay__img">
-          <img width="170" src="./assets/img/modern-bike_25.png" alt="modern-bike">
-        </div>
-        <input class="slider__range" type="range" id="slider" min="0" max="700" value="50%">
+    <div class="slider__container slider--big">
+      <div class="slider__img top__img">
+        <img width="700" src="./assets/img/penny-bike.png" alt="penny-bike">
       </div>
-      <div class="slider__container slider--big">
-        <div class="slider__img top__img">
-          <img width="700" src="./assets/img/penny-bike.png" alt="penny-bike">
-        </div>
-        <div class="slider__img overlay__img">
-          <img width="700" src="./assets/img/modern-bike.png" alt="modern-bike">
-        </div>
-        <input class="slider__range" type="range" id="slider" min="0" max="700" value="50%">
+      <div class="slider__img overlay__img">
+        <img width="700" src="./assets/img/modern-bike.png" alt="modern-bike">
       </div>
+      <input class="slider__range" type="range" id="slider" min="0" max="700" value="50%">
     </div>
 
   </article>
