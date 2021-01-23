@@ -56,7 +56,7 @@
 
   </article>
 
-  <article id="step01" class="steps content__item">
+  <!-- <article id="step01" class="steps content__item">
 
       <div class="steps__name">
         <h3 class="steps__title title caps">Het stuur</h3>
@@ -191,7 +191,7 @@
       <button class="answer answer__neg">Ja</button>
     </div>
   </div>
-</article>
+</article> -->
 
 <article id="step04" class="steps__between content__item">
 
@@ -207,9 +207,6 @@
     <img class="tut__icon tut__between" width="100" height="82" src="./assets/svg/dopmoer.png" alt="icon-dopmoer">
   </div>
 
-  <div>
-  </div>
-
   <div class="fase-a">
     <img class="img__between" width="699" height="334" alt="tutorial-step-one" src="./assets/tutorial/fase-a.png">
 
@@ -219,6 +216,7 @@
   </div>
 
   <div class="fase-b">
+    <div>
     <picture class="step__img picture__step-four">
       <source sizes="(max-width: 450px) 45vw,
       (max-width: 600px) 60vw"
@@ -233,12 +231,13 @@
       type="image/png"/>
 
       <img class="img__step-four img__width" width="621" height="745" alt="tutorial-step-four" src="./assets/tutorial/fase-b.png">
-    </picture>
+      </picture>
+    </div>
 
     <div class="instructions__fase content__item">
-    <p class="instruction yellow">Aan het uiteinde van het kader plaats je een houten plank met het gaatje aan de achterkant. Elke plank zet je aan een zijde van het kader.</p>
-    <p class="instruction yellow">Hang beide planken vast met ducktape. Leg de ducktape in een kruis voor extra stevigheid.</p>
-  </div>
+      <p class="instruction yellow">Aan het uiteinde van het kader plaats je een houten plank met het gaatje aan de achterkant. Elke plank zet je aan een zijde van het kader.</p>
+      <p class="instruction yellow">Hang beide planken vast met ducktape. Leg de ducktape in een kruis voor extra stevigheid.</p>
+    </div>
   </div>
 
   <div class="fase-c">
@@ -259,21 +258,21 @@
     </picture>
 
     <div class="steps__instructions instruction__fase-c content__item">
-    <p class="instruction purple">Plaats het kleine wiel tussen de twee planken.</p>
-    <p class="instruction purple">Je kan het wiel vastmaken met twee dopmoeren door deze op het middenstuk van het wiel te draaien.</p>
-  </div>
+      <p class="instruction purple">Plaats het kleine wiel tussen de twee planken.</p>
+      <p class="instruction purple">Je kan het wiel vastmaken met twee dopmoeren door deze op het middenstuk van het wiel te draaien.</p>
+    </div>
   </div>
 
-  <div class="steps__question">
+  <!-- <div class="steps__question">
     <p class="question">Kan je de High Wheel verzetten, zonder problemen?</p>
     <div class="question__answers">
       <button class="answer answer__pos">Neen</button>
       <button class="answer answer__neg">Ja</button>
     </div>
-  </div>
+  </div> -->
 </article>
 
-<article id="step05" class="steps content__item">
+<!-- <article id="step05" class="steps content__item">
 
   <div class="steps__name">
     <h3 class="steps__title title caps">Het zadel</h3>
@@ -308,6 +307,6 @@
     <p class="instruction yellow">Hang het zadel vast aan het kader door verschillende lagen ducktape te gebruiken.</p>
     <p class="instruction yellow caps">En je bent klaar!</p>
   </div>
-</article>
+</article> -->
 
 </section>

@@ -247,6 +247,14 @@
   display: grid;
   grid-template-columns: 15% 20% 1fr;
   grid-template-rows: 10% 5rem auto;
+
+  @media (--only-large-screen) {
+    grid-template-columns: 20rem 20rem 15rem 40rem 30rem 40rem 30rem 40rem 30rem auto;
+    grid-template-rows: 20rem 10rem 5rem;
+    grid-gap: 5rem;
+    width: max-content;
+    overflow-x: scroll;
+  }
 }
 
 .title__between {
@@ -271,6 +279,10 @@
   @media (--only-big-screen) {
     font-size: calc(var(--sizeSubtitle) * 2);
   }
+
+  @media (--only-large-screen) {
+    top: -5rem;
+  }
 }
 
 .name__between {
@@ -284,11 +296,24 @@
     grid-column: 1 / span 3;
     flex-direction: row;
   }
+
+  @media (--only-large-screen) {
+    grid-row: 1 / span 2;
+    flex-direction: column-reverse;
+  }
 }
 
 .number__between {
   position: relative;
-  top: 5rem;
+  top: 7rem;
+
+  @media (--only-medium-screen) {
+    top: unset;
+  }
+
+  @media (--only-large-screen) {
+    top: 5rem;
+  }
 }
 
 .icons__between {
@@ -302,6 +327,11 @@
     flex-direction: row;
     grid-column: 1 / span 3;
     grid-row: 2;
+  }
+
+  @media (--only-large-screen) {
+    grid-column: 1 / span 2;
+    grid-row: 3;
   }
 }
 
@@ -322,6 +352,19 @@
   @media (--only-medium-screen) {
     margin-top: var(--marginLarge);
   }
+
+  @media (--only-large-screen) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-row: 1 / span 3;
+    grid-column: 4;
+  }
+}
+
+.instructtions__fase-a {
+  grid-row: 1 / span 3;
+  grid-column: 5;
 }
 
 .fase-b {
@@ -332,6 +375,14 @@
   @media (--only-medium-screen) {
     margin-top: var(--marginLarge);
   }
+
+  @media (--only-large-screen) {
+    display: flex;
+    flex-direction: row;
+    grid-row: 1 / span 3;
+    grid-column: 6;
+    overflow: visible;
+  }
 }
 
 .fase-c {
@@ -341,6 +392,14 @@
 
   @media (--only-medium-screen) {
     margin-top: var(--marginLarge);
+  }
+
+  @media (--only-large-screen) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-row: 1 / span 3;
+    grid-column: 7;
   }
 }
 
