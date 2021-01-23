@@ -83,7 +83,7 @@
           ./assets/tutorial/stap-1_318.png 318w,"
           type="image/png"/>
 
-        <img class="img__step-one" width="636" height="980" alt="tutorial-step-one" src="./assets/tutorial/stap-1.png">
+        <img class="img__step-one img__width" width="636" height="980" alt="tutorial-step-one" src="./assets/tutorial/stap-1.png">
         </picture>
       </div>
 
@@ -174,7 +174,7 @@
       ./assets/tutorial/stap-3_234.png 234w,"
       type="image/png"/>
 
-    <img class="img__step-three" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
+    <img class="img__step-three img__width" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
     </picture>
   </div>
 
@@ -219,12 +219,12 @@
       ./assets/tutorial/stap-5_317.png 317w,"
       type="image/png"/>
 
-      <img class="img__step-five" width="633" height="752" alt="tutorial-step-one" src="./assets/tutorial/stap-5.png">
+      <img class="img__step-five img__width" width="633" height="752" alt="tutorial-step-one" src="./assets/tutorial/stap-5.png">
     </picture>
   </div>
 
   <div class="steps__instructions content__item">
-    <p class="instruction yellow"> VPlaats het zadel op het kader op de geschikte hoogt, dit hangt af van persoon tot persoon.</p>
+    <p class="instruction yellow">Plaats het zadel op het kader op de geschikte hoogt, dit hangt af van persoon tot persoon.</p>
     <p class="instruction yellow">Hang het zadel vast aan het kader door verschillende lagen ducktape te gebruiken</p>
     <p class="instruction yellow caps">En je bent klaar!</p>
   </div>

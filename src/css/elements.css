@@ -366,11 +366,6 @@
 .img__slider img {
   width: 100%;
   height: auto;
-
-  @media (--only-big-screen) {
-    width: 120%;
-    height: auto;
-  }
 }
 
 .tut__icon {
@@ -383,19 +378,25 @@
   }
 }
 
-.step__img img {
-  width: 100%;
+.img__width {
+  width: 80%;
   height: auto;
 
   @media (--only-small-screen) {
-    width: 90%;
+    width: 68%;
   }
 
   @media (--only-medium-screen) {
-    width: 80%;
-    position: relative;
-    left: 10rem;
-    overflow: hidden;
+    width: 60%;
+  }
+}
+
+.img__step-two {
+  width: 60%;
+  height: auto;
+
+  @media (--only-small-screen) {
+    width: 45%;
   }
 }
 
@@ -403,6 +404,12 @@
   padding: var(--marginRegular) 0;
   margin: 0 var(--marginRegular);
   border-bottom: .5rem solid var(--colorPurple);
+}
+
+.yellow {
+  padding: var(--marginRegular) 0;
+  margin: 0 var(--marginRegular);
+  border-bottom: .5rem solid var(--colorYellow);
 }
 
 .steps__question {
