@@ -19,40 +19,27 @@
         <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=">Bestel het materiaal</a></li>
         <li class="list__item"><a class="cta cta--build cta--primary" href="index.php?page=tutorial/step01">Start met bouwen</a></li>
       </ul>
-  </div>
-  <div class="slider background__slider">
-  <picture class="img__slider image__one">
-      <source sizes="(max-width: 450px) 45vw,
-        (max-width: 600px) 60vw"
-        srcset="./assets/tutorial/bike-modern_167.webp 167w,
-        ./assets/tutorial/bike-modern_355.webp 355w"
-      type="image/webp"/>
-
-      <source sizes="(max-width: 450px) 45vw,
-        (max-width: 600px) 60vw"
-        srcset="./assets/tutorial/bike-modern_167.png 167w,
-        ./assets/tutorial/bike-modern_355.png 355w,"
-      type="image/png"/>
-
-      <img class="img__first" width="712" height="481" alt="collage-header" src="./assets/tutorial/bike-modern.png">
-  </picture>
-
-  <picture class="img__slider image__two">
-      <source sizes="(max-width: 450px) 45vw,
-        (max-width: 600px) 60vw"
-        srcset="./assets/tutorial/bike-penny_162.webp 162w,
-        ./assets/tutorial/bike-penny_324.webp 324w"
-      type="image/webp"/>
-
-      <source sizes="(max-width: 450px) 45vw,
-        (max-width: 600px) 60vw"
-        srcset="./assets/tutorial/bike-penny_162.png 162w,
-        ./assets/tutorial/bike-penny_324.png 324w,"
-      type="image/png"/>
-
-      <img class="img__first" width="647" height="456" alt="collage-header" src="./assets/tutorial/bike-penny.png">
-  </picture>
-  </div>
+    </div>
+    <div class="slider__wrapper">
+    <div class="slider__container slider--small">
+        <div class="slider__img top__img">
+          <img width="170" src="./assets/img/penny-bike_25.png" alt="penny-bike">
+        </div>
+        <div class="slider__img overlay__img">
+          <img width="170" src="./assets/img/modern-bike_25.png" alt="modern-bike">
+        </div>
+        <input class="slider__range" type="range" id="slider" min="0" max="700" value="50%">
+      </div>
+      <div class="slider__container slider--big">
+        <div class="slider__img top__img">
+          <img width="700" src="./assets/img/penny-bike.png" alt="penny-bike">
+        </div>
+        <div class="slider__img overlay__img">
+          <img width="700" src="./assets/img/modern-bike.png" alt="modern-bike">
+        </div>
+        <input class="slider__range" type="range" id="slider" min="0" max="700" value="50%">
+      </div>
+    </div>
 
   </article>
 
@@ -193,7 +180,7 @@
   </div>
 </article> -->
 
-<article id="step04" class="steps__between content__item">
+<!-- <article id="step04" class="steps__between content__item">
 
   <div class="name__between">
     <h3 class="title__between title caps">Het kleine wiel</h3>
@@ -261,7 +248,7 @@
       <p class="instruction purple">Plaats het kleine wiel tussen de twee planken.</p>
       <p class="instruction purple">Je kan het wiel vastmaken met twee dopmoeren door deze op het middenstuk van het wiel te draaien.</p>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div class="steps__question">
     <p class="question">Kan je de High Wheel verzetten, zonder problemen?</p>
@@ -269,8 +256,8 @@
       <button class="answer answer__pos">Neen</button>
       <button class="answer answer__neg">Ja</button>
     </div>
-  </div> -->
-</article>
+  </div>
+</article> -->
 
 <!-- <article id="step05" class="steps content__item">
 

@@ -363,10 +363,10 @@
   font-size: var(--sizeBody);
 }
 
-.img__slider img {
+/* .img__slider img {
   width: 100%;
   height: auto;
-}
+} */
 
 .tut__icon {
   width: 50%;
