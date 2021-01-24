@@ -19,7 +19,7 @@
        <p class="content__alinea">Heb je deze niet in huis liggen? <br>Geen nood, bestel jouw eigen <span>Building Box</span> samen en deze staat over twee dagen voor je deur.</p>
       <ul class="build__cta">
         <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=build">Bestel het materiaal</a></li>
-        <li class="list__item"><input id="next" class="button btn__next cta cta--build cta--primary" type="button" value="Start met bouwen"></li>
+        <li class="list__item item__top"><input id="next" class="button btn__next cta cta--build cta--primary" type="button" value="Start met bouwen"></li>
       </ul>
     </div>
     <div class="slider__container slider--big">
