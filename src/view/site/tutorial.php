@@ -3,6 +3,7 @@
 </header>
 
 <section class="tutorial giga">
+  
   <article class="tut__home">
     <div class="tut__header">
       <h1 class="title tut__title">High Wheeling</h1>
@@ -34,7 +35,7 @@
   </article>
 
   <div class="scroll__container">
-  <article id="step01" class="steps content__item scroll__wrapper">
+    <article id="step01" class="steps content__item scroll__wrapper">
 
       <div class="steps__name scroll__child">
         <h3 class="steps__title title caps">Het stuur</h3>
@@ -61,24 +62,24 @@
           ./assets/tutorial/stap-1_318.png 318w,"
           type="image/png"/>
 
-        <img class="img__step-one img__width" width="636" height="980" alt="tutorial-step-one" src="./assets/tutorial/stap-1.png">
+        <img class="img__step-one img__width img__zoom" width="636" height="980" alt="tutorial-step-one" src="./assets/tutorial/stap-1.png">
         </picture>
       </div>
 
-    <div class="steps__instructions content__item scroll__child">
-      <p class="instruction purple"> Bevestig het stuur aan het middenstuk van het wiel. Je kan dit vast draaien door een <span>moer</span> te gebruiken</p>
-      <p class="instruction purple">Bovenstaande stap doe je aan beide kanten van het wiel zodat het stuur stevig vast zit.</p>
-      <p class="instruction purple">Het stuur monteer je zo laag mogelijk.</p>
-    </div>
-
-    <div class="steps__question scroll__child">
-      <p class="question">Kan je het stuur draaien zodat het wiel mee beweegt?</p>
-      <div class="question__answers">
-        <button class="answer answer__pos">Neen</button>
-        <button class="answer answer__neg">Ja</button>
+      <div class="steps__instructions content__item scroll__child">
+        <p class="instruction purple"> Bevestig het stuur aan het middenstuk van het wiel. Je kan dit vast draaien door een <span>moer</span> te gebruiken</p>
+        <p class="instruction purple">Bovenstaande stap doe je aan beide kanten van het wiel zodat het stuur stevig vast zit.</p>
+        <p class="instruction purple">Het stuur monteer je zo laag mogelijk.</p>
       </div>
-    </div>
-  </article>
+
+      <div class="steps__question scroll__child">
+        <p class="question">Kan je het stuur draaien zodat het wiel mee beweegt?</p>
+        <div class="question__answers">
+          <button class="answer answer__pos">Neen</button>
+          <button class="answer answer__neg">Ja</button>
+        </div>
+      </div>
+    </article>
   </div>
 
 
@@ -110,7 +111,7 @@
           ./assets/tutorial/stap-2_193.png 193w,"
           type="image/png"/>
 
-        <img class="img__step-two" width="385" height="919" alt="tutorial-step-one" src="./assets/tutorial/stap-2.png">
+        <img class="img__step-two img__zoom" width="385" height="919" alt="tutorial-step-one" src="./assets/tutorial/stap-2.png">
         </picture>
       </div>
 
@@ -157,7 +158,7 @@
           ./assets/tutorial/stap-3_234.png 234w,"
           type="image/png"/>
 
-        <img class="img__step-three img__width" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
+        <img class="img__step-three img__width img__zoom" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
         </picture>
       </div>
 
@@ -193,7 +194,7 @@
     </div>
 
     <div class="steps__img img__fase-a scroll__child">
-      <img class="img__between" width="699" height="334" alt="tutorial-step-one" src="./assets/tutorial/fase-a.png">
+      <img class="img__between img__zoom" width="699" height="334" alt="tutorial-step-one" src="./assets/tutorial/fase-a.png">
     </div>
 
       <div class="steps__instructions content__item instructions-a scroll__child between__position">
@@ -214,7 +215,7 @@
           ./assets/tutorial/fase-b_311.png 311w,"
           type="image/png"/>
 
-          <img class="img__fase img__width" width="621" height="745" alt="tutorial-step-four" src="./assets/tutorial/fase-b.png">
+          <img class="img__fase img__width img__zoom" width="621" height="745" alt="tutorial-step-four" src="./assets/tutorial/fase-b.png">
         </picture>
 
       </div>
@@ -239,7 +240,7 @@
           ./assets/tutorial/fase-c_392.png 392w,"
           type="image/png"/>
 
-          <img class="img__fase img__width" width="784" height="769" alt="tutorial-step-four" src="./assets/tutorial/fase-c.png">
+          <img class="img__fase img__width img__zoom" width="784" height="769" alt="tutorial-step-four" src="./assets/tutorial/fase-c.png">
         </picture>
 
       </div>
@@ -288,7 +289,7 @@
       ./assets/tutorial/stap-5_317.png 317w,"
       type="image/png"/>
 
-      <img class="img__step-five img__width" width="633" height="752" alt="tutorial-step-five" src="./assets/tutorial/stap-5.png">
+      <img class="img__step-five img__width img__zoom" width="633" height="752" alt="tutorial-step-five" src="./assets/tutorial/stap-5.png">
     </picture>
   </div>
 

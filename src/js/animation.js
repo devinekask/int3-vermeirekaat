@@ -124,6 +124,19 @@ const resizeImg = e => {
   topImg.style.width = `${e.target.value}px`;
 };
 
+// ZOOM
+/* const zoomOnHover = () => {
+  const Drift = require('drift-zoom');
+  /* const imgs = document.querySelectorAll(`.zoom__img`);
+  imgs.map(img => {
+    new Drift(img, {
+      paneContainer: true,
+      inlinePane: true
+    });
+  });
+  new Drift(document.querySelector(`.img__zoom`));
+};*/
+
 const init = () => {
 
   // HORIZONTAL
@@ -144,8 +157,13 @@ const init = () => {
   const sliderContainer = document.querySelector(`.slider__container`);
   if (sliderContainer) {
     sliderContainer.addEventListener('mousemove', resizeImg);
-    sliderContainer.addEventListener('touchmove', resizeImg);
+    // sliderContainer.addEventListener('touchmove', resizeImg);
   }
+
+  /* const images = document.querySelectorAll(`.image__zoom`);
+  if (images) {
+    zoomOnHover();
+  } */
 
 };
 
