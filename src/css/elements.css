@@ -348,7 +348,10 @@
   text-decoration: none;
   color: var(--colorBlack);
   font-size: calc(var(--sizeMobile) / 3);
-  /* position: fixed; */
+  position: fixed;
+  background-color: var(--colorGray);
+  width: 100vw;
+  z-index: -1;
 }
 
 .back__button span {

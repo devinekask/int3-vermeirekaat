@@ -82,20 +82,21 @@
   </div>
 
 
-  <article id="step02" class="steps content__item">
+  <div class="scroll__container">
+    <article id="step02" class="steps content__item scroll__wrapper">
 
-      <div class="steps__name">
+      <div class="steps__name scroll__child">
         <h3 class="steps__title title caps">De pedalen</h3>
         <p class="number title--extra">02</p>
       </div>
 
-      <div class="steps__icons">
+      <div class="steps__icons scroll__child">
         <img class="tut__icon" width="100" height="80" src="./assets/svg/pedals.png" alt="icon-pedaal">
         <img class="tut__icon" width="100" height="66" src="./assets/svg/stang.png" alt="icon-stang">
         <img class="tut__icon" width="100" height="82" src="./assets/svg/dopmoer.png" alt="icon-dopmoer">
       </div>
 
-      <div class="steps__img">
+      <div class="steps__img scroll__child">
         <picture class="step__img picture__step-two">
           <source sizes="(max-width: 450px) 45vw,
           (max-width: 600px) 60vw"
@@ -113,67 +114,70 @@
         </picture>
       </div>
 
-    <div class="steps__instructions content__item">
+    <div class="steps__instructions content__item scroll__child">
       <p class="instruction purple"> Verbind de achterkant van de pedaal aan het middenstuk van het wiel.</p>
       <p class="instruction purple">Draai de trapper in de pedaal en bevestig deze aan de achterkant van de pedaal met een moerdop.</p>
       <p class="instruction purple">Je doet dit voor beide trappers, elk aan een kant van het wiel.</p>
     </div>
 
-    <div class="steps__question">
+    <div class="steps__question scroll__child">
       <p class="question">Draait het wiel mee als je de trappers beweegt?</p>
       <div class="question__answers">
         <button class="answer answer__pos">Neen</button>
         <button class="answer answer__neg">Ja</button>
       </div>
     </div>
-  </article>
-
-<article id="step03" class="steps content__item">
-
-  <div class="steps__name">
-    <h3 class="steps__title title caps">Het kader</h3>
-    <p class="number title--extra">03</p>
+    </article>
   </div>
 
-  <div class="steps__icons">
-    <img class="tut__icon" width="100" height="160" src="./assets/svg/staaf.png" alt="icon-staaf">
-    <img class="tut__icon" width="100" height="116" src="./assets/svg/ducktape.png" alt="icon-ducktape">
+  <div class="scroll__container">
+    <article id="step03" class="steps content__item scroll__wrapper">
+
+      <div class="steps__name scroll__child">
+        <h3 class="steps__title title caps">Het kader</h3>
+        <p class="number title--extra">03</p>
+      </div>
+
+      <div class="steps__icons scroll__child">
+        <img class="tut__icon" width="100" height="160" src="./assets/svg/staaf.png" alt="icon-staaf">
+        <img class="tut__icon" width="100" height="116" src="./assets/svg/ducktape.png" alt="icon-ducktape">
+      </div>
+
+      <div class="steps__img scroll__child">
+        <picture class="step__img picture__step-three">
+          <source sizes="(max-width: 450px) 45vw,
+          (max-width: 600px) 60vw"
+          srcset="./assets/tutorial/stap-3_117.webp 117w,
+          ./assets/tutorial/stap-3_234.webp 234w"
+          type="image/webp"/>
+
+          <source sizes="(max-width: 450px) 45vw,
+          (max-width: 600px) 60vw"
+          srcset="./assets/tutorial/stap-3_117.png 117w,
+          ./assets/tutorial/stap-3_234.png 234w,"
+          type="image/png"/>
+
+        <img class="img__step-three img__width" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
+        </picture>
+      </div>
+
+      <div class="steps__instructions content__item scroll__child">
+        <p class="instruction yellow">De ijzeren staaf buig je om zodat deze de vorm van het wiel aanneemt.</p>
+        <p class="instruction yellow">Het kader (nl. de ijzeren staaf) hang je vast aan het onderstel van het stuur (nl. de stuurvork) door enkele lagen ducktape te gebruiken.</p>
+        <p class="instruction yellow">Voor extra stevigheid kan je de ducktape in een kruis leggen.</p>
+      </div>
+
+      <div class="steps__question scroll__child">
+        <p class="question">Zie je het nog zitten om verder te bouwen?</p>
+        <div class="question__answers">
+          <button class="answer answer__pos">Neen</button>
+          <button class="answer answer__neg">Ja</button>
+        </div>
+      </div>
+    </article>
   </div>
 
-  <div class="steps__img">
-    <picture class="step__img picture__step-three">
-      <source sizes="(max-width: 450px) 45vw,
-      (max-width: 600px) 60vw"
-      srcset="./assets/tutorial/stap-3_117.webp 117w,
-      ./assets/tutorial/stap-3_234.webp 234w"
-      type="image/webp"/>
-
-      <source sizes="(max-width: 450px) 45vw,
-      (max-width: 600px) 60vw"
-      srcset="./assets/tutorial/stap-3_117.png 117w,
-      ./assets/tutorial/stap-3_234.png 234w,"
-      type="image/png"/>
-
-    <img class="img__step-three img__width" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
-    </picture>
-  </div>
-
-  <div class="steps__instructions content__item">
-    <p class="instruction yellow">De ijzeren staaf buig je om zodat deze de vorm van het wiel aanneemt.</p>
-    <p class="instruction yellow">Het kader (nl. de ijzeren staaf) hang je vast aan het onderstel van het stuur (nl. de stuurvork) door enkele lagen ducktape te gebruiken.</p>
-    <p class="instruction yellow">Voor extra stevigheid kan je de ducktape in een kruis leggen.</p>
-  </div>
-
-  <div class="steps__question">
-    <p class="question">Zie je het nog zitten om verder te bouwen?</p>
-    <div class="question__answers">
-      <button class="answer answer__pos">Neen</button>
-      <button class="answer answer__neg">Ja</button>
-    </div>
-  </div>
-</article>
-
-<article id="step04" class="steps__between steps content__item">
+<!-- <article id="step04" class="steps__between steps content__item">
 
   <div class="steps__name">
     <h3 class="title__between title caps">Het kleine wiel</h3>
@@ -251,21 +255,22 @@
       <button class="answer answer__neg">Ja</button>
     </div>
   </div>
-</article>
+</article>-->
 
-<article id="step05" class="steps content__item">
+<div class="scroll__container">
+  <article id="step05" class="steps content__item scroll__wrapper">
 
-  <div class="steps__name">
+  <div class="steps__name scroll__child">
     <h3 class="steps__title title caps">Het zadel</h3>
     <p class="number title--extra">05</p>
   </div>
 
-  <div class="steps__icons">
+  <div class="steps__icons scroll__child">
     <img class="tut__icon" width="100" height="116" src="./assets/svg/ducktape.png" alt="icon-ducktape">
     <img class="tut__icon" width="100" height="68" src="./assets/svg/zadel.png" alt="icon-zadel">
   </div>
 
-  <div class="steps__img">
+  <div class="steps__img scroll__child">
     <picture class="step__img picture__step-five">
       <source sizes="(max-width: 450px) 45vw,
       (max-width: 600px) 60vw"
@@ -283,11 +288,12 @@
     </picture>
   </div>
 
-  <div class="steps__instructions content__item">
+  <div class="steps__instructions content__item scroll__child">
     <p class="instruction yellow">Plaats het zadel op het kader op de geschikte hoogt, dit hangt af van persoon tot persoon.</p>
     <p class="instruction yellow">Hang het zadel vast aan het kader door verschillende lagen ducktape te gebruiken.</p>
     <p class="instruction yellow caps">En je bent klaar!</p>
   </div>
-</article> -->
+  </article>
+</div>
 
 </section>
