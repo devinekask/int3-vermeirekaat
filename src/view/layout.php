@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://use.typekit.net/sro1dzb.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+  <script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>
   <title>High Wheeler - <?php echo $title; ?></title>
   <?php echo $css; ?>
 </head>

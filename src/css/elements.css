@@ -389,10 +389,6 @@
   @media (--only-medium-screen) {
     width: 60%;
   }
-
-  @media (--only-large-screen) {
-    width: 40%;
-  }
 }
 
 .img__step-two {

@@ -146,6 +146,7 @@ const init = () => {
     sliderContainer.addEventListener('mousemove', resizeImg);
     sliderContainer.addEventListener('touchmove', resizeImg);
   }
+
 };
 
 init();

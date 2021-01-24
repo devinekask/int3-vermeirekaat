@@ -10,10 +10,11 @@
     </div>
   </article>
 
+
   <article class="tut__info content__item">
-    <div class="info__build content__item">
+    <div class="info__build">
       <h2 class="content__title">Let's Build</h2>
-      <p class="content__alinea">Je enthousiasem is er al, nu nog het materiaal. Voor dit project heb je bepaalde mterialen nodig.</p>
+      <p class="content__alinea">Je enthousiasem is er al, nu nog het materiaal. Voor dit project heb je bepaalde materialen nodig.</p>
       <p class="content__alinea">Heb je deze niet in huis liggen? <br>Geen nood, bestel jouw eigen <span>Building Box</span> samen en deze staat over twee dagen voor je deur.</p>
       <ul class="build__cta">
         <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=">Bestel het materiaal</a></li>
@@ -32,20 +33,21 @@
 
   </article>
 
-  <article id="step01" class="steps content__item">
+  <div class="scroll__container">
+  <article id="step01" class="steps content__item scroll__wrapper">
 
-      <div class="steps__name">
+      <div class="steps__name scroll__child">
         <h3 class="steps__title title caps">Het stuur</h3>
         <p class="number title--extra">01</p>
       </div>
 
-      <div class="steps__icons">
+      <div class="steps__icons scroll__child">
         <img class="tut__icon" width="100" height="100" src="./assets/svg/wiel.png" alt="icon-wiel">
         <img class="tut__icon" width="100" height="146" src="./assets/svg/stuur.png" alt="icon-stuur">
         <img class="tut__icon" width="100" height="108" src="./assets/svg/moer.png" alt="icon-moer">
       </div>
 
-      <div class="steps__img">
+      <div class="steps__img scroll__child">
         <picture class="step__img picture__step-one">
           <source sizes="(max-width: 450px) 45vw,
           (max-width: 600px) 60vw"
@@ -63,13 +65,13 @@
         </picture>
       </div>
 
-    <div class="steps__instructions content__item">
+    <div class="steps__instructions content__item scroll__child">
       <p class="instruction purple"> Bevestig het stuur aan het middenstuk van het wiel. Je kan dit vast draaien door een <span>moer</span> te gebruiken</p>
       <p class="instruction purple">Bovenstaande stap doe je aan beide kanten van het wiel zodat het stuur stevig vast zit.</p>
       <p class="instruction purple">Het stuur monteer je zo laag mogelijk.</p>
     </div>
 
-    <div class="steps__question">
+    <div class="steps__question scroll__child">
       <p class="question">Kan je het stuur draaien zodat het wiel mee beweegt?</p>
       <div class="question__answers">
         <button class="answer answer__pos">Neen</button>
@@ -77,6 +79,8 @@
       </div>
     </div>
   </article>
+  </div>
+
 
   <article id="step02" class="steps content__item">
 
@@ -284,6 +288,6 @@
     <p class="instruction yellow">Hang het zadel vast aan het kader door verschillende lagen ducktape te gebruiken.</p>
     <p class="instruction yellow caps">En je bent klaar!</p>
   </div>
-</article>
+</article> -->
 
 </section>
