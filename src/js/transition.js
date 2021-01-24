@@ -10,6 +10,9 @@ const checkAction = e => {
 let count = - 1;
 
 const showNext = buttonActive => {
+
+  const currentId = checkCurrentId(buttonActive);
+
   const steps = ['step01', 'step02', 'step03', 'step04', 'step05'];
   count += 1;
 
@@ -17,14 +20,21 @@ const showNext = buttonActive => {
 
   const nextStep = document.getElementById(`${steps[count]}`);
   nextStep.classList.remove(`invisible`);
-  const currentStep = buttonActive.parentNode.parentNode.parentNode.parentNode.id;
-  console.log(currentStep);
-  /* for (let i = 0;i < steps.length;i ++) {
-    count += 1;
-    const nextStep = document.getElementById(`${steps[i]}`);
-    console.log(nextStep);
-    console.log(count);
-  } */
+  const currentStep = document.getElementById(`${currentId}`);
+  currentStep.classList.add(`invisible`);
+};
+
+const checkCurrentId = buttonActive => {
+
+  if (count === - 1) {
+    const currentId = buttonActive.parentNode.parentNode.parentNode.parentNode.parentNode.id;
+    console.log(currentId);
+    return currentId;
+  } else {
+    const currentId = buttonActive.parentNode.parentNode.parentNode.parentNode.id;
+    console.log(currentId);
+    return currentId;
+  }
 };
 
 const init = () => {
