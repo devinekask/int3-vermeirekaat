@@ -22,6 +22,8 @@ const showNext = buttonActive => {
   nextStep.classList.remove(`invisible`);
   const currentStep = document.getElementById(`${currentId}`);
   currentStep.classList.add(`invisible`);
+
+  window.scrollTo({top: 0, behavior: 'smooth'});
 };
 
 const checkCurrentId = buttonActive => {
