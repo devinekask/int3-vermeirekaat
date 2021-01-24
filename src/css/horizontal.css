@@ -6,7 +6,7 @@
 
   @media (--only-medium-screen) {
     grid-template-columns: 15rem 1fr;
-    grid-template-rows: auto 30rem 20rem 30rem;
+    grid-template-rows: auto 30rem 30rem 30rem 30rem;
   }
 
   @media (--only-large-screen) {
