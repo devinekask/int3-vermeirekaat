@@ -4,21 +4,21 @@
 
 <section class="tutorial giga">
 
-  <article class="tut__home">
+  <article class="tut__home content__item">
     <div class="tut__header">
       <h1 class="title tut__title">High Wheeling</h1>
       <p class="subtitle tut__subtitle caps">Make Your Own</p>
     </div>
   </article>
 
-  <article class="tut__info content__item">
+  <article id="start" class="tut__info content__item">
     <div class="info__build">
       <h2 class="content__title">Let's Build</h2>
       <p class="content__alinea">Je enthousiasem is er al, nu nog het materiaal. Voor dit project heb je bepaalde materialen nodig.</p>
       <p class="content__alinea">Heb je deze niet in huis liggen? <br>Geen nood, bestel jouw eigen <span>Building Box</span> samen en deze staat over twee dagen voor je deur.</p>
       <ul class="build__cta">
-        <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=">Bestel het materiaal</a></li>
-        <li class="list__item"><a class="cta cta--build cta--primary" href="index.php?page=tutorial/step01">Start met bouwen</a></li>
+        <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=build">Bestel het materiaal</a></li>
+        <li class="list__item"><input id="next" class="button btn__next cta cta--build cta--primary" type="button" value="Start met bouwen"></li>
       </ul>
     </div>
     <div class="slider__container slider--big">
@@ -33,8 +33,8 @@
 
   </article>
 
-  <div class="scroll__container">
-    <article id="step01" class="steps content__item scroll__wrapper">
+  <div id="step01" class="scroll__container invisible">
+    <article class="steps content__item scroll__wrapper">
 
       <div class="steps__name scroll__child">
         <h3 class="steps__title title caps">Het stuur</h3>
@@ -74,16 +74,16 @@
       <div class="steps__question scroll__child">
         <p class="question">Kan je het stuur draaien zodat het wiel mee beweegt?</p>
         <div class="question__answers">
-          <button class="answer answer__pos">Neen</button>
-          <button class="answer answer__neg">Ja</button>
+          <input id="prev" type="button" class="answer button btn__prev" value="Neen">
+          <input id="next" type="button" class="answer button btn__next" value="Ja">
         </div>
       </div>
     </article>
   </div>
 
 
-  <div class="scroll__container">
-    <article id="step02" class="steps content__item scroll__wrapper">
+  <div id="step02" class="scroll__container invisible">
+    <article class="steps content__item scroll__wrapper">
 
       <div class="steps__name scroll__child">
         <h3 class="steps__title title caps">De pedalen</h3>
@@ -123,15 +123,15 @@
     <div class="steps__question scroll__child">
       <p class="question">Draait het wiel mee als je de trappers beweegt?</p>
       <div class="question__answers">
-        <button class="answer answer__pos">Neen</button>
-        <button class="answer answer__neg">Ja</button>
+        <input id="prev" type="button" class="answer button btn__prev" value="Neen">
+          <input id="next" type="button" class="answer button btn__next" value="Ja">
       </div>
     </div>
     </article>
   </div>
 
-  <div class="scroll__container">
-    <article id="step03" class="steps content__item scroll__wrapper">
+  <div id="step03" class="scroll__container invisible">
+    <article class="steps content__item scroll__wrapper">
 
       <div class="steps__name scroll__child">
         <h3 class="steps__title title caps">Het kader</h3>
@@ -170,15 +170,15 @@
       <div class="steps__question scroll__child">
         <p class="question">Zie je het nog zitten om verder te bouwen?</p>
         <div class="question__answers">
-          <button class="answer answer__pos">Neen</button>
-          <button class="answer answer__neg">Ja</button>
+          <input id="prev" type="button" class="answer button btn__prev" value="Neen">
+          <input id="next" type="button" class="answer button btn__next" value="Ja">
         </div>
       </div>
     </article>
   </div>
 
-  <div class="scroll__container">
-      <article id="step04" class="steps__between steps content__item scroll__wrapper">
+  <div id="step04" class="scroll__container invisible">
+      <article class="steps__between steps content__item scroll__wrapper">
 
     <div class="steps__name scroll__child">
       <h3 class="title__between title caps">Het kleine wiel</h3>
@@ -219,7 +219,6 @@
 
       </div>
 
-
       <div class="steps__instructions content__item instructions-b scroll__child between__position">
         <p class="instruction yellow">Aan het uiteinde van het kader plaats je een houten plank met het gaatje aan de achterkant. Elke plank zet je aan een zijde van het kader.</p>
         <p class="instruction yellow">Hang beide planken vast met ducktape. Leg de ducktape in een kruis voor extra stevigheid.</p>
@@ -252,8 +251,8 @@
     <div class="steps__question questions__step scroll__child between__position">
       <p class="question">Kan je de High Wheel verzetten, zonder problemen?</p>
       <div class="question__answers">
-        <button class="answer answer__pos">Neen</button>
-        <button class="answer answer__neg">Ja</button>
+        <input id="prev" type="button" class="answer button btn__prev" value="Neen">
+        <input id="next" type="button" class="answer button btn__next" value="Ja">
       </div>
     </div>
     </article>
@@ -261,8 +260,8 @@
   </div>
 
 
-<div class="scroll__container">
-  <article id="step05" class="steps content__item scroll__wrapper">
+<div id="step05" class="scroll__container invisible">
+  <article class="steps content__item scroll__wrapper">
 
   <div class="steps__name scroll__child">
     <h3 class="steps__title title caps">Het zadel</h3>
@@ -300,7 +299,7 @@
   </article>
 </div>
 
-<article class="tut__final content__item">
+<article id="final" class="tut__final invisible content__item">
     <div class="info__build">
       <h2 class="final__title">Proficiat!</h2>
       <p class="content__alinea final__text">Je heb je ontpopt tot een echte maker!</p>
@@ -323,7 +322,6 @@
           <img class="what__img" width="509" height="470" alt="collage-what" src="./assets/tutorial/wheel-falling.png">
         </picture>
       </div>
-  </article>
 
   <article class="promo--circ">
       <div class="promo__wrapper">
@@ -337,6 +335,6 @@
       <p class="promo__content content--rect">Ontdek tal van andere creatieve projecten op de Maker Faire in de <span>Chinastraat</span> in <span>Gent</span> op <span>30 april, 1 mei en 2 mei!</p>
     </div>
   </article>
-
+</article>
 
 </section>

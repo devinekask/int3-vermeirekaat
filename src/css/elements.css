@@ -364,6 +364,7 @@
 
 .cta--build {
   font-size: var(--sizeBody);
+  border: none;
 }
 
 /* .img__slider img {
@@ -455,11 +456,11 @@
   }
 }
 
-.answer__pos {
+.btn__prev {
   background-color: var(--colorPurple);
 }
 
-.answer__neg {
+.btn__next {
   background-color: var(--colorYellow);
 
   @media (--only-large-screen) {
