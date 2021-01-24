@@ -1,9 +1,13 @@
 const checkAction = e => {
-  console.log(e.target.id);
+  // console.log(e.target.id);
   const buttonActive = e.target;
 
   if (buttonActive.id === 'next') {
     showNext(buttonActive);
+  }
+
+  if (buttonActive.id === 'prev') {
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 };
 
@@ -16,7 +20,7 @@ const showNext = buttonActive => {
   const steps = ['step01', 'step02', 'step03', 'step04', 'step05'];
   count += 1;
 
-  console.log(steps[count]);
+  // console.log(steps[count]);
 
   const nextStep = document.getElementById(`${steps[count]}`);
   nextStep.classList.remove(`invisible`);
@@ -30,11 +34,11 @@ const checkCurrentId = buttonActive => {
 
   if (count === - 1) {
     const currentId = buttonActive.parentNode.parentNode.parentNode.parentNode.parentNode.id;
-    console.log(currentId);
+    // console.log(currentId);
     return currentId;
   } else {
     const currentId = buttonActive.parentNode.parentNode.parentNode.parentNode.id;
-    console.log(currentId);
+    // console.log(currentId);
     return currentId;
   }
 };

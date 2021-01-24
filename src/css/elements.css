@@ -30,8 +30,17 @@
 .cta--primary {
   background-color: var(--colorYellow);
 
+  @media (--only-medium-screen) {
+    position: relative;
+    top: -2rem;
+  }
+
   @media (--only-big-screen) {
     font-size: var(--sizeCta);
+  }
+
+  @media (--only-large-screen) {
+    top: -1rem;
   }
 }
 
