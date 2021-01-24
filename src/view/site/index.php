@@ -187,7 +187,7 @@
         <p class="content__alinea">Bouw mee met duizenden anderen aan een <span>toekomstwereld</span> waar de creaties oneindig zijn.</p>
 
         <div class="cta__container">
-          <a class="cta cta--regular" href="index.php?page=">Begin met bouwen</a>
+          <a class="cta cta--regular" href="index.php?page=tutorial">Begin met bouwen</a>
         </div>
   </div>
 </article>
@@ -218,14 +218,13 @@
       <p class="footer__subtitle content__title">Volg ons op</p>
       <div class="social__wrapper">
         <div class="social__icon">
-        <img class="social__img social--fb" width="25" src="./assets/social/social-facebook.png" alt="logo-facebook">
-        </div>
-
-        <div class="social__icon">
-          <img class="social__img" width="40" src="./assets/social/social-instagram.png" alt="logo-instagram">
+        <a class="link" target="_blank" href="https://www.facebook.com/MakerFaireGent/"><img class="social__img social--fb" width="25" src="./assets/social/social-facebook.png" alt="logo-facebook"></a>
         </div>
         <div class="social__icon">
-          <img class="social__img social--pos" width="40" src="./assets/social/social-twitter.png" alt="logo-twitter">
+        <a class="link" target="_blank" href="https://www.instagram.com/makerfairegent/"><img class="social__img" width="40" src="./assets/social/social-instagram.png" alt="logo-instagram"></a>
+        </div>
+        <div class="social__icon">
+        <a class="link" target="_blank" href="https://twitter.com/makerfairegent"><img class="social__img social--pos" width="40" src="./assets/social/social-twitter.png" alt="logo-twitter"></a>
         </div>
 
       </div>
