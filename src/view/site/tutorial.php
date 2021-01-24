@@ -3,14 +3,13 @@
 </header>
 
 <section class="tutorial giga">
-  
+
   <article class="tut__home">
     <div class="tut__header">
       <h1 class="title tut__title">High Wheeling</h1>
       <p class="subtitle tut__subtitle caps">Make Your Own</p>
     </div>
   </article>
-
 
   <article class="tut__info content__item">
     <div class="info__build">
@@ -300,5 +299,44 @@
   </div>
   </article>
 </div>
+
+<article class="tut__final content__item">
+    <div class="info__build">
+      <h2 class="final__title">Proficiat!</h2>
+      <p class="content__alinea final__text">Je heb je ontpopt tot een echte maker!</p>
+      <p class="content__alinea final__text">De High Wheel heb je al in elkaar kunnen steken, nu er nog op leren rijden...</p>
+
+      <div class="what__picture">
+        <picture class="picture-what">
+          <source sizes="(max-width: 450px) 15vw,
+          (max-width: 600px) 40vw"
+          srcset="./assets/tutoria/wheel-falling_255.webp 255w,
+          ./assets/tutorial/wheel-falling.webp 509w"
+          type="image/webp"/>
+
+          <source sizes="(max-width: 450px) 15vw,
+          (max-width: 600px) 45w"
+          srcset="./assets/tutorial/wheel-falling_255.png 255w,
+          ./assets/tutorial/wheel-falling.png 509w"
+          type="image/png"/>
+
+          <img class="what__img" width="509" height="470" alt="collage-what" src="./assets/tutorial/wheel-falling.png">
+        </picture>
+      </div>
+  </article>
+
+  <article class="promo--circ">
+      <div class="promo__wrapper">
+      <p class="promo__content content--circ background__img">ntdek tal van andere creatieve projecten op de Maker Faire in de <span>Chinastraat</span> in <span>Gent</span> op <span>30 april, 1 mei en 2 mei!</span></p>
+      </div>
+  </article>
+
+  <article class="promo--rect promo--first background__img">
+    <h4 class="hidden">Promo Maker Faire</h4>
+    <div class="promo__wrapper">
+      <p class="promo__content content--rect">Ontdek tal van andere creatieve projecten op de Maker Faire in de <span>Chinastraat</span> in <span>Gent</span> op <span>30 april, 1 mei en 2 mei!</p>
+    </div>
+  </article>
+
 
 </section>

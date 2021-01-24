@@ -466,3 +466,27 @@
     margin-bottom: var(--marginMobile);
   }
 }
+
+.tut__final {
+  background-color: var(--colorDark);
+  padding: var(--marginLarge);
+  padding-bottom: calc(var(--marginLarge) * 2);
+}
+
+.final__title {
+  font-size: var(--sizeMobile);
+  color: var(--colorRed);
+
+  @media (--only-medium-screen) {
+    font-size: calc(var(--sizeSubtitle) * 2);
+  }
+}
+
+.final__text {
+  color: white;
+
+  @media (--only-medium-screen) {
+    font-size: var(--sizeMobile);
+    line-height: calc(var(--sizeMobile) * 1.2);
+  }
+}
