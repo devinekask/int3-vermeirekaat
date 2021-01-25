@@ -101,11 +101,11 @@ input:focus {
   grid-template-columns: 2;
 }
 
-.opacity {
+.unseen {
   opacity: 0;
 }
 
-.opacity:checked + img {
+.unseen:checked + img {
   border: .3rem solid var(--colorRed);
 }
 
