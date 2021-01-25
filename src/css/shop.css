@@ -56,9 +56,17 @@ input:focus {
   }
 }
 
+.checkbox__item {
+  display: flex;
+}
+
 .gegevens__input {
   @media (--only-medium-screen) {
     margin: 0 var(--marginLarge);
+  }
+
+  @media (--only-large-screen) {
+    margin-right: calc(var(--marginLarge) * 5);
   }
 }
 
