@@ -15,10 +15,10 @@
   <article class="tut__info content__item">
     <div class="info__build">
       <h2 class="content__title">Let's Build</h2>
-        <p class="content__alinea">Je enthousiasem is er al, nu nog het materiaal. Voor dit project heb je bepaalde materialen nodig.</p>
+        <p class="content__alinea">Je enthousiasme is er al, nu nog het materiaal. Voor dit project heb je bepaalde materialen nodig.</p>
        <p class="content__alinea">Heb je deze niet in huis liggen? <br>Geen nood, bestel jouw eigen <span>Building Box</span> samen en deze staat over twee dagen voor je deur.</p>
       <ul class="build__cta">
-        <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=build">Bestel het materiaal</a></li>
+        <li class="list__item"><a class="cta cta--build cta--secondary" href="index.php?page=shop">Bestel het materiaal</a></li>
         <li class="list__item item__top"><input id="next" class="button btn__next cta cta--build cta--primary" type="button" value="Start met bouwen"></li>
       </ul>
     </div>

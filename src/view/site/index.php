@@ -1,7 +1,7 @@
 <header class="nav banner background__img">
-    <img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent">
+  <a class="link" href="index.php"><img class="nav__logo" src="./assets/img/logo_maker-faire.png" alt="maker-faire-gent"></a>
       <ul class="nav__buttons">
-        <li class="nav__item"><a class=" cta cta--hidden cta--secondary" href="index.php?page=">Bouwpakket</a></li>
+        <li class="nav__item"><a class=" cta cta--hidden cta--secondary" href="index.php?page=shop">Bouwpakket</a></li>
         <li class="nav__item"><a class="cta cta--primary" href="index.php?page=tutorial">Aan de slag</a></li>
       </ul>
 </header>
@@ -9,18 +9,6 @@
 <section class="header giga">
 
   <div class="header__wrapper">
-
-    <!-- <div class="circ__wrapper circ__top">
-      <div class="animate__animated animate__rotateOut animate__infinite">
-      <p class="circ animate__animated animate__rotateIn animate__infinite">Het festival voor innovators</p>
-     </div>
-    </div>
-
-    <div class="circ__wrapper circ__bottom">
-      <div class="animte__animated animate__rotatIn animate__infinite">-
-        <p class="circ animate__animated animate__rotateOut animate__infinite">30 April - 1 Mei - 2 Mei || 2021</p>
-      </div>
-    </div> -->
 
     <h1 class="header__title title">Maker Faire Gent <br> presents</h1>
   </div>
@@ -78,7 +66,7 @@
           ./assets/collages/collage-what_842.png 842w"
           type="image/png"/>
 
-          <img class="what__img img--perspective" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
+          <img class="what__img" width="842" height="1076" alt="collage-what" src="./assets/collages/collage-what_842.png">
         </picture>
       </div>
   </article>
@@ -111,14 +99,6 @@
             <hr class="route__dashed-line route-one">
 
           </div>
-          <!-- <div class="route__part route__part-two">
-            <img class="route__ellipse ellipse-two" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
-              <hr class="route__dashed-line route-two">
-          </div>
-          <div class="route__part route__part-three">
-            <img class="route__ellipse ellipse-three" type="svg" src="./assets/svg/ellipse.svg" alt="yellow-ellipse">
-            <hr class="route__dashed-line route-three">
-          </div>-->
       </div>
 
         <div class="horizontal__wrapper">
@@ -126,7 +106,7 @@
           <h3 class="horizontal__title">Some Tools</h3>
             <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een Building Box bestellen om thuis mee aan de slag te gaan.</p>
             <div class="cta__container">
-              <a class="cta cta--regular" href="index.php?page=">Bestel een bouwpakket</a>
+              <a class="cta cta--regular" href="index.php?page=shop">Bestel een bouwpakket</a>
         </div>
         </div>
 
@@ -141,7 +121,7 @@
           <div class="horizontal--pos">
           <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
             <div class="cta__container">
-              <a class="cta cta--regular" href="index.php?page=tutorial">Ga aan de slag</a>
+              <a class="cta cta--regular cta__hidden" href="index.php?page=tutorial">Ga aan de slag</a>
             </div>
           </div>
         </div>

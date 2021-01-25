@@ -17,6 +17,11 @@ class SiteController extends Controller {
 
     public function tutorial() {
 
-        $this->set('title', 'Turorial');
+        $this->set('title', "Let's Build");
+    }
+
+    public function shop() {
+
+      $this->set('title', 'Building Box');
     }
 }

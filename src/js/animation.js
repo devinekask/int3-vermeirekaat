@@ -124,19 +124,6 @@ const resizeImg = e => {
   topImg.style.width = `${e.target.value}px`;
 };
 
-// ZOOM
-/* const zoomOnHover = () => {
-  const Drift = require('drift-zoom');
-  /* const imgs = document.querySelectorAll(`.zoom__img`);
-  imgs.map(img => {
-    new Drift(img, {
-      paneContainer: true,
-      inlinePane: true
-    });
-  });
-  new Drift(document.querySelector(`.img__zoom`));
-};*/
-
 const init = () => {
 
   // HORIZONTAL
@@ -151,6 +138,14 @@ const init = () => {
   const promo = document.querySelector(`.promo--circ`);
   if (promo) {
     randomFloating();
+  }
+
+  const partThree = document.querySelector(`.part-three`);
+  if (partThree) {
+    const ctaHidden = document.querySelector(`.cta__hidden`);
+    if (partThree.classList.contains(`opacity`)) {
+      ctaHidden.classList.add(`hidden`);
+    }
   }
 
   // SLIDER
