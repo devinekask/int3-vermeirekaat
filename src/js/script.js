@@ -29,7 +29,7 @@ const formdataToJson = $from => {
   return obj;
 };
 
-let stepIndex = 1;
+/* let stepIndex = 1;
 
 const plusStep = n => {
   showSteps(stepIndex += n);
@@ -44,17 +44,17 @@ const showSteps = i => {
     steps[j].style.display = 'none';
   }
   steps[stepIndex - 1].style.display = 'block';
-};
+}; */
 
 
 const init = () => {
 
   const $ordersForm = document.querySelector(`.form`);
-  const $prev = document.querySelector('.btn__prev');
-  const $next = document.querySelector('.btn__next');
+  // const $prev = document.querySelector('.btn__prev');
+  // const $next = document.querySelector('.btn__next');
   if ($ordersForm) {
     $ordersForm.addEventListener(`submit`, handleOrderPlacement);
-    if ($prev) {
+    /* if ($prev) {
       $prev.addEventListener('click', () => { plusStep(- 1); });
     }
     if ($next) {
@@ -62,7 +62,7 @@ const init = () => {
     }
     if ($next && $prev) {
       showSteps(1);
-    }
+    }*/
   }
 
 };

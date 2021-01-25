@@ -38,9 +38,9 @@ input[type=checkbox]:checked + label {
   color: var(--colorRed);
 }
 
-input:focus {
+/* input:focus {
   border: .2rem solid var(--colorRed);
-}
+} */
 
 .form fieldset {
   margin-bottom: var(--marginLarge);

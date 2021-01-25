@@ -140,13 +140,13 @@ const init = () => {
     randomFloating();
   }
 
-  const partThree = document.querySelector(`.part-three`);
+  /* const partThree = document.querySelector(`.part-three`);
   if (partThree) {
     const ctaHidden = document.querySelector(`.cta__hidden`);
     if (partThree.classList.contains(`opacity`)) {
       ctaHidden.classList.add(`hidden`);
     }
-  }
+  } */
 
   // SLIDER
   const sliderContainer = document.querySelector(`.slider__container`);

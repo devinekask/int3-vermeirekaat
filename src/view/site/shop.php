@@ -74,7 +74,7 @@
           </ul>
         </div>
       </fieldset>
-        <!-- <div class="form__buttons btn__mobile">
+        <div class="form__buttons btn__mobile">
           <input id="00" type="button" class="unseen form__btn button btn__prev" value="hidden">
           <input id="02" type="button" class="form__btn button btn__next" value="&#10095;">
         </div>
@@ -82,7 +82,7 @@
           <input id="00" type="button" class="unseen form__btn button btn__prev" value="">
           <input id="02" type="button" class="form__btn button btn__next" value="Persoonlijke Gegevens">
         </div>
-      </div> -->
+      </div>
     </div>
 
     <div class="form__step">
@@ -130,14 +130,14 @@
         </div>
         </div>
 
-        <!-- <div class="form__buttons btn__mobile">
+        <div class="form__buttons btn__mobile">
             <input id="01" type="button" class="form__btn button btn__prev" value="&#10094;">
             <input id="03" type="button" class="form__btn button btn__next" value="&#10095;">
         </div>
         <div class="form__buttons btn__desktop">
             <input id="01" type="button" class="form__btn button btn__prev" value="Building Box aanpassen">
             <input id="03" type="button" class="form__btn button btn__next" value="Betalingsmethode">
-        </div>-->
+        </div>
       </fieldset>
     </div>
 
@@ -160,24 +160,24 @@
               </label>
           </div>
 
-          <!-- <div class="form__buttons btn__mobile">
+          <div class="form__buttons btn__mobile">
           <input id="prev" type="button" class="form__btn button btn__prev" value="&#10094;">
           <input class="form__btn button btn__next form__submit" type="submit" value="&check;">
           </div>
           <div class="form__buttons btn__desktop">
           <input id="02" type="button" class="form__btn button btn__prev" value="Betalingmethode aanpassen">
           <input id="final" class="form__btn button btn__next form__submit" name="button" type="submit" value="Bestelling plaatsen">
-          </div>-->
+          </div>
 
-          <input class="form__btn button btn__next form__submit" type="submit" value="&check;">
+          <!-- <input class="form__btn button btn__next form__submit" type="submit" value="&check;">-->
         </fieldset>
     </div>
 
-    <div class="form__buttons btn__mobile">
+    <!-- <div class="form__buttons">
       <input type="button" class="form__btn button btn__prev" value="&#10094;">
       <input type="button" class="form__btn button btn__next" value="&#10095;">
     </div>
-    <!-- <div class="form__buttons btn__desktop">
+    <div class="form__buttons btn__desktop">
         <input id="" type="button" class="form__btn button btn__prev" value="Betalingmethode aanpassen">
         <input id="final" class="form__btn button btn__next form__submit" name="button" type="submit" value="Bestelling plaatsen">
     </div>-->
