@@ -121,7 +121,7 @@
           <div class="horizontal--pos">
           <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
             <div class="cta__container">
-              <a class="cta cta--regular cta__hidden" href="index.php?page=tutorial">Ga aan de slag</a>
+              <a class="cta cta--regular" href="index.php?page=tutorial">Ga aan de slag</a>
             </div>
           </div>
         </div>
