@@ -96,23 +96,23 @@
         </div>
         <div class="form__field">
           <label>Naam</label>
-            <input type="text" required placeholder="De Bouwer" name="name">
+            <input type="text" placeholder="De Bouwer" name="name">
         </div>
       </div>
 
       <div class="form__field">
         <label>E-mail</label>
-          <input type="email" required placeholder="bob.debouwer@email.com" size="30"  name="email">
+          <input type="email" placeholder="bob.debouwer@email.com" size="30"  name="email">
       </div>
 
       <div class="field__dubbel">
         <div class="form__field">
           <label>Straat</label>
-            <input class="margin" type="text" required placeholder="Makerlaan" size="30" name="street">
+            <input class="margin" type="text" placeholder="Makerlaan" size="30" name="street">
         </div>
         <div class="form__field">
           <label>Nummer</label>
-          <input type="number" required placeholder="1" name="number">
+          <input type="number" placeholder="1" name="number">
         </div>
       </div>
 
