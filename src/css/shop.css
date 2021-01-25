@@ -1,0 +1,80 @@
+input[type=text] {
+  outline: none;
+  background-color: var(--lightGray);
+  border: .1rem solid var(--colorDark);
+  padding: calc(var(--marginSmall) / 2);
+}
+
+input[type=email] {
+  outline: none;
+  background-color: var(--lightGray);
+  border: .1rem solid var(--colorDark);
+  padding: calc(var(--marginSmall) / 2);
+}
+
+input[type=number] {
+  outline: none;
+  background-color: var(--lightGray);
+  border: .1rem solid var(--colorDark);
+  padding: calc(var(--marginSmall) / 2);
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+  color: var(--colorRed);
+}
+
+input:focus {
+  border: .2rem solid var(--colorRed);
+}
+
+.form fieldset {
+  margin-bottom: var(--marginLarge);
+  border: none;
+}
+
+.form__checkboxes-list {
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.opacity:checked + img {
+  border: .3rem solid var(--colorRed);
+}
+
+.form__field {
+  margin-bottom: var(--marginRegular);
+}
+
+.form__buttons {
+  margin-top: var(--marginLarge);
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__btn {
+  font-weight: var(--weightBold);
+  padding: var(--marginSmall) var(--marginMobile);
+  border-radius: 12rem;
+  border: .2rem solid white;
+  box-shadow: 0 8px 6px -6px black;
+  color: white;
+}
+
+.btn__mobile {
+  @media (--only-medium-screen) {
+    display: none;
+  }
+}
+
+.btn__desktop {
+  display: none;
+
+  @media (--only-medium-screen) {
+    display: visible;
+  }
+}
