@@ -31,43 +31,43 @@
       <div class="form__field">
         <ul class="form__checkbox-list">
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="groot">
+            <input class="opacity" type="checkbox" name="materials[]" value="groot">
             <label class="checkbox__label">Groot wiel</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="klein">
+            <input class="opacity" type="checkbox" name="materials[]" value="klein">
             <label class="checkbox__label">Klein wiel</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="stuur">
+            <input class="opacity" type="checkbox" name="materials[]" value="stuur">
             <label class="checkbox__label">Stuur</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="pedaal">
+            <input class="opacity" type="checkbox" name="materials[]" value="pedaal">
             <label class="checkbox__label">Pedalen</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="zadel">
+            <input class="opacity" type="checkbox" name="materials[]" value="zadel">
             <label class="checkbox__label">Zadel</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="ijzer">
+            <input class="opacity" type="checkbox" name="materials[]" value="ijzer">
             <label class="checkbox__label">Ijzeren staaf</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="ducktape">
+            <input class="opacity" type="checkbox" name="materials[]" value="ducktape">
             <label class="checkbox__label">Ducktape (3x)</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="hout">
+            <input class="opacity" type="checkbox" name="materials[]" value="hout">
             <label class="checkbox__label">Houten plank (2x)</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="dop">
+            <input class="opacity" type="checkbox" name="materials[]" value="dop">
             <label class="checkbox__label">Dopmoer (4x)</label>
           </li>
           <li class="checkbox__item">
-            <input class="opacity" type="checkbox" name="materials" value="moer">
+            <input class="opacity" type="checkbox" name="materials[]" value="moer">
             <label class="checkbox__label">Moer (2x)</label>
           </li>
         </ul>

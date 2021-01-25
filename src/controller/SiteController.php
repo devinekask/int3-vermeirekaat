@@ -23,6 +23,22 @@ class SiteController extends Controller {
 
     public function shop() {
 
+      $contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';
+      if($contentType === "application/json") {
+        $content = trim(file_get_contents("php://input"));
+        $data = json_decode($content, true);
+
+        $placedOrder = $this->ordersDAO->placeORder($data);
+          if (!$placedOrder) {
+            $errors = $this->orderDAO->validate($data);
+            $errors['error'] = 'Er is een fout opgetreden';
+            echo json_encode($errors);
+          } else {
+            var_dump(`succes`);
+          }
+      exit();
+    }
+
       if (!empty($_POST['action'])) {
         if ($_POST['action'] == 'placeOrder') {
           $data = array(

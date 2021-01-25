@@ -8,7 +8,7 @@ class OrdersDAO extends DAO {
   public function placeOrder($data) {
     $errors = $this->validate($data);
     if(empty($errors)) {
-      $sql = "INSERT INTO `orders` (`materials`, `first_name`, `name`, `email`, `street`, `number`, `zip`, `city`, `payment`) VALUES (:materials, :first_name, :name, :email, :street, :number, :zip, :city, :payment)";
+      $sql = "INSERT INTO `orders` (`first_name`, `name`, `email`, `street`, `number`, `zip`, `city`, `payment`) VALUES (:first_name, :name, :email, :street, :number, :zip, :city, :payment)";
       $stmt = $this->pdo->prepare($sql);
       $stmt->bindValue(':materials', $data['materials']);
       $stmt->bindValue(':first_name', $data['first_name']);
