@@ -7,7 +7,7 @@
   <article class="tut__home content__item">
     <div class="tut__header">
       <h1 class="title tut__title">High Wheeling</h1>
-      <p class="subtitle tut__subtitle caps">Make Your Own</p>
+      <p class="subtitle tut__subtitle caps">Build Your Own</p>
     </div>
   </article>
 
