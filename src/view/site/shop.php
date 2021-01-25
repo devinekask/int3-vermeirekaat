@@ -20,7 +20,12 @@
 
   <form class="form" method="post" action="index.php?page=shop">
     <fieldset class="form__checkboxes">
-      <legend class="form__subtitle horizontal__title">Materiaal</legend>
+      <legend class="form__subtitle horizontal__title align"> 1/3 | Materiaal</legend>
+      <label class="align form__help">Sleep het materiaal dat je nodig hebt in de Building Box.</label>
+      <div class="box__wrapper">
+      <div class="content__item building__box">
+        <img src="./assets/img/high-course.png" alt="test" width="200">
+      </div>
       <div class="form__field">
         <ul class="form__checkbox-list">
           <li class="checkbox__item">
@@ -65,62 +70,69 @@
           </li>
         </ul>
       </div>
-
-      <div class="form__buttons btn__mobile">
+    </fieldset>
+    <div class="form__buttons btn__mobile">
         <input id="prev" type="button" class="opacity form__btn button btn__prev" value="hidden">
         <input id="next" type="button" class="form__btn button btn__next" value="&#10095;">
       </div>
-      
+
       <div class="form__buttons btn__desktop">
         <input id="prev" type="button" class="opacity form__btn button btn__prev" value="hidden">
         <input id="next" type="button" class="form__btn button btn__next" value="Persoonlijke Gegevens">
       </div>
-    </fieldset>
+    </div>
 
     <fieldset class="form__gegevens">
-      <legend class="form__subtitle horizontal__title">Persoonlijke Gegevens</legend>
+      <legend class="form__subtitle horizontal__title align"> 2/3 | Persoonlijke Gegevens</legend>
+      <label class="align form__help">Gelieve jouw gegevens in te vullen zodat de Building Box op het juiste adres geleverd wordt.</label>
+      <div class="gegevens__input">
       <div class="form__field">
-          <label>Aanspreking
+          <label>Aanspreking</label>
             <select name="aanspreking">
               <option value="1">Meneer</option>
               <option value="2">Mevrouw</option>
               <option value="3">Beste</option>
             </select>
-          </label>
+      </div>
+
+      <div class="field__dubbel">
+        <div class="form__field">
+          <label>Voornaam</label>
+            <input class="margin" type="text" required placeholder="Bob">
+        </div>
+        <div class="form__field">
+          <label>Naam</label>
+            <input type="text" required placeholder="De Bouwer">
+        </div>
       </div>
 
       <div class="form__field">
-        <label>Voornaam
-          <input type="text" required placeholder="Bob">
-        </label>
-        <label>Naam
-          <input type="text" required placeholder="De Bouwer">
-        </label>
+        <label>E-mail</label>
+          <input type="email" required placeholder="bob.debouwer@email.com" size="30">
       </div>
 
-      <div class="form__field">
-        <label>E-mail
-          <input type="email" required placeholder="bob.debouwer@email.com">
-        </label>
-      </div>
-
-      <div class="form__field">
-        <label>Straat
-          <input type="text" required placeholder="Makerlaan">
-        </label>
-        <label> Nummer
+      <div class="field__dubbel">
+        <div class="form__field">
+          <label>Straat</label>
+            <input class="margin" type="text" required placeholder="Makerlaan" size="30">
+        </div>
+        <div class="form__field">
+          <label> Nummer</label>
           <input type="number" required placeholder="1">
-        </label>
+        </div>
       </div>
 
-      <div class="form__field">
-        <label>Postcode
-          <input type="number" required placeholder="9000">
-        </label>
-        <label>Stad / Gemeente
-          <input type="text" required placeholder="Gent">
-        </label>
+      <div class="field__dubbel">
+        <div class="form__field">
+          <label>Postcode</label>
+            <input class="margin" type="number" required placeholder="9000">
+        </div>
+        <div class="form__field">
+          <label>Gemeente</label>
+            <input type="text" required placeholder="Gent">
+        </div>
       </div>
+    </div>
 
       <div class="form__buttons btn__mobile">
           <input id="prev" type="button" class="form__btn button btn__prev" value="&#10094;">
@@ -133,8 +145,9 @@
     </fieldset>
 
     <fieldset class="form__betaling">
-      <legend class="form__subtitle horizontal__title">Betaling</legend>
-        <div class="payment__wrapper">
+      <legend class="form__subtitle horizontal__title align"> 3/3 | Betaling</legend>
+        <label class="align form__help">Kies een betalingsmethode om de bestelling af te ronden.</label>
+          <div class="form__field payment__wrapper align">
           <label>
             <input type="radio" name="payment" value="1" class="opacity">
             <img src="./assets/social/bankcontact.jpg" alt="bankcontact" width="120" height="85">
