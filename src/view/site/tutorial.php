@@ -298,7 +298,7 @@
     <p class="instruction yellow caps">En je bent klaar!</p>
   </div>
   </article>
-
+</div>
 
 <article id="final" class="tut__final invisible content__item">
     <div class="info__build">
@@ -323,19 +323,6 @@
           <img class="what__img" width="509" height="470" alt="collage-what" src="./assets/tutorial/wheel-falling.png">
         </picture>
       </div>
-
-  <article class="promo--circ">
-      <div class="promo__wrapper">
-      <p class="promo__content content--circ background__img">ntdek tal van andere creatieve projecten op de Maker Faire in de <span>Chinastraat</span> in <span>Gent</span> op <span>30 april, 1 mei en 2 mei!</span></p>
-      </div>
-  </article>
-
-  <article class="promo--rect promo--first background__img">
-    <h4 class="hidden">Promo Maker Faire</h4>
-    <div class="promo__wrapper">
-      <p class="promo__content content--rect">Ontdek tal van andere creatieve projecten op de Maker Faire in de <span>Chinastraat</span> in <span>Gent</span> op <span>30 april, 1 mei en 2 mei!</p>
-    </div>
-  </article>
 </article>
 
 </section>

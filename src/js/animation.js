@@ -140,25 +140,12 @@ const init = () => {
     randomFloating();
   }
 
-  /* const partThree = document.querySelector(`.part-three`);
-  if (partThree) {
-    const ctaHidden = document.querySelector(`.cta__hidden`);
-    if (partThree.classList.contains(`opacity`)) {
-      ctaHidden.classList.add(`hidden`);
-    }
-  } */
-
   // SLIDER
   const sliderContainer = document.querySelector(`.slider__container`);
   if (sliderContainer) {
     sliderContainer.addEventListener('mousemove', resizeImg);
     // sliderContainer.addEventListener('touchmove', resizeImg);
   }
-
-  /* const images = document.querySelectorAll(`.image__zoom`);
-  if (images) {
-    zoomOnHover();
-  } */
 
 };
 

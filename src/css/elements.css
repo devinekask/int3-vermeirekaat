@@ -114,6 +114,10 @@
   box-shadow: 3px 3px 5px 6px #ccc;
 }
 
+.promo__final {
+  box-shadow: none;
+}
+
 .promo--rect {
   border-top: .5rem solid var(--colorRed);
   border-bottom: .5rem solid var(--colorRed);
@@ -483,14 +487,15 @@
 }
 
 .tut__final {
-  background-color: var(--colorDark);
+  background-color: var(--colorYellow);
   padding: var(--marginLarge);
   padding-bottom: calc(var(--marginLarge) * 2);
+  margin-top: calc(var(--marginLarge) * 2);
 }
 
 .final__title {
   font-size: var(--sizeMobile);
-  color: var(--colorRed);
+  color: var(--colorPurple);
 
   @media (--only-medium-screen) {
     font-size: calc(var(--sizeSubtitle) * 2);

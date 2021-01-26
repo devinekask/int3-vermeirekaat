@@ -27,6 +27,11 @@ const showNext = buttonActive => {
   const currentStep = document.getElementById(`${currentId}`);
   currentStep.classList.add(`invisible`);
 
+  if (count === 4) {
+    const $final = document.querySelector(`.tut__final`);
+    $final.classList.remove (`invisible`);
+  }
+
   window.scrollTo({top: 0, behavior: 'smooth'});
 };
 
