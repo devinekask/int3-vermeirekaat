@@ -106,13 +106,23 @@ const init = () => {
   window.dragMoveListener = dragMoveListener;
   // eslint-disable-next-line no-undef
   interact(`.dropzone`).dropzone({
-    accept: '#yes-drop',
+    accept: '.drag-drop',
     overlap: .75,
     ondropactivate: function (event) {
       event.target.classList.add('drop-active');
     },
     ondrop: function (event) {
-      event.relatedTarget.textContent = 'Dropped';
+      // event.relatedTarget.textContent = 'Dropped';
+      const dragged = event.relatedTarget.id;
+      console.log(dragged);
+      const $checkboxes = document.querySelectorAll('.check');
+
+      $checkboxes.forEach(checkbox => {
+        if (checkbox.classList.contains(dragged)) {
+          const $relatedCheckbox = document.querySelector(`.${dragged}`);
+          $relatedCheckbox.checked = true;
+        }
+      });
     },
     ondragenter: function (event) {
       const draggableElement = event.relatedTarget;
@@ -121,13 +131,11 @@ const init = () => {
       // feedback the possibility of a drop
       dropzoneElement.classList.add('drop-target');
       draggableElement.classList.add('can-drop');
-      draggableElement.textContent = 'Dragged in';
     },
     ondragleave: function (event) {
       // remove the drop feedback style
       event.target.classList.remove('drop-target');
       event.relatedTarget.classList.remove('can-drop');
-      event.relatedTarget.textContent = 'Dragged out';
     },
     ondropdeactivate: function (event) {
       event.target.classList.remove('drop-active');

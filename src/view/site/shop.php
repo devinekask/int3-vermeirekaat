@@ -29,50 +29,59 @@
 
         <div class="content__item building__box">
           <!-- <img src="./assets/img/high-course.png" alt="test" width="200">-->
-          <div id="yes-drop" class="drag-drop"><img src="./assets/" alt=""></div>
+          <div id="groot" class="drag-drop"><img width="50" src="./assets/svg/wiel.png" alt="wiel"></div>
+          <div id="klein" class="drag-drop"><img  width="30" src="./assets/svg/wiel.png" alt="wiel"></div>
+          <div id="stuur" class="drag-drop"><img width="50" src="./assets/svg/stuur.png" alt="stuur"></div>
+          <div id="pedaal" class="drag-drop"><img width="50" src="./assets/svg/pedals.png" alt="pedaal"></div>
+          <div id="zadel" class="drag-drop"><img width="50" src="./assets/svg/zadel.png" alt="zadel"></div>
+          <div id="ijzer" class="drag-drop"><img width="50" src="./assets/svg/staaf.png" alt="ijzeren staaf"></div>
+          <div id="ducktape" class="drag-drop"><img width="50" src="./assets/svg/ducktape.png" alt="ducktape"></div>
+          <div id="hout" class="drag-drop"><img width="50" src="./assets/svg/plank.png" alt="plank"></div>
+          <div id="dopmoer" class="drag-drop"><img width="50" src="./assets/svg/dopmoer.png" alt="dopmoer"></div>
+          <div id="moer" class="drag-drop"><img width="50" src="./assets/svg/moer.png" alt="moer"></div>
           <div id="outer-dropzone" class="dropzone">Building Box</div>
         </div>
 
         <div class="form__field">
           <ul class="form__checkbox-list">
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="groot">
+              <input id="groot" class="unseen check groot" type="checkbox" name="materials" value="groot">
               <label class="checkbox__label">Groot wiel</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="klein">
+              <input id="klein" class="unseen check klein" type="checkbox" name="materials" value="klein">
               <label class="checkbox__label">Klein wiel</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="stuur">
+              <input id="stuur" class="unseen check stuur" type="checkbox" name="materials" value="stuur">
               <label class="checkbox__label">Stuur</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="pedaal">
+              <input id="pedaal" class="unseen check stuur" type="checkbox" name="materials" value="pedaal">
               <label class="checkbox__label">Pedalen</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="zadel">
+              <input id="zadel" class="unseen check zadel" type="checkbox" name="materials" value="zadel">
               <label class="checkbox__label">Zadel</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="ijzer">
+              <input id="ijzer" class="unseen check ijzer" type="checkbox" name="materials" value="ijzer">
               <label class="checkbox__label">Ijzeren staaf</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="ducktape">
+              <input id="ducktape" class="unseen check ducktape" type="checkbox" name="materials" value="ducktape">
               <label class="checkbox__label">Ducktape (3x)</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="hout">
+              <input id="hout" class="unseen check hout" type="checkbox" name="materials" value="hout">
               <label class="checkbox__label">Houten plank (2x)</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="dop">
+              <input id="dopmoer" class="unseen check dopmoer" type="checkbox" name="materials" value="dop">
               <label class="checkbox__label">Dopmoer (4x)</label>
             </li>
             <li class="checkbox__item">
-              <input class="unseen" type="checkbox" name="materials" value="moer">
+              <input id="moer" class="unseen check moer" type="checkbox" name="materials" value="moer">
               <label class="checkbox__label">Moer (2x)</label>
             </li>
           </ul>

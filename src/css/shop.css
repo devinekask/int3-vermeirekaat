@@ -190,23 +190,19 @@ input[type=checkbox]:checked + label {
   min-width: 40px;
   padding: 2em .5em;
   margin: 1rem 0 0 1rem;
-
-  color: white;
-  background-color: #29e;
-  border: solid 2px white;
   touch-action: none;
 
   transition: background-color .3s;
 }
 
 .drop-active {
-  border-color: #aaa;
+  border-color: var(--colorPurple);
   color: white;
-  background-color: #4e4;
+  background-color: var(--colorYellow);
 }
 
 .drop-target {
-  background-color: #29e;
-  border-color: white;
+  background-color: var(--colorPurple);
+  border-color: var(--colorYellow);
   border-style: solid;
 }
