@@ -42,9 +42,17 @@
 
 .route__img {
   position: absolute;
-  top: 38rem;
+  top: 48rem;
   left: 0;
   transform: rotate(-7deg);
+}
+
+.help__large {
+  display: hidden;
+
+  @media (--only-large-screen) {
+    display: block;
+  }
 }
 
 .ellipse__wrapper {

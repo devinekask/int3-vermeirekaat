@@ -83,6 +83,7 @@
     <div class="horizontal__header">
       <h2 class="title title--extra">Get Started</h3>
       <p class="header__subtitle subtitle">What do you need?</p>
+      <p class="align form__help help__large">&#10094; Gebruik de pijltjes op je keyboard om de fietser vooruit te laten rijden. &#10095;</p>
     </div>
 
     <div class="horizontal__route">

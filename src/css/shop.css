@@ -106,12 +106,6 @@ input[type=checkbox]:checked + label {
   border: .3rem solid var(--colorRed);
 }
 
-.form__buttons {
-  margin-top: var(--marginLarge);
-  display: flex;
-  justify-content: space-between;
-}
-
 .form__help {
   font-weight: var(--weightHightlight);
   font-size: var(--sizeBody);
@@ -127,10 +121,13 @@ input[type=checkbox]:checked + label {
   border: .2rem solid white;
   box-shadow: 0 8px 6px -6px black;
   color: white;
-  margin: 0;
 }
 
 .btn__mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
   @media (--only-medium-screen) {
     display: none;
   }
@@ -142,7 +139,7 @@ input[type=checkbox]:checked + label {
   @media (--only-medium-screen) {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 }
 

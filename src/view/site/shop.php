@@ -28,7 +28,6 @@
         <div class="box__wrapper">
 
         <div class="content__item building__box">
-          <!-- <img src="./assets/img/high-course.png" alt="test" width="200">-->
           <div id="groot" class="drag-drop"><img width="50" src="./assets/svg/wiel.png" alt="wiel"></div>
           <div id="klein" class="drag-drop"><img  width="30" src="./assets/svg/wiel.png" alt="wiel"></div>
           <div id="stuur" class="drag-drop"><img width="50" src="./assets/svg/stuur.png" alt="stuur"></div>
@@ -46,55 +45,50 @@
           <ul class="form__checkbox-list">
             <li class="checkbox__item">
               <input id="groot" class="unseen check groot" type="checkbox" name="materials" value="groot">
-              <label class="checkbox__label">Groot wiel</label>
+              <label class="checkbox__label">Groot wiel - € <span>25</span></label>
             </li>
             <li class="checkbox__item">
               <input id="klein" class="unseen check klein" type="checkbox" name="materials" value="klein">
-              <label class="checkbox__label">Klein wiel</label>
+              <label class="checkbox__label">Klein wiel - € <span>20</span></label>
             </li>
             <li class="checkbox__item">
               <input id="stuur" class="unseen check stuur" type="checkbox" name="materials" value="stuur">
-              <label class="checkbox__label">Stuur</label>
+              <label class="checkbox__label">Stuur - € <span>25</span></label>
             </li>
             <li class="checkbox__item">
-              <input id="pedaal" class="unseen check stuur" type="checkbox" name="materials" value="pedaal">
-              <label class="checkbox__label">Pedalen</label>
+              <input id="pedaal" class="unseen check pedaal" type="checkbox" name="materials" value="pedaal">
+              <label class="checkbox__label">Pedalen - € <span>25</span></label>
             </li>
             <li class="checkbox__item">
               <input id="zadel" class="unseen check zadel" type="checkbox" name="materials" value="zadel">
-              <label class="checkbox__label">Zadel</label>
+              <label class="checkbox__label">Zadel - € <span>20</span></label>
             </li>
             <li class="checkbox__item">
               <input id="ijzer" class="unseen check ijzer" type="checkbox" name="materials" value="ijzer">
-              <label class="checkbox__label">Ijzeren staaf</label>
+              <label class="checkbox__label">Ijzeren staaf - € <span>5</span></label>
             </li>
             <li class="checkbox__item">
               <input id="ducktape" class="unseen check ducktape" type="checkbox" name="materials" value="ducktape">
-              <label class="checkbox__label">Ducktape (3x)</label>
+              <label class="checkbox__label">Ducktape (3x) - € <span>30</span></label>
             </li>
             <li class="checkbox__item">
-              <input id="hout" class="unseen check hout" type="checkbox" name="materials" value="hout">
-              <label class="checkbox__label">Houten plank (2x)</label>
+              <input id="hout" class="unseen check hout" type="checkbox" name="materials" value="10">
+              <label class="checkbox__label">Houten plank (2x) - € <span>10</span></label>
             </li>
             <li class="checkbox__item">
-              <input id="dopmoer" class="unseen check dopmoer" type="checkbox" name="materials" value="dop">
-              <label class="checkbox__label">Dopmoer (4x)</label>
+              <input id="dopmoer" class="unseen check dopmoer" type="checkbox" name="materials" value="5">
+              <label class="checkbox__label">Dopmoer (4x) - € <span>5</span></label>
             </li>
             <li class="checkbox__item">
-              <input id="moer" class="unseen check moer" type="checkbox" name="materials" value="moer">
-              <label class="checkbox__label">Moer (2x)</label>
+              <input id="moer" class="unseen check moer" type="checkbox" name="materials" value="1">
+              <label class="checkbox__label">Moer (2x) - € <span>1</span></label>
             </li>
           </ul>
+          <div class="price">
+            <p class="price__total">Totale Prijs - € </p>
+          </div>
         </div>
       </fieldset>
-        <div class="form__buttons btn__mobile">
-          <input id="00" type="button" class="unseen form__btn button btn__prev" value="hidden">
-          <input id="02" type="button" class="form__btn button btn__next" value="&#10095;">
-        </div>
-        <div class="form__buttons btn__desktop">
-          <input id="00" type="button" class="unseen form__btn button btn__prev" value="">
-          <input id="02" type="button" class="form__btn button btn__next" value="Persoonlijke Gegevens">
-        </div>
       </div>
     </div>
 
@@ -142,15 +136,6 @@
           </div>
         </div>
         </div>
-
-        <div class="form__buttons btn__mobile">
-            <input id="01" type="button" class="form__btn button btn__prev" value="&#10094;">
-            <input id="03" type="button" class="form__btn button btn__next" value="&#10095;">
-        </div>
-        <div class="form__buttons btn__desktop">
-            <input id="01" type="button" class="form__btn button btn__prev" value="Building Box aanpassen">
-            <input id="03" type="button" class="form__btn button btn__next" value="Betalingsmethode">
-        </div>
       </fieldset>
     </div>
 
@@ -173,27 +158,14 @@
               </label>
           </div>
 
-          <div class="form__buttons btn__mobile">
-          <input id="prev" type="button" class="form__btn button btn__prev" value="&#10094;">
-          <input class="form__btn button btn__next form__submit" type="submit" value="&check;">
+          <div class="btn__mobile">
+            <input class="form__btn button btn__next form__submit" type="submit" value="&check;">
           </div>
-          <div class="form__buttons btn__desktop">
-          <input id="02" type="button" class="form__btn button btn__prev" value="Betalingmethode aanpassen">
-          <input id="final" class="form__btn button btn__next form__submit" name="button" type="submit" value="Bestelling plaatsen">
+          <div class="btn__desktop">
+            <input class="form__btn button btn__next form__submit" type="submit" value="Bestelling plaatsen">
           </div>
-
-          <!-- <input class="form__btn button btn__next form__submit" type="submit" value="&check;">-->
         </fieldset>
     </div>
-
-    <!-- <div class="form__buttons">
-      <input type="button" class="form__btn button btn__prev" value="&#10094;">
-      <input type="button" class="form__btn button btn__next" value="&#10095;">
-    </div>
-    <div class="form__buttons btn__desktop">
-        <input id="" type="button" class="form__btn button btn__prev" value="Betalingmethode aanpassen">
-        <input id="final" class="form__btn button btn__next form__submit" name="button" type="submit" value="Bestelling plaatsen">
-    </div>-->
   </form>
 
   <article class="content__item final hidden">

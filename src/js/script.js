@@ -51,23 +51,6 @@ const showOrder = order => {
   $parent.appendChild($div);
 };
 
-/* let stepIndex = 1;
-
-const plusStep = n => {
-  showSteps(stepIndex += n);
-};
-
-const showSteps = i => {
-  const steps = document.querySelectorAll('.form__step');
-  if (i > steps.length) { stepIndex = 1; }
-  if (i < 1) { stepIndex = steps.length; }
-  let j;
-  for (j = 0;j < steps.length;j ++) {
-    steps[j].style.display = 'none';
-  }
-  steps[stepIndex - 1].style.display = 'block';
-}; */
-
 function dragMoveListener (event) {
   const target = event.target;
   // keep the dragged position in the data-x/data-y attributes
@@ -87,23 +70,10 @@ function dragMoveListener (event) {
 const init = () => {
 
   const $ordersForm = document.querySelector(`.form`);
-  // const $prev = document.querySelector('.btn__prev');
-  // const $next = document.querySelector('.btn__next');
   if ($ordersForm) {
-    console.log(`event active`);
     $ordersForm.addEventListener(`submit`, handleOrderPlacement);
-    /* if ($prev) {
-      $prev.addEventListener('click', () => { plusStep(- 1); });
-    }
-    if ($next) {
-      $next.addEventListener('click', () => { plusStep(1); });
-    }
-    if ($next && $prev) {
-      showSteps(1);
-    }*/
   }
 
-  window.dragMoveListener = dragMoveListener;
   // eslint-disable-next-line no-undef
   interact(`.dropzone`).dropzone({
     accept: '.drag-drop',
@@ -114,7 +84,7 @@ const init = () => {
     ondrop: function (event) {
       // event.relatedTarget.textContent = 'Dropped';
       const dragged = event.relatedTarget.id;
-      console.log(dragged);
+      // console.log(dragged);
       const $checkboxes = document.querySelectorAll('.check');
 
       $checkboxes.forEach(checkbox => {
