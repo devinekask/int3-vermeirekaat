@@ -15,7 +15,7 @@ const placeOrder = async (url, data) => {
   const returned = await response.json();
   console.log(returned);
   if (returned.error) {
-    console.logg(returned.error);
+    console.log(returned.error);
   }
 };
 

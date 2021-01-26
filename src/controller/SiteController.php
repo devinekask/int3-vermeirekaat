@@ -22,6 +22,7 @@ class SiteController extends Controller {
     }
 
     public function shop() {
+
       $contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';
       if($contentType === "application/json") {
         $content = trim(file_get_contents("php://input"));
@@ -29,7 +30,7 @@ class SiteController extends Controller {
 
         $placedOrder = $this->ordersDAO->placeOrder($data);
           if (!$placedOrder) {
-            $errors = $this->orderDAO->validate($data);
+            $errors = $this->ordersDAO->validate($data);
             $errors['error'] = 'Er is een fout opgetreden';
             echo json_encode($errors);
           } else {

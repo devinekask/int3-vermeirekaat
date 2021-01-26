@@ -19,7 +19,7 @@ class OrdersDAO extends DAO {
       $stmt->bindValue(':zip', $data['zip']);
       $stmt->bindValue(':city', $data['city']);
       $stmt->bindValue(':payment', $data['payment']);
-      $stmt->execute();
+      // $stmt->execute();
     }
     return false;
   }
