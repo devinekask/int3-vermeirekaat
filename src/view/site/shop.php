@@ -84,9 +84,6 @@
               <label class="checkbox__label">Moer (2x) - € <span>1</span></label>
             </li>
           </ul>
-          <div class="price">
-            <p class="price__total">Totale Prijs - € </p>
-          </div>
         </div>
       </fieldset>
       </div>

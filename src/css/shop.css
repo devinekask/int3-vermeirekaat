@@ -33,9 +33,11 @@ input[type=number] {
   padding: calc(var(--marginSmall) / 2);
 }
 
-input[type=checkbox]:checked + label {
-  text-decoration: line-through;
+input[type=checkbox]:checked + label::after {
+  /* text-decoration: line-through; */
+  content: '\2713';
   color: var(--colorRed);
+  font-size: var(--sizeCta);
 }
 
 .form fieldset {
