@@ -169,10 +169,10 @@
       </div>
 
       <div class="steps__question scroll__child">
-        <p class="question">Zie je het nog zitten om verder te bouwen?</p>
+        <p class="question">Je bent halverwege, ga zo door!</p>
         <div class="question__answers">
-          <input id="prev" type="button" class="answer button btn__prev" value="Neen">
-          <input id="next" type="button" class="answer button btn__next" value="Ja">
+          <input id="prev" type="button" class="answer hidden button btn__prev" value="Neen">
+          <input id="next" type="button" class="answer button btn__next" value="Let's Go!">
         </div>
       </div>
     </article>
@@ -320,7 +320,7 @@
           ./assets/tutorial/wheel-falling.png 509w"
           type="image/png"/>
 
-          <img class="what__img" width="509" height="470" alt="collage-what" src="./assets/tutorial/wheel-falling.png">
+          <img class="what__img img__falling" width="509" height="470" alt="collage-what" src="./assets/tutorial/wheel-falling.png">
         </picture>
       </div>
 </article>
