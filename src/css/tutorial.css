@@ -59,7 +59,6 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  text-align: center;
   grid-row: 2;
 
   @media (--only-medium-screen) {
@@ -193,6 +192,20 @@
     place-self: flex-end;
     padding-right: cacl(var(--marginLarge) * 2);
   }
+}
+
+.img__zoom {
+  transition: .3s;
+  transform-origin: bottom center;
+}
+
+.img__zoom-top {
+  transform-origin: top center;
+}
+
+.img__zoom:hover {
+  transform: scale(1.5);
+
 }
 
 .step__img {

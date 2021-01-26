@@ -42,7 +42,7 @@ const showOrder = order => {
   $parent.innerHTML = ``;
   const $div = document.createElement('div');
   $div.innerHTML = `<p class="content__alinea">Je bestelling is correct geplaatst en wordt momenteel verwerkt. Je krijgt binnenkort een bevestigingsmail op: ${order.email} </p>
-  <p>Jouw persoonlijke Building Box zal binnen twee dagen toekomen onder volgende gegevens:</p>
+  <p>Jouw persoonlijke Building Box zal binnen twee dagen toekomen op volgend adres:</p>
   <ul class="order__list">
     <li>${order.name} ${order.first_name}</li>
     <li>${order.street} ${order.number}</li>

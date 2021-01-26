@@ -158,7 +158,7 @@
           ./assets/tutorial/stap-3_234.png 234w,"
           type="image/png"/>
 
-        <img class="img__step-three img__width img__zoom" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
+        <img class="img__step-three img__width img__zoom img__zoom-top" width="467" height="753" alt="tutorial-step-one" src="./assets/tutorial/stap-3.png">
         </picture>
       </div>
 
@@ -215,7 +215,7 @@
           ./assets/tutorial/fase-b_311.png 311w,"
           type="image/png"/>
 
-          <img class="img__fase img__width img__zoom" width="621" height="745" alt="tutorial-step-four" src="./assets/tutorial/fase-b.png">
+          <img class="img__fase img__width img__zoom img" width="621" height="745" alt="tutorial-step-four" src="./assets/tutorial/fase-b.png">
         </picture>
 
       </div>
@@ -288,7 +288,7 @@
       ./assets/tutorial/stap-5_317.png 317w,"
       type="image/png"/>
 
-      <img class="img__step-five img__width img__zoom" width="633" height="752" alt="tutorial-step-five" src="./assets/tutorial/stap-5.png">
+      <img class="img__step-five img__width img__zoom img__zoom-top" width="633" height="752" alt="tutorial-step-five" src="./assets/tutorial/stap-5.png">
     </picture>
   </div>
 
@@ -298,7 +298,7 @@
     <p class="instruction yellow caps">En je bent klaar!</p>
   </div>
   </article>
-</div>
+
 
 <article id="final" class="tut__final invisible content__item">
     <div class="info__build">
