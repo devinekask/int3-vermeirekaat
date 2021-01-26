@@ -172,3 +172,41 @@ input[type=checkbox]:checked + label {
     justify-content: space-between;
   }
 }
+
+.dropzone {
+  width: 40vw;
+  height: 10rem;
+
+  background-color: var(--colorRed);
+  border: .4rem dashed var(--colorDark);
+  border-radius: .4rem;
+  margin: var(--marginLarge);
+  padding: var(--marginSmall);
+  transition: background-color .3s;
+}
+
+.drag-drop {
+  display: inline-block;
+  min-width: 40px;
+  padding: 2em .5em;
+  margin: 1rem 0 0 1rem;
+
+  color: white;
+  background-color: #29e;
+  border: solid 2px white;
+  touch-action: none;
+
+  transition: background-color .3s;
+}
+
+.drop-active {
+  border-color: #aaa;
+  color: white;
+  background-color: #4e4;
+}
+
+.drop-target {
+  background-color: #29e;
+  border-color: white;
+  border-style: solid;
+}

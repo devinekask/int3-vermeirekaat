@@ -68,6 +68,21 @@ const showSteps = i => {
   steps[stepIndex - 1].style.display = 'block';
 }; */
 
+function dragMoveListener (event) {
+  const target = event.target;
+  // keep the dragged position in the data-x/data-y attributes
+  const x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+  const y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+  // translate the element
+  target.style.webkitTransform =
+    target.style.transform =
+      `translate(${x}px, ${y}px)`;
+
+  // update the posiion attributes
+  target.setAttribute('data-x', x);
+  target.setAttribute('data-y', y);
+}
 
 const init = () => {
 
@@ -87,6 +102,54 @@ const init = () => {
       showSteps(1);
     }*/
   }
+
+  window.dragMoveListener = dragMoveListener;
+  // eslint-disable-next-line no-undef
+  interact(`.dropzone`).dropzone({
+    accept: '#yes-drop',
+    overlap: .75,
+    ondropactivate: function (event) {
+      event.target.classList.add('drop-active');
+    },
+    ondrop: function (event) {
+      event.relatedTarget.textContent = 'Dropped';
+    },
+    ondragenter: function (event) {
+      const draggableElement = event.relatedTarget;
+      const dropzoneElement = event.target;
+
+      // feedback the possibility of a drop
+      dropzoneElement.classList.add('drop-target');
+      draggableElement.classList.add('can-drop');
+      draggableElement.textContent = 'Dragged in';
+    },
+    ondragleave: function (event) {
+      // remove the drop feedback style
+      event.target.classList.remove('drop-target');
+      event.relatedTarget.classList.remove('can-drop');
+      event.relatedTarget.textContent = 'Dragged out';
+    },
+    ondropdeactivate: function (event) {
+      event.target.classList.remove('drop-active');
+      event.target.classList.remove('drop-target');
+    }
+  });
+
+  // eslint-disable-next-line no-undef
+  interact('.drag-drop')
+    .draggable({
+      inertia: true,
+      modifiers: [
+        // eslint-disable-next-line no-undef
+        interact.modifiers.restrictRect({
+          restriction: 'parent',
+          endOnly: true
+        })
+      ],
+      autoScroll: true,
+      // dragMoveListener from the dragging demo above
+      listeners: {move: dragMoveListener}
+    });
 
 };
 

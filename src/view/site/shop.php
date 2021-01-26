@@ -26,9 +26,13 @@
         <legend class="form__subtitle horizontal__title align"> 1/3 | Materiaal</legend>
         <label class="align form__help">Sleep het materiaal dat je nodig hebt in de Building Box.</label>
         <div class="box__wrapper">
+
         <div class="content__item building__box">
-          <img src="./assets/img/high-course.png" alt="test" width="200">
+          <!-- <img src="./assets/img/high-course.png" alt="test" width="200">-->
+          <div id="yes-drop" class="drag-drop"><img src="./assets/" alt=""></div>
+          <div id="outer-dropzone" class="dropzone">Building Box</div>
         </div>
+
         <div class="form__field">
           <ul class="form__checkbox-list">
             <li class="checkbox__item">
