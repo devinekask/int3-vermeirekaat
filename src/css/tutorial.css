@@ -15,6 +15,14 @@
   margin-bottom: 0;
 }
 
+.help__large {
+  display: hidden;
+
+  @media (--only-large-screen) {
+    display: block;
+  }
+}
+
 .tut__subtitle {
   grid-column: 2;
   margin-top: 0;

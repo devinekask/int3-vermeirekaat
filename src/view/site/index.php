@@ -98,14 +98,13 @@
 
             </div>
             <hr class="route__dashed-line route-one">
-
           </div>
       </div>
 
         <div class="horizontal__wrapper">
         <div class="horizontal__part part-one">
           <h3 class="horizontal__title">Some Tools</h3>
-            <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan altijd een Building Box bestellen om thuis mee aan de slag te gaan.</p>
+            <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan zelf je Building Box samenstellen en <a href="index.php?page=shop">hier</a>bestellen.</p>
             <div class="cta__container">
               <a class="cta cta--regular" href="index.php?page=shop">Bestel een bouwpakket</a>
         </div>
@@ -120,7 +119,7 @@
           <h3 class="horizontal__title horizontal--left">Two <span>Left</span> Hands</h3>
           <p class="horizontal__title horizontal--right"> <span>Two</span>  Right</p>
           <div class="horizontal--pos">
-          <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy</p>
+          <p class="horizontal__alinea">Zelf iets bouwen is niet voor iedereen weggelegd maar jij kan het zeker! <br>Stap voor stap leggen we je uit hoe je de High Wheel tot z'n recht maakt, easy-peasy-lemon-squeezy!</p>
             <div class="cta__container">
               <a class="cta cta--regular" href="index.php?page=tutorial">Ga aan de slag</a>
             </div>
