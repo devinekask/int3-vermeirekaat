@@ -185,7 +185,8 @@
 
   <article class="content__item final hidden">
     <h1 class="content__title">Jouw Building Box is onderweg!</h1>
-    <p class="content__alinea">Je bestelling is correct geplaatst en wordt momenteel verwerkt. Jouw persoonlijke Building Box zal binnen twee dagen toekomen onder volgende gegevens:</p>
+    <div class="bevestiging">
+    </div>
   </article>
 
 </section>

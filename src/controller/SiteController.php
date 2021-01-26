@@ -31,12 +31,14 @@ class SiteController extends Controller {
         $placedOrder = $this->ordersDAO->placeOrder($data);
           if (!$placedOrder) {
             $errors = $this->ordersDAO->validate($data);
+            var_dump($errors);
             $errors['error'] = 'Er is een fout opgetreden';
             echo json_encode($errors);
           } else {
-            var_dump(`succes`);
+            $order = $this->ordersDAO->selectOrderByName($data['name']);
+            echo json_encode($order);
           }
-      exit();
+          exit();
     }
 
       if (!empty($_POST['action'])) {

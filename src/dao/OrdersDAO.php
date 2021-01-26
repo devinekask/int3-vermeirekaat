@@ -5,6 +5,22 @@ require_once (__DIR__ . '/DAO.php');
 
 class OrdersDAO extends DAO {
 
+  public function selectOrderById($id) {
+    $sql = "SELECT * FROM `orders` WHERE `id` = :id";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->bindValue(':id', $id);
+    $stmt->execute();
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+  }
+
+  public function selectOrderByName($name) {
+    $sql = "SELECT * FROM `orders` WHERE `name` = :name";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->bindValue(':name', $name);
+    $stmt->execute();
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+  }
+
   public function placeOrder($data) {
     $errors = $this->validate($data);
     if(empty($errors)) {
@@ -20,6 +36,9 @@ class OrdersDAO extends DAO {
       $stmt->bindValue(':city', $data['city']);
       $stmt->bindValue(':payment', $data['payment']);
       // $stmt->execute();
+      if ($stmt->execute()) {
+        return $this->selectOrderById($this->pdo->lastInsertId());
+      }
     }
     return false;
   }
