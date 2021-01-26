@@ -38,10 +38,6 @@ input[type=checkbox]:checked + label {
   color: var(--colorRed);
 }
 
-/* input:focus {
-  border: .2rem solid var(--colorRed);
-} */
-
 .form fieldset {
   margin-bottom: var(--marginLarge);
   border: none;
@@ -51,8 +47,9 @@ input[type=checkbox]:checked + label {
   font-size: var(--sizeBody);
   font-weight: var(--weightBody);
 
-  @media (--only-big-screen) {
+  @media (--only-large-screen) {
     font-size: var(--sizePromo);
+    line-height: calc(var(--sizePromo) * 1.2);
   }
 }
 
