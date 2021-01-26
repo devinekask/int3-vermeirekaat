@@ -104,7 +104,7 @@
         <div class="horizontal__wrapper">
         <div class="horizontal__part part-one">
           <h3 class="horizontal__title">Some Tools</h3>
-            <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan zelf je Building Box samenstellen en <a href="index.php?page=shop">hier</a>bestellen.</p>
+            <p class="horizontal__alinea">Uiteraard heb je bepaalde materialen nodig om aan dit project te werken. <br>Je kan zelf je Building Box samenstellen en <a href="index.php?page=shop">hier</a> bestellen.</p>
             <div class="cta__container">
               <a class="cta cta--regular" href="index.php?page=shop">Bestel een bouwpakket</a>
         </div>
