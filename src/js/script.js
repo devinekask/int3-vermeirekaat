@@ -127,15 +127,23 @@ const init = () => {
     ondragenter: function (event) {
       const draggableElement = event.relatedTarget;
       const dropzoneElement = event.target;
-
-      // feedback the possibility of a drop
       dropzoneElement.classList.add('drop-target');
       draggableElement.classList.add('can-drop');
     },
     ondragleave: function (event) {
-      // remove the drop feedback style
       event.target.classList.remove('drop-target');
       event.relatedTarget.classList.remove('can-drop');
+
+      const dragged = event.relatedTarget.id;
+      console.log(dragged);
+      const $checkboxes = document.querySelectorAll('.check');
+
+      $checkboxes.forEach(checkbox => {
+        if (checkbox.classList.contains(dragged)) {
+          const $relatedCheckbox = document.querySelector(`.${dragged}`);
+          $relatedCheckbox.checked = false;
+        }
+      });
     },
     ondropdeactivate: function (event) {
       event.target.classList.remove('drop-active');
